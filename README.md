@@ -1,1 +1,1 @@
-# picorna_virome
+# picorna-virome
