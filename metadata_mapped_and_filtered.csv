@@ -1,0 +1,423 @@
+GenBankAccession,Country,Host,CollectionDate,Serotype,Strain,Isolate,IsolationSource
+NC_011829,HUN,pig,2007,aichivirus C1,swine/S-1-HUN/2007/Hungary,Unknown,feces
+MZ334483,DEU,pig,2018,aichivirus C1,FoPro-213.14/GER/2018,Unknown,nasal swab
+KP144318,CHN,pig,2013,aichivirus C1,JS-01-CHN/2013/China,Unknown,fecal sample
+KJ934637,HUN,Coracias garrulus (European roller),2011,aichivirus A5,SZAL6-KoV/2011/HUN,Unknown,fecal sample
+PQ110018,USA,mouse,2022,aichivirus A8,Unknown,Murine kobuvirus MKV1/Mus_musculus/AJ32-MKV/2022/MN-USA,Unknown
+PQ110017,USA,mouse,2021,aichivirus A8,Unknown,Murine kobuvirus MKV1/Mus_musculus/AJ27-MKV/2021/MN-USA,Unknown
+PQ110016,USA,mouse,2021,aichivirus A8,Unknown,Murine kobuvirus MKV1/Mus_musculus/AJ28-MKV/2021/MN-USA,Unknown
+PQ110015,USA,mouse,2023,aichivirus A8,Unknown,Murine kobuvirus MKV1/Mus_musculus/AJ35-MKV/2023/MN-USA,Unknown
+PQ110014,USA,mouse,2023,aichivirus A8,Unknown,Murine kobuvirus MKV1/Mus_musculus/AJ34-MKV/2023/MN-USA,Unknown
+PP320370,VNM,dog,2022,aichivirus A2,Unknown,V196_VN_2022,rectal swab
+PP320369,VNM,dog,2022,aichivirus A2,Unknown,V194_VN_2022,rectal swab
+PP320368,VNM,dog,2022,aichivirus A2,Unknown,V180_VN_2022,rectal swab
+PP320367,VNM,dog,2022,aichivirus A2,Unknown,V178_VN_2022,rectal swab
+PP320366,VNM,dog,2022,aichivirus A2,Unknown,V162_VN_2022,rectal swab
+PP320365,VNM,dog,2022,aichivirus A2,Unknown,V156_VN_2022,rectal swab
+PP320364,VNM,dog,2022,aichivirus A2,Unknown,V91_VN_2022,rectal swab
+PP320363,VNM,dog,2022,aichivirus A2,Unknown,V25_VN_2022,rectal swab
+PP320362,VNM,dog,2022,aichivirus A2,Unknown,V5_VN_2022,rectal swab
+PP320361,THA,dog,2022,aichivirus A2,Unknown,F8_TH_2022,rectal swab
+PP320360,THA,dog,2021,aichivirus A2,Unknown,S81_TH_2021,rectal swab
+PP320359,THA,dog,2021,aichivirus A2,Unknown,S76_TH_2021,rectal swab
+PP320358,THA,dog,2021,aichivirus A2,Unknown,G50_TH_2021,rectal swab
+ON007233,CHN,pig,2019,aichivirus C1,Unknown,XJ1904-34-PKV,Unknown
+OM069763,CHN,rat,2020,aichivirus A8,Unknown,SZ-FI6,feces
+OM069762,CHN,rat,2020,aichivirus A8,Unknown,SZ22,feces
+OM069761,CHN,rat,2020,aichivirus A8,Unknown,SZ59,feces
+OM069760,CHN,rat,2021,aichivirus A8,Unknown,SZ70,feces
+OM069759,CHN,rat,2021,aichivirus A8,Unknown,SZ86,feces
+OM069758,CHN,rat,2021,aichivirus A8,Unknown,SZ132,feces
+OM069757,CHN,rat,2021,aichivirus A8,Unknown,SZ144,feces
+OM069756,CHN,rat,2021,aichivirus A8,Unknown,SZ155,feces
+OM069755,CHN,rat,2021,aichivirus A8,Unknown,SZ157,feces
+OM069754,CHN,rat,2021,aichivirus A8,Unknown,SZ158,feces
+OM069753,CHN,rat,2021,aichivirus A8,Unknown,SZ171,feces
+OM069752,CHN,rat,2021,aichivirus A8,Unknown,SZ172,feces
+OM069751,CHN,rat,2021,aichivirus A8,Unknown,SZ188,feces
+OM069750,CHN,rat,2021,aichivirus A8,Unknown,SZ190,feces
+OM069749,CHN,rat,2021,aichivirus A8,Unknown,SZ193,feces
+OM069748,CHN,rat,2021,aichivirus A8,Unknown,SZ202,feces
+OM069747,CHN,rat,2021,aichivirus A8,Unknown,SZ203,feces
+OM069746,CHN,rat,2021,aichivirus A8,Unknown,SZ208,feces
+OM069745,CHN,rat,2021,aichivirus A8,Unknown,SZ227,feces
+OM069744,CHN,rat,2021,aichivirus A8,Unknown,SZ249,feces
+OM069743,CHN,rat,2021,aichivirus A8,Unknown,SZ252,feces
+OM069742,CHN,rat,2021,aichivirus A8,Unknown,SZ262,feces
+OM069741,CHN,rat,2021,aichivirus A8,Unknown,SZ290,feces
+OM049042,CHN,rat,2020,aichivirus A8,Unknown,SZ-DD6,feces
+OM049041,CHN,rat,2020,aichivirus A8,Unknown,SZ-CL6,feces
+OM049040,CHN,rat,2020,aichivirus A8,Unknown,SZ-CJ6,feces
+OM049039,CHN,rat,2020,aichivirus A8,Unknown,SZ-CE7,feces
+OM049038,CHN,rat,2020,aichivirus A8,Unknown,SZ-B13,feces
+LC721036,JPN,cat,2019,aichivirus A4,cat/KU22078/Japan/2019,Y-1,feces
+MW605074,CAN,cattle,Unknown,aichivirus B1,1043507,Unknown,feces
+MN604700,USA,goat kid,2017,aichivirus C2,Unknown,MN1/2018,feces
+MT211964,MEX,pig,2018,aichivirus C1,Unknown,EdoMex/2018/205,intestine
+MN337880,DEU,fox,2016,aichivirus A2,S272/16,Unknown,tonsillar tissue
+MN336260,USA,cattle,2019,aichivirus B1,IL35164,Unknown,feces
+MN449341,CHN,dog,2019,aichivirus A2,Unknown,CaKoV AH-1/CHN/2019,faeces
+MK201779,THA,dog,2018,aichivirus A2,CU_716,Unknown,rectal swab
+MK201778,THA,dog,2017,aichivirus A2,CU_249,Unknown,rectal swab
+MK201777,THA,dog,2016,aichivirus A2,CU_101,Unknown,rectal swab
+MK201776,THA,dog,2016,aichivirus A2,CU_53,Unknown,rectal swab
+MH159814,CHN,cat,2016,aichivirus A4,Unknown,16JZ0605,domestic cat
+MH159813,CHN,cat,2017,aichivirus A4,Unknown,17CC0811,domestic cat
+MH747478,BRA,dog,2016,aichivirus A2,CaKoV-26,26,canine pool stool
+NC_023422,KOR,black goat,2012,aichivirus C2,Unknown,12Q108,stool
+NC_016769,CHN,pig,2010,aichivirus C1,Unknown,SH-W-CHN/2010/China,stool
+MF598159,CHN,cat,2017,aichivirus A4,WHJ-1,Unknown,fecal sample
+KY407744,EGY,cattle,2014,aichivirus B1,BKoV/EGY-1,Unknown,feces
+KY234500,CHN,pig,2015,aichivirus C1,Unknown,JXJC2015,stool
+KY234499,CHN,pig,2015,aichivirus C1,Unknown,JXAT2015,stool
+KC414936,CHN,pig,2012,aichivirus C1,Unknown,K-11/2012/CH,feces
+KM977675,USA,pig,2011,aichivirus C1,Unknown,OH/RV50/2011,fecal sample from piglet
+KJ958930,KOR,cat,2012,aichivirus A4,Unknown,12D240,feces
+KM051987,CHN,pig,2014,aichivirus C1,CH/KB-1/2014,Unknown,Unknown
+KM068051,TZA,spotted hyena,2010,aichivirus A2,Unknown,B103,feces
+KM068050,TZA,golden jackal,2011,aichivirus A2,Unknown,75,feces
+KM068049,TZA,side-striped jackal,2010,aichivirus A2,Unknown,82,feces
+KM068048,TZA,dog,2003,aichivirus A2,Unknown,DD2,feces
+KF924623,KOR,dog,2012,aichivirus A2,Unknown,12D049,stool
+KF539763,CHN,pig,2012,aichivirus C1,Unknown,swKoV CH441,fecal sample
+KJ452348,CHN,pig,2012,aichivirus C1,Unknown,CH/DX/2012,fecal
+AB624493,THA,pig,2007,aichivirus C1,CMP06/07-THA,Unknown,stool
+KC424640,CHN,pig,2012,aichivirus C1,Unknown,GS-2/2012/CH,feces
+KC424639,CHN,pig,2012,aichivirus C1,Unknown,GS-1/2012/CH,feces
+KC424638,CHN,pig,2012,aichivirus C1,Unknown,K-4/2012/CH,feces
+JX827598,CHN,pig,2011,aichivirus C1,Unknown,CH/HZ/2011,fecal
+KC204684,CHN,pig,2011,aichivirus C1,Unknown,XX,stool
+JX177612,HUN,pig,2011,aichivirus C1,WB-1-HUN/2011/HUN,Unknown,fecal sample
+JX401523,CHN,pig,2012,aichivirus C1,Unknown,CH/HNXX-4/2012,intestine sample
+JQ692069,CHN,pig,2011,aichivirus C1,WUH1,Unknown,feces
+JN630514,CHN,pig,2010,aichivirus C1,Unknown,SH-W-CHN/2010/China,stool
+JN387133,USA,dog,Unknown,aichivirus A2,AN211D,Unknown,feces
+GU292559,CHN,pig,Unknown,Kobuvirus pig/JY-2010a/CHN,Unknown,Y-1-CHI,Unknown
+GQ249161,HUN,pig,2008,aichivirus C1,Unknown,swine/K-30-HUN/2008/HUN,feces
+PV797393,CHN,cow,2023,aichivirus B1,Unknown,NM21,diarrhea
+PX848852,IRL,pig,2015,aichivirus C,Unknown,176_aichivirus,small intestine
+LC900465,JPN,pig,2022,aichivirus C1,Unknown,Kobu/wt/Pig/Japan/G-HYoko-4/2022,feces
+LC900349,JPN,pig,2019,aichivirus C1,Unknown,Kobu/wt/Wild_Boar/Japan/Toya-13/2019,feces
+LC900451,JPN,pig,2022,aichivirus C1,Unknown,Kobu/wt/Pig/Japan/G-Taji-9/2022,feces
+LC900369,JPN,pig,2023,aichivirus C1,Unknown,Kobu/wt/Wild_Boar/Japan/Noto-16/2023,feces
+PX137119,CHN,pig,2023,aichivirus C1,Unknown,PKV-YNQW21-2023,anal swab
+PX137118,CHN,pig,2023,aichivirus C1,Unknown,PKV-XJYTQ9-2023,intestine
+PX137117,CHN,pig,2023,aichivirus C1,Unknown,PKV-XJWF6-2023,anal swab
+PX137116,CHN,pig,2023,aichivirus C1,Unknown,PKV-XJWF1-2023,anal swab
+PX137115,CHN,pig,2023,aichivirus C1,Unknown,PKV-XJWF11-2023,anal swab
+PX137114,CHN,pig,2023,aichivirus C1,Unknown,PKV-XJWF10-2023,anal swab
+PX137113,CHN,pig,2023,aichivirus C1,Unknown,PKV-XJTYQ8-2023,intestine
+PX137112,CHN,pig,2023,aichivirus C1,Unknown,PKV-XJJY9-2023,feces
+PX137110,CHN,pig,2023,aichivirus C1,Unknown,PKV-XJJY6-2023,feces
+PX137108,CHN,pig,2023,aichivirus C1,Unknown,PKV-XJJY4-2023,feces
+PX137104,CHN,pig,2023,aichivirus C1,Unknown,PKV-XJJY14-2023,feces
+PX137103,CHN,pig,2022,aichivirus C1,Unknown,PKV-SXSH38-2022,anal swab
+PX137102,CHN,pig,2022,aichivirus C1,Unknown,PKV-SXSH20-2022,anal swab
+PX137101,CHN,pig,2022,aichivirus C1,Unknown,PKV-SXGL2-2022,anal swab
+PX137100,CHN,pig,2022,aichivirus C1,Unknown,PKV-SXGL1-2022,anal swab
+PX137098,CHN,pig,2023,aichivirus C1,Unknown,PKV-SXDD4-2023,anal swab
+PX137097,CHN,pig,2022,aichivirus C1,Unknown,PKV-SXDB1-2022,anal swab
+PX137096,CHN,pig,2022,aichivirus C1,Unknown,PKV-SCPM9-2022,feces
+PX137095,CHN,pig,2022,aichivirus C1,Unknown,PKV-SCPM49-2022,feces
+PX137094,CHN,pig,2022,aichivirus C1,Unknown,PKV-SCPM48-2022,feces
+PX137093,CHN,pig,2022,aichivirus C1,Unknown,PKV-SCPM41-2022,feces
+PX137092,CHN,pig,2022,aichivirus C1,Unknown,PKV-SCPM18-2022,feces
+PX137091,CHN,pig,2024,aichivirus C1,Unknown,PKV-RV5-2024,intestine
+PX137090,CHN,pig,2022,aichivirus C1,Unknown,PKV-LNHS9-2022,feces
+PX137089,CHN,pig,2024,aichivirus C1,Unknown,PKV-JLCG12-2024,anal swab
+PX137088,CHN,pig,2024,aichivirus C1,Unknown,PKV-JLCG11-2024,anal swab
+PX137087,CHN,pig,2022,aichivirus C1,Unknown,PKV-HuNYF1-2022,intestine
+PX137086,CHN,pig,2023,aichivirus C1,Unknown,PKV-HuBXL14-2023,anal swab
+PX137085,CHN,pig,2023,aichivirus C1,Unknown,PKV-HuBXL12-2023,anal swab
+PX137084,CHN,pig,2022,aichivirus C1,Unknown,PKV-HLJQD7-2022,anal swab
+PX137083,CHN,pig,2023,aichivirus C1,Unknown,PKV-GSYT8-2023,feces
+PX137082,CHN,pig,2023,aichivirus C1,Unknown,PKV-GSYT1-2023,feces
+PX137080,CHN,pig,2022,aichivirus C1,Unknown,PKV-GDYL18-2022,anal swab
+PX137079,CHN,pig,2022,aichivirus C1,Unknown,PKV-GDYJ5-2022,feces
+PX137078,CHN,pig,2023,aichivirus C1,Unknown,PKV-FJSY6-2023,feces
+PX137076,CHN,pig,2023,aichivirus C1,Unknown,PKV-FJNL2-2023,anal swab
+PX137075,CHN,pig,2022,aichivirus C1,Unknown,PKV-AHWH16-2022,anal swab
+PX137074,CHN,pig,2022,aichivirus C1,Unknown,PKV-AHWH12-2022,anal swab
+PX137073,CHN,pig,2023,aichivirus C1,Unknown,PKV-AHHT9-1-2023,anal swab
+PX137072,CHN,pig,2023,aichivirus C1,Unknown,PKV-AHHT8-1-2023,anal swab
+PX137071,CHN,pig,2023,aichivirus C1,Unknown,PKV-AHHT7-1-2023,anal swab
+PX137070,CHN,pig,2023,aichivirus C1,Unknown,PKV-AHHT6-1-2023,anal swab
+PX137069,CHN,pig,2024,aichivirus C1,Unknown,PKV-AHHT5-2024,feces
+PX137068,CHN,pig,2023,aichivirus C1,Unknown,PKV-AHHT10-1-2023,anal swab
+PX137065,CHN,pig,2022,aichivirus C1,Unknown,PKV-SXSH10-2022,anal swab
+PV418588,AUS,dog,2022,aichivirus A2,Unknown,CaKoV/Dog/AUS/huntervalley_8/2022,feces
+PV418587,AUS,dog,2022,aichivirus A2,Unknown,CaKoV/Dog/AUS/huntervalley_6/2022,feces
+PV418580,AUS,dog,2022,aichivirus A2,Unknown,CaKoV/Dog/AUS/hopevale_3t13/2022,rectal swab
+PV418579,AUS,dog,2022,aichivirus A2,Unknown,CaKoV/Dog/AUS/centralwest_5/2022,feces
+PV418591,AUS,dog,2022,aichivirus A2,Unknown,CaKoV/Dog/AUS/perth_5/2022,feces
+PV418590,AUS,dog,2022,aichivirus A2,Unknown,CaKoV/Dog/AUS/illawarra_5/2022,feces
+PV418589,AUS,dog,2022,aichivirus A2,Unknown,CaKoV/Dog/AUS/illawarra_1/2022,feces
+PV418586,AUS,dog,2022,aichivirus A2,Unknown,CaKoV/Dog/AUS/huntervalley_5/2022,feces
+PV418585,AUS,dog,2022,aichivirus A2,Unknown,CaKoV/Dog/AUS/huntervalley_3/2022,feces
+PV418584,AUS,dog,2022,aichivirus A2,Unknown,CaKoV/Dog/AUS/hopevale_15/2022,rectal swab
+PV418581,AUS,dog,2022,aichivirus A2,Unknown,CaKoV/Dog/AUS/hopevale_3t14/2022,rectal swab
+PV418578,AUS,dog,2022,aichivirus A2,Unknown,CaKoV/Dog/AUS/centralwest_4/2022,feces
+PV418577,AUS,dog,2022,aichivirus A2,Unknown,CaKoV/Dog/AUS/centralwest_3/2022,feces
+PV418576,AUS,dog,2022,aichivirus A2,Unknown,CaKoV/Dog/AUS/centralwest_2/2022,feces
+PQ360974,ITA,cow,2020,aichivirus D,Unknown,ITA/2020/30-2,stools
+PQ360973,ITA,cow,2020,aichivirus B,Unknown,ITA/2020/30-1,stools
+PQ360972,ITA,cow,2019,aichivirus D,Unknown,ITA/2019/572-1,stools
+OR951365,CHN,bat,2020,aichivirus F1,Unknown,LN2020_329_62009,swab
+OR951282,CHN,bat,2017,aichivirus F,Unknown,GD2017_210_5247,swab
+OR951280,CHN,bat,2017,aichivirus F,Unknown,GD2017_210_473,swab
+OR951267,CHN,bat,2017,aichivirus F1,Unknown,GX2017,swab
+OR951262,CHN,bat,2018,aichivirus F1,Unknown,GD2018,swab
+OR951260,CHN,bat,2018,aichivirus F1,Unknown,GD2018_176_172338,swab
+OR951256,CHN,bat,2018,aichivirus F1,Unknown,GD2018_174_126198,swab
+OR951253,CHN,bat,2018,aichivirus F1,Unknown,GD2018_174_30389,swab
+OR951245,CHN,bat,2019,aichivirus F1,Unknown,HI2019,swab
+OR951219,CHN,bat,2018,aichivirus F1,Unknown,HI2018,swab
+PX132362,CHN,cattle,2022,aichivirus B1,Unknown,Msk-2/SL/XJ/CHN/2022,feces
+PX095861,CHN,Gyps himalayensis,2023,Kobuvirus sp.,Unknown,DL/G.himalayensis/Kobu,feces
+PV708883,CHN,Marmota sibirica,2023,Chenqi Marmot Kobuvirus,Unknown,Chenqi 071,Unknown
+PV410180,CHN,cow,2023,aichivirus B1,Unknown,YN2,Unknown
+PV410179,CHN,cow,2023,aichivirus B1,Unknown,YN1,Unknown
+PQ583799,NZL,cow,2023,aichivirus B1,Unknown,NZ1,fecal swab
+PV244030,CHN,goat,2024,aichivirus C2,Unknown,Caprine/SWUN/RS8/2024;fecal sample,Unknown
+PQ541177,SLE,mouse,2023,Mus musculus kobuvirus,Unknown,Mu. musculus_pico,Unknown
+PV041438,CHN,yak,2023,aichivirus D,Unknown,BKV/Yak/SCDF-12/2023/CHN,fecal sample
+PV041437,CHN,yak,2023,aichivirus D,Unknown,BKV/Yak/SCDF-20/2023/CHN,fecal sample
+PQ819520,CHN,Haemaphysalis longicornis,2021,Kobuvirus aichi,Unknown,21P-ST,Unknown
+PQ678042,CHN,rat,2021,Yunnan rodent kobuvirus 1,Unknown,DHRL-YNSC05,gut
+PQ678020,CHN,rat,2022,Kobuvirus aichi,Unknown,PENE-YNSP151,spleen
+PQ450137,ZMB,Mastomys natalensis,2022,Kobuvirus aichi,Unknown,A104,Unknown
+LC849239,JPN,dog,2023,aichivirus A2,Unknown,KoV-A2/Raccoon_dog/Kodo2023-40/2023/JPN,feces
+LC849238,JPN,dog,2023,aichivirus A2,Unknown,KoV-A2/Raccoon_dog/Kodo2023-5/2023/JPN,feces
+LC849237,JPN,dog,2024,aichivirus A2,Unknown,KoV-A2/Raccoon_dog/Izus2024-19/2024/JPN,feces
+LC849235,JPN,dog,2024,aichivirus A2,Unknown,KoV-A2/Raccoon_dog/Izus2024-3/2024/JPN,feces
+PQ233917,TWN,human,2023,Kobuvirus aichi,Unknown,2023-425863,feces
+PP654852,ESP,bat,2022,Fontanars bat-associated kobuvirus,Unknown,Fontanars,feces
+OM105002,ZAF,pig,2021,aichivirus C1,Unknown,BSF2,saliva
+PP872546,DEU,Unknown,2017,Kobuvirus sp.,Unknown,TC-AicV MR233-17E/77991,river water
+OQ129479,CHN,pig,2022,aichivirus C1,Unknown,SD/2022/China,Unknown
+PP766456,MDG,Eidolon dupreanum,2014,Eidolon dupreanum kobuvirus,Unknown,KEL86,tissue sample
+OQ758029,HUN,goat,2020,Kobuvirus sp.,goat/KoV/KT-G4/2020-HUN,Unknown,feces
+KF831027,KOR,cat,2011,aichivirus A4,FK-13,Unknown,feces
+PP171443,IND,pig,2015,aichivirus C1,Unknown,KER-204,feces
+OR682617,CHN,caprine,2022,aichivirus C2,Unknown,Caprine/SWUN/F2/2022,Feces
+OR682616,CHN,caprine,2022,aichivirus C2,Unknown,Caprine/SWUN/F1/2022,Feces
+OQ595081,HRV,pig,2017,aichivirus C1,06-2017-Medj,Unknown,feces
+OQ808805,CHN,black goat,2019,aichivirus C2,Unknown,CKoV-China/GCCDC14/2019,sheepfold
+OQ818322,MDG,Eidolon dupreanum,2019,Eidolon dupreanum kobuvirus,Unknown,KEL318,urine swab
+OQ267712,CHN,cattle,2021,aichivirus D,Unknown,BKV/cow/NXC1/2021/CHN,fecal sample
+OP376931,CHN,goat,2021,aichivirus C2,Unknown,CKoV-China/SWUN/B12/2022,Unknown
+OP094599,CHN,Rhizomys pruinosus,2019,aichivirus A6_A9_A10,Unknown,B45M02,duodenum
+ON730709,CHN,cow,2021,aichivirus B1,BKV5/2021/CHN,Unknown,feces
+OP920760,CHN,Capreolus pygargus,2021,Capreolus pygargus kobuvirus,Unknown,CpKoV/XK/CHN/2021,Unknown
+OP776111,CHN,yak,2021,aichivirus D,Unknown,BKV/Yak/XZNQX7/2021/CHN,fecal sample
+OP776110,CHN,yak,2021,aichivirus D,Unknown,BKV/Yak/QHHN16/2021/CHN,fecal sample
+OP776109,CHN,yak,2021,aichivirus D,Unknown,BKV/Yak/SCDF77/2021/CHN,fecal sample
+ON168742,CHN,cow,2021,aichivirus B1,Unknown,BKV14/2021/CHN,feces
+ON168741,CHN,cow,2021,aichivirus B1,Unknown,BKV13/2021/CHN,feces
+ON168740,CHN,cow,2021,aichivirus B1,Unknown,BKV12/2021/CHN,feces
+ON168739,CHN,cow,2021,aichivirus B1,Unknown,BKV11/2021/CHN,feces
+ON168738,CHN,cow,2021,aichivirus B1,Unknown,BKV10/2021/CHN,feces
+ON168737,CHN,cow,2021,aichivirus B1,Unknown,BKV9/2021/CHN,feces
+OP414059,CHN,pig,2018,aichivirus C1,Unknown,PF161/con/PicV26,feces from piglets with diarrhea
+OP414039,CHN,pig,2018,aichivirus C1,Unknown,PF163/con/PicV6,feces from piglets with diarrhea
+OP287812,MDG,Eidolon dupreanum,2018,Eidolon dupreanum kobuvirus,Unknown,FEC145,Unknown
+OM274028,CHN,pig,2020,aichivirus C1,Unknown,AH-75,faeces
+OM274027,CHN,pig,2019,aichivirus C1,Unknown,AH-49,faeces
+OM274026,CHN,pig,2018,aichivirus C1,Unknown,AH-42,faeces
+OM274025,CHN,pig,2020,aichivirus C1,Unknown,AH-32,faeces
+OP414066,CHN,pig,2018,aichivirus C1,Unknown,PF202/con/PicV33,feces from piglets with diarrhea
+OP414064,CHN,pig,2018,aichivirus C1,Unknown,PF200/con/PicV31,feces from piglets with diarrhea
+OP414063,CHN,pig,2018,aichivirus C1,Unknown,PF183/con/PicV30,feces from piglets with diarrhea
+OP414061,CHN,pig,2018,aichivirus C1,Unknown,PF180/con/PicV28,feces from piglets with diarrhea
+OP414055,CHN,pig,2018,aichivirus C1,Unknown,PF102/con/PicV22,feces from piglets with diarrhea
+OP414053,CHN,pig,2018,aichivirus C1,Unknown,PF98/con/PicV20,feces from piglets with diarrhea
+OP414052,CHN,pig,2018,aichivirus C1,Unknown,PF97/con/PicV19,feces from piglets with diarrhea
+OP414051,CHN,pig,2018,aichivirus C1,Unknown,PF96/con/PicV18,feces from piglets with diarrhea
+OP414050,CHN,pig,2018,aichivirus C1,Unknown,PF95/con/PicV17,feces from piglets with diarrhea
+OP414041,CHN,pig,2018,aichivirus C1,Unknown,PF196/con/PicV8,feces from piglets with diarrhea
+ON595852,AUS,cat,2017,aichivirus A4,Unknown,FPV-9,feces
+ON595851,AUS,cat,2017,aichivirus A4,Unknown,FPV-4,feces
+ON595850,AUS,cat,2017,aichivirus A4,Unknown,FPV-3,feces
+ON595849,AUS,cat,2017,aichivirus A4,Unknown,FPV-2,feces
+ON595848,AUS,cat,2017,aichivirus A4,Unknown,FPV-1,feces
+ON008388,CHN,cat,2021,aichivirus A4,Unknown,AHAU-3,feces
+ON008387,CHN,cat,2021,aichivirus A4,Unknown,AHAU-2,feces
+ON008386,CHN,cat,2020,aichivirus A4,Unknown,AHAU-1,feces
+OK019998,CHN,cattle,2019,aichivirus B1,Unknown,HNLD2019,feces
+OP093968,BRA,dog,2019,aichivirus A2,CaKoV/PK04/2019/BRA,PK04,feces
+OP093967,BRA,dog,2019,aichivirus A2,CaKoV/PK01/2019/BRA,PK01,feces
+OP093966,BRA,dog,2019,aichivirus A2,CaKoV/PK02/2019/BRA,PK02,feces
+ON792977,ESP,pig,2017,aichivirus C1,Unknown,SP-VC36,feces
+ON792976,ESP,pig,2017,aichivirus C1,Unknown,SP-VC18,feces
+ON792975,ESP,pig,2017,aichivirus C1,Unknown,SP-VC4,feces
+MT766372,CHN,Unknown,2018,Kobuvirus sp.,Unknown,CHN/XJ/env/2018/ht8-ctg1,sewage
+OK315318,CHN,pig,2020,aichivirus C1,Unknown,Wuhan2020,intestinal sample from asymptomatic piglet
+ON075056,CHN,cow,2021,aichivirus B1,Unknown,BKV8/2021/CHN,feces
+ON075055,CHN,cow,2021,aichivirus B1,Unknown,BKV7/2021/CHN,feces
+ON075054,CHN,cow,2021,aichivirus B1,Unknown,BKV6/2021/CHN,feces
+ON075053,CHN,cow,2021,aichivirus B1,Unknown,BKV4/2021/CHN,feces
+ON075052,CHN,cow,2021,aichivirus B1,Unknown,BKV3/2021/CHN,feces
+ON075051,CHN,cow,2021,aichivirus B1,Unknown,BKV2/2021/CHN,feces
+ON075050,CHN,cow,2021,aichivirus B1,Unknown,BKV1/2021/CHN,feces
+OM480536,CHN,Coypu,2020,Coypu kobuvirus,GX-A1,Unknown,Unknown
+OM451187,CHN,eurasian red squirrel,2021,Grey squirrel kobuvirus,Unknown,FJ-MO1,Unknown
+OM451186,CHN,himalayan marmot,2020,Marmot kobuvirus,Unknown,ZJ-F2,Unknown
+OM451185,CHN,himalayan marmot,2020,Marmot kobuvirus,Unknown,JS-TNA1,Unknown
+OM451184,CHN,civet,2020,Civet kobuvirus,Unknown,GX-F3,Unknown
+OM451183,CHN,civet,2020,Civet kobuvirus,Unknown,SC-F3,Unknown
+OM451182,CHN,arctic fox,2021,aichivirus A2,Unknown,JX-MO1,Unknown
+OM480538,CHN,Coypu,2020,Coypu kobuvirus,HuN-F1,Unknown,Unknown
+OM480537,CHN,Coypu,2020,Coypu kobuvirus,HeB-F1,Unknown,Unknown
+OM140655,CHN,Marmota caudata,2016,Marmot kobuvirus,MCKV/XJ3/CHN/2016,Unknown,intestinal sample
+MZ603734,CHN,cattle,2021,aichivirus B1,Unknown,BKoV/CN/HB-SJZ/2021,Unknown
+MT610361,IND,dog,2016,aichivirus A2,Unknown,CKoV/IND/2016,feces
+MW296158,CHN,sheep,2019,aichivirus B3,Unknown,SKoV-China/SWUN/AB18/2019,Unknown
+MT125685,CHN,pig,2018,aichivirus C1,Unknown,swine/HBYT/2018/China,feces
+MT125684,CHN,pig,2013,aichivirus C1,Unknown,swine/JX-3/2013/China,feces
+MT125683,CHN,pig,2013,aichivirus C1,Unknown,swine/JX-2/2013/China,feces
+MT125682,CHN,pig,2013,aichivirus C1,Unknown,swine/JX-1/2013/China,feces
+MT584793,CHN,goat,2019,aichivirus C2,Unknown,CKoV-China/SWUN/F11/2019,Unknown
+MT152346,GBR,squirrel,2010,Grey squirrel kobuvirus,Unknown,UK 2010,fecal sample
+MN807751,HUN,pig,2013,aichivirus C1,SZ1M-F/PKV/HUN/2013,Unknown,feces
+MK962336,ESP,pig,2017,aichivirus C1,KobuV/Pig-wt/ESP/VC11/2017,Unknown,feces
+MK962335,ESP,pig,2017,aichivirus C1,KobuV/Pig-wt/ESP/VC8/2017,Unknown,feces
+MK962334,ESP,pig,2017,aichivirus C1,KobuV/Pig-wt/ESP/VC14/2017,Unknown,feces
+MK962333,ESP,pig,2017,aichivirus C1,KobuV/Pig-wt/ESP/P461/2017,Unknown,feces
+MK962332,ESP,pig,2017,aichivirus C1,KobuV/Pig-wt/ESP/C375/2017,Unknown,feces
+MK962331,ESP,pig,2017,aichivirus C1,KobuV/Pig-wt/ESP/P284/2017,Unknown,feces
+MK962330,ESP,pig,2017,aichivirus C1,KobuV/Pig-wt/ESP/P452/2017,Unknown,feces
+MK962329,ESP,pig,2017,aichivirus C1,KobuV/Pig-wt/ESP/P2B/2017,Unknown,feces
+MK962328,ESP,pig,2017,aichivirus C1,KobuV/Pig-wt/ESP/B304/2017,Unknown,feces
+MK962327,ESP,pig,2017,aichivirus C1,KobuV/Pig-wt/ESP/P259/2017,Unknown,feces
+MK962326,ESP,pig,2017,aichivirus C1,KobuV/Pig-wt/ESP/C429/2017,Unknown,feces
+MK962325,ESP,pig,2018,aichivirus C1,KobuV/Pig-wt/ESP/VT25C/2017,Unknown,feces
+MK962324,ESP,pig,2017,aichivirus C1,KobuV/Pig-wt/ESP/P437/2017,Unknown,feces
+MK962323,ESP,pig,2017,aichivirus C1,KobuV/Pig-wt/ESP/P37/2017,Unknown,feces
+MK962322,ESP,pig,2017,aichivirus C1,KobuV/Pig-wt/ESP/VC20B/2017,Unknown,feces
+MK962321,ESP,pig,2017,aichivirus C1,KobuV/Pig-wt/ESP/P393/2017,Unknown,feces
+MK962320,ESP,pig,2017,aichivirus C1,KobuV/Pig-wt/ESP/C247/2017,Unknown,feces
+MK671315,CHN,cat,2018,aichivirus A4,Unknown,FKV/18CC0718,feces
+MK671314,CHN,cat,2018,aichivirus A4,Unknown,FKV/18CC0503,feces
+MN116647,HUN,rat,2018,Kobuvirus aichi,rat08/rAiA/HUN,Unknown,faeces
+MK080265,CHN,cow,2018,aichivirus B1,CHZ/China,Unknown,feces
+NC_034971,CHN,dog,2015,aichivirus A2,Unknown,SMCD-59,feces
+NC_027919,JPN,cow,2014,Kobuvirus cattle/Kagoshima-1-22-KoV/2014/JPN,Kagoshima-1-22-KoV/2014/JPN,Unknown,Unknown
+NC_027918,JPN,cow,2015,Kobuvirus cattle/Kagoshima-2-24-KoV/2015/JPN,Kagoshima-2-24-KoV/2015/JPN,Unknown,Unknown
+NC_027054,CHN,asymptomatic piglets,2014,aichivirus C1,Unknown,JS-02a-CHN/2014/China,fecal samples
+NC_015936,USA,Peromyscus crinitus,2010,Mouse kobuvirus M-5/USA/2010,M-5,Unknown,feces
+MH052678,AUS,dog,2012,aichivirus A2,Unknown,CaKoV_CE9_AUS_2012,feces
+LT898428,Unknown,Unknown,Unknown,aichivirus C1,Unknown,PKV/GER/L00919-K17_14-02/2014,Unknown
+MG200054,AUS,human,2008,Kobuvirus aichi,FSS693,Unknown,Faeces
+MF506730,USA,pig,2011,aichivirus C1,Unknown,OH/RV11/2011,fecal sample from piglet
+LC210622,JPN,pig,2014,aichivirus C1,PoKoV/Buta16/JPN/2014,Unknown,Unknown
+LC210621,JPN,pig,2014,aichivirus C1,PoKoV/Tochigi-IO3/JPN/2014,Unknown,Unknown
+LC210620,JPN,pig,2015,aichivirus C1,PoKoV/Tochigi-IN30/JPN/2015,Unknown,Unknown
+LC210619,JPN,pig,2015,aichivirus C1,PoKoV/Ishi-Ta4/JPN/2015,Unknown,Unknown
+LC210618,JPN,pig,2015,aichivirus C1,PoKoV/Ishi-Ta3/JPN/2015,Unknown,Unknown
+LC210617,JPN,pig,2015,aichivirus C1,PoKoV/Ishi-Sa5/JPN/2015,Unknown,Unknown
+LC210616,JPN,pig,2015,aichivirus C1,PoKoV/Ishi-Ka3/JPN/2015,Unknown,Unknown
+LC210615,JPN,pig,2015,aichivirus C1,PoKoV/Ishi-Im6/JPN/2015,Unknown,Unknown
+LC210614,JPN,pig,2015,aichivirus C1,PoKoV/Ishi-Im5/JPN/2015,Unknown,Unknown
+LC210613,JPN,pig,2016,aichivirus C1,PoKoV/Iba444-2/JPN/2016,Unknown,Unknown
+LC210612,JPN,pig,2015,aichivirus C1,PoKoV/Iba27-372/JPN/2015,Unknown,Unknown
+LC210611,JPN,pig,2014,aichivirus C1,PoKoV/Bu9-10/JPN/2014,Unknown,Unknown
+LC210610,JPN,pig,2014,aichivirus C1,PoKoV/Bu7-9/JPN/2014,Unknown,Unknown
+LC210609,JPN,pig,2014,aichivirus C1,PoKoV/Bu6-6/JPN/2014,Unknown,Unknown
+LC210608,JPN,pig,2014,aichivirus C1,PoKoV/Bu5-6/JPN/2014,Unknown,Unknown
+LC210607,JPN,pig,2014,aichivirus C1,PoKoV/Bu4-6/JPN/2014,Unknown,Unknown
+LC210606,JPN,pig,2014,aichivirus C1,PoKoV/Bu4-4/JPN/2014,Unknown,Unknown
+LC210605,JPN,pig,2014,aichivirus C1,PoKoV/Bu4-2/JPN/2014,Unknown,Unknown
+LC210604,JPN,pig,2014,aichivirus C1,PoKoV/Bu3-5/JPN/2014,Unknown,Unknown
+LC210603,JPN,pig,2014,aichivirus C1,PoKoV/Bu2-6/JPN/2014,Unknown,Unknown
+LC210602,JPN,pig,2014,aichivirus C1,PoKoV/Bu2-5/JPN/2014,Unknown,Unknown
+LC210601,JPN,pig,2014,aichivirus C1,PoKoV/Bu2-3/JPN/2014,Unknown,Unknown
+LC210600,JPN,pig,2014,aichivirus C1,PoKoV/Bu2-2/JPN/2014,Unknown,Unknown
+LC210599,JPN,pig,2014,aichivirus C1,PoKoV/Bu1-8/JPN/2014,Unknown,Unknown
+KY855436,CHN,marmot,2013,Marmot kobuvirus,HT9,Unknown,Unknown
+MF947441,VNM,human,2014,Kobuvirus sp.,16317x87,Unknown,feces
+MG800807,CHN,pig,2015,aichivirus C1,Unknown,Chgz5,Unknown
+MG800806,CHN,pig,2015,aichivirus C1,Unknown,Chgz4,Unknown
+MG800805,CHN,pig,2015,aichivirus C1,Unknown,Chgz3,Unknown
+MG800804,CHN,pig,2015,aichivirus C1,Unknown,Chgz2,Unknown
+MG800803,CHN,pig,2015,aichivirus C1,Unknown,Chgz1,Unknown
+MF062158,CHN,dog,2015,aichivirus A2,Unknown,SMCD-59,feces
+MF062452,CHN,pig,2012,aichivirus C1,Unknown,Guangxi/G2/2012/CH,intestinal tissues and fecal samples
+MF062451,CHN,pig,2012,aichivirus C1,Unknown,Guangxi/G5/2012/CH,intestinal tissues and fecal samples
+MF062450,CHN,pig,2012,aichivirus C1,Unknown,Guangxi/G6/2012/CH,intestinal tissues and fecal samples
+MF062449,CHN,pig,2012,aichivirus C1,Unknown,Guangxi/G7/2012/CH,intestinal tissues and fecal samples
+MF062448,CHN,pig,2012,aichivirus C1,Unknown,Guangxi/G8/2012/CH,intestinal tissues and fecal samples
+MF062447,CHN,pig,2012,aichivirus C1,Unknown,Guangxi/G9/2012/CH,intestinal tissues and fecal samples
+MF062446,CHN,pig,2012,aichivirus C1,Unknown,Guangxi/G11/2012/CH,intestinal tissues and fecal samples
+MF062445,CHN,pig,2012,aichivirus C1,Unknown,Guangxi/G12/2012/CH,intestinal tissues and fecal samples
+MF062444,CHN,pig,2013,aichivirus C1,Unknown,Guangxi/G13/2013/CH,intestinal tissues and fecal samples
+MF062443,CHN,pig,2013,aichivirus C1,Unknown,Guangxi/G14/2013/CH,intestinal tissues and fecal samples
+MF062442,CHN,pig,2013,aichivirus C1,Unknown,Guangxi/G15/2013/CH,intestinal tissues and fecal samples
+MF062441,CHN,pig,2013,aichivirus C1,Unknown,Guangxi/G16/2013/CH,intestinal tissues and fecal samples
+MF062440,CHN,pig,2013,aichivirus C1,Unknown,Guangxi/G17/2013/CH,intestinal tissues and fecal samples
+MF062439,CHN,pig,2013,aichivirus C1,Unknown,Guangxi/G18/2013/CH,intestinal tissues and fecal samples
+MF062438,CHN,pig,2013,aichivirus C1,Unknown,Guangxi/G19/2013/CH,intestinal tissues and fecal samples
+MF062437,CHN,pig,2013,aichivirus C1,Unknown,Guangxi/G20/2013/CH,intestinal tissues and fecal samples
+MF062436,CHN,pig,2014,aichivirus C1,Unknown,Guangxi/G21/2014/CH,intestinal tissues and fecal samples
+MF062435,CHN,pig,2012,aichivirus C1,Unknown,Guangxi/G1/2012/CH,intestinal tissues and fecal samples
+LC055961,JPN,cow,2014,Kobuvirus cattle/Kagoshima-1-22-KoV/2014/JPN,Kagoshima-1-22-KoV/2014/JPN,Unknown,Unknown
+LC055960,JPN,cow,2015,Kobuvirus cattle/Kagoshima-2-24-KoV/2015/JPN,Kagoshima-2-24-KoV/2015/JPN,Unknown,Unknown
+KP260507,CHN,asymptomatic piglets,2014,aichivirus C1,Unknown,JS-02a-CHN/2014/China,fecal samples
+KM091960,ITA,cat,2013,aichivirus A4,FeKoV/TE/52/IT/13,Unknown,fecal sample
+JQ911763,CHN,dog,2011,aichivirus A2,CH-1,Unknown,stool
+KF695124,CHN,pig,2008,aichivirus C1,Unknown,ch-kobu/2008/China,feces
+KC161964,GBR,dog,2008,aichivirus A2,UK003,Unknown,Unknown
+JN088541,USA,dog,2010,aichivirus A2,US-PC0082,Unknown,feces
+NC_004421,Unknown,Unknown,Unknown,aichivirus B,U-1,Unknown,bovine
+AB084788,Unknown,Unknown,Unknown,aichivirus B,U-1,Unknown,bovine
+EU787450,HUN,pig,2007,aichivirus C1,swine/S-1-HUN/2007/Hungary,Unknown,feces
+PP211370,CHN,rat,2018,aichivirus A8,Unknown,Ra.norvegicus_picorna_15,Unknown
+PP211369,CHN,rat,2018,aichivirus A8,Unknown,Ra.norvegicus_picorna_14,Unknown
+PP211368,CHN,rat,2018,aichivirus A8,Unknown,Ra.norvegicus_picorna_13,Unknown
+MW292482,CHN,rat,2015,aichivirus A8,Unknown,MuKV/XM34/CHN,stool
+MW292481,CHN,rat,2015,aichivirus A8,Unknown,MuKV/XM86/CHN,stool
+MW292480,CHN,rat,2017,aichivirus A8,Unknown,MuKV/YN27/CHN,stool
+OQ363763,CHN,Rhizomys pruinosus,2019,Kobuvirus aichi,Unknown,GX/B45M0208/2019,Unknown
+KF793927,KOR,black goat,2012,aichivirus C2,Unknown,12Q108,stool
+OR148643,KOR,cow,2022,aichivirus D,Unknown,53954,calf diarrheic feces
+OR148642,KOR,cow,2022,aichivirus D,Unknown,23358,calf diarrheic feces
+OR148641,KOR,cow,2022,aichivirus B,Unknown,00217,calf diarrheic feces
+OR148640,KOR,cow,2022,aichivirus B,Unknown,NA4475,calf diarrheic feces
+OR148639,KOR,cow,2022,aichivirus B,Unknown,85282,calf diarrheic feces
+OR148638,KOR,cow,2022,aichivirus B,Unknown,71346,calf diarrheic feces
+OR148637,KOR,cow,2022,aichivirus B,Unknown,18897,calf diarrheic feces
+OR148636,KOR,cow,2022,aichivirus B,Unknown,00276,calf diarrheic feces
+OP805598,ITA,cow,2021,aichivirus B,Unknown,Bovine_59254_11/21 TR,rectal swab
+OP805597,ITA,cow,2021,aichivirus B,Unknown,Bovine_59254_2/21 TR,rectal swab
+OP805596,ITA,calf,2021,aichivirus B,Unknown,Calf 300917/2021,rectal swab
+GU245693,HUN,sheep,2009,aichivirus B3,sheep/TB3/HUN/2009,Unknown,feces
+OM451219,CHN,rat,2020,Kobuvirus aichi,Unknown,GX-F2,Unknown
+OM451218,CHN,rat,2020,Kobuvirus aichi,Unknown,GX-F1,Unknown
+PV605185,CHN,Bandicota indica,2022,aichivirus A8,Unknown,22AP502,Unknown
+PX390164,ARG,Unknown,2020,aichivirus A1,Unknown,Env/ARG/BG-ARE/Summer 2020,influent wastewater
+PX390163,ARG,Unknown,2019,aichivirus A1,Unknown,Env/ARG/BG-ARE/Summer 2019,influent wastewater
+PV544232,USA,mouse,2024,aichivirus A8,MKV/UMN/2024,UMN_2024,Unknown
+MF352432,CHN,rat,2012,aichivirus A9,Wencheng-Rt386-2,Unknown,feces
+KT325852,HUN,rabbit,2013,aichivirus E1,Rabbit01/2013/HUN,Unknown,fecal sample
+OQ121963,KOR,human,2019,aichivirus A1,Unknown,hu/C8_Seoul_02/2019,stool
+JF755427,USA,Peromyscus crinitus,2010,aichivirus A3,M-5,Unknown,feces
+OP255993,NLD,human,2018,aichivirus A1,A_RIVM_R04-15/Hu/NL/2019,Unknown,feces
+NC_074775,Unknown,Unknown,Unknown,aichivirus A1,Unknown,Unknown,Unknown
+OP821762,Unknown,rabbit,2019,Rabbit picornavirus,UJS-2019,Unknown,feces
+KY432931,CHN,rodent,Unknown,aichivirus A7,Unknown,RtMruf-PicoV/JL2014-2,Unknown
+MK372825,PAK,human,2016,aichivirus A1,PAK663,Unknown,feces
+MK372824,PAK,human,2016,aichivirus A1,PAK622,Unknown,feces
+MK372823,PAK,human,2016,aichivirus A1,PAK585,Unknown,feces
+MK372822,PAK,human,2016,aichivirus A1,PAK419,Unknown,feces
+MK372821,PAK,human,2015,aichivirus A1,PAK56,Unknown,feces
+NC_001918,Unknown,human,Unknown,aichivirus A1,Unknown,A846/88,Unknown
+JX564249,TWN,human,2010,aichivirus A1,kvgh99012632/2010,Unknown,stool
+GQ927712,DEU,human,2004,aichivirus A1,D/VI2244/2004,Unknown,stool
+GQ927711,DEU,human,2004,aichivirus A1,D/VI2287/2004,Unknown,stool
+GQ927706,DEU,human,2004,aichivirus A1,D/VI2321/2004,Unknown,stool
+GQ927705,DEU,human,2004,aichivirus A1,D/VI2359/2004,Unknown,stool
+GQ927704,DEU,human,2004,aichivirus A1,D/VI2169/2004,Unknown,stool
+AY747174,DEU,Unknown,Unknown,aichivirus A1,Unknown,BAY/1/03/DEU,Unknown
+FJ890523,CHN,human,2008,aichivirus A1,Unknown,Chshc7,Unknown
+DQ028632,BRA,Unknown,Unknown,aichivirus A1,Unknown,Goiania/GO/03/01/Brazil,stool
+AB010145,Unknown,human,Unknown,aichivirus A1,Unknown,A846/88,Unknown
+AB040749,Unknown,Unknown,Unknown,aichivirus A1,Unknown,Unknown,Unknown
