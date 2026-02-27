@@ -4,26 +4,42 @@ import copy
 import pandas as pd
 from Bio import SeqIO
 
-
 def split_genome_and_reverse(input_file, coord_file):
 
     coord_df = pd.read_csv(coord_file, sep=",", index_col=0)
+
+    min_lengths = {
+        '1A': 1800,
+        '1B': 1500,
+        '2': 1600
+    }
+
     orfs = ['1A', '1B', '2']
     dict_orfs = {orf: [] for orf in orfs}
     seqs = SeqIO.parse(input_file, format='fasta')
+    
     for seq in seqs:
         acc = seq.id.split("_")[0]
+        
         if acc in ['NC', 'AC']:
             acc = '_'.join(seq.id.split("_")[:2])
+        
         for orf in orfs:
             if acc in coord_df.index and coord_df.loc[acc, orf] != 'NA-NA':
                 cd = coord_df.loc[acc, orf]
                 s, e = map(int, cd.split('-'))
                 seq_orf = copy.deepcopy(seq)
                 seq_orf.seq = seq.seq[s:e]
+
+                orf_length = len(seq_orf.seq)
+                if orf_length < min_lengths[orf]:
+                    continue
+
                 strand_col = f"{orf}-strand"
+                
                 if strand_col in coord_df.columns:
                     strand_value = coord_df.loc[acc, strand_col]
+                    
                     if strand_value == -1:
                         seq_orf.seq = seq_orf.seq.reverse_complement()
                         seq_orf.id += "_reverse"
@@ -37,7 +53,6 @@ def split_genome_and_reverse(input_file, coord_file):
         outfile = f"{out_prefix}_{orf}.fasta"
         SeqIO.write(records, outfile, "fasta")
         print(f"Written: {outfile} ({len(records)} sequences)")
-
 
 def main():
     parser = argparse.ArgumentParser(
@@ -57,7 +72,6 @@ def main():
     args = parser.parse_args()
 
     split_genome_and_reverse(args.input, args.coords)
-
 
 if __name__ == "__main__":
     main()
