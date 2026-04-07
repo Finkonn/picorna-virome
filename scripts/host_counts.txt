@@ -1,0 +1,869 @@
+Host	count
+Homo sapiens	4299
+Rattus norvegicus	534
+Sus scrofa	476
+Sus scrofa domesticus	443
+Gallus gallus	377
+swine	339
+chicken	281
+goose	272
+turkey	269
+cattle	248
+Canis lupus familiaris	245
+pig	235
+Miniopterus schreibersii	177
+Miniopterus magnater	150
+Taphozous melanopogon	112
+Meleagris gallopavo	107
+Mus musculus	104
+Felis catus	97
+Macaca mulatta	96
+Hipposideros sp. (bat)	87
+Mus musculoides	84
+Rattus tanezumi	78
+wild boar	78
+Eothenomys cachinus	75
+Bos taurus	72
+bovine	72
+porcine	71
+Hipposideros larvatus	68
+Rattus rattus	68
+Rattus losea	64
+Triaenops persicus	63
+domestic pig	60
+Mormopterus francoismoutoui	57
+Sus scrofa (domestic pig)	56
+Sus scrofa (wild boar)	51
+goat	51
+Scotophilus kuhlii	48
+canine	48
+Myotis horsfieldii	47
+domestic cat	44
+Guinea fowl	44
+duck	40
+Myotis ricketti	40
+Eonycteris spelaea	40
+Hipposideros armiger	39
+Hipposideros pomona	38
+Sus scrofa (swine)	36
+dog	35
+Gallus gallus domesticus (broiler)	35
+Rhinolophus sinicus	34
+Miniopterus fuliginosus	34
+cow	34
+Hipposideros caffer	33
+Rhinolophus sp. (bat)	33
+Cow	33
+Rhinolophus affinis	32
+Pteropus giganteus	32
+poultry	31
+Anas platyrhynchos	30
+Miniopterus inflatus	29
+Miniopterus pusillus	28
+Mormopterus francoismoutoui (Reunion Free-tailed Bat)	27
+bat	26
+Suncus murinus	25
+Miniopterus schreibersi	25
+Pekin duck	25
+Columba livia	24
+Bos mutus	24
+Rattus sp.	24
+Rhinolophus ferrumequinum	23
+Homo sapiens 1 year 6 months old baby boy	23
+rat	22
+Meleagris gallopavo domesticus	22
+Procambarus clarkii	22
+Hipposideros lekaguli	22
+domestic cat with diarrhea	22
+Scotophilus sp.	22
+Anas acuta	21
+Myotis daubentonii	21
+commercial broiler	21
+Capra hircus	20
+Gallus gallus domesticus	20
+Tursiops truncatus	20
+Myotis nattereri	20
+environment	19
+buffalo	19
+Triaenops afer	19
+Numida meleagris	19
+Pipistrellus pipistrellus	18
+Myotis fimbriatus	18
+sheep	17
+Nyctalus noctula	17
+Domestic goat	17
+Mastomys sp.	17
+Myotis chinensis	16
+Taphozous melanopogon; sex: female (pregnant)	16
+Camelus bactrianus	16
+Chicken	16
+Eidolon helvum	16
+Hystrix brachyura	16
+Rousettus sp.	16
+Chroicocephalus ridibundus	15
+Duck	15
+Anas crecca	15
+Anser indicus	15
+Swine	15
+pigeon	14
+Zalophus californianus (California sea lion)	14
+Urva auropunctata	14
+Sus scrofa domesticus (pig)	14
+water buffalo	14
+Rousettus leschenaultii	13
+Anser anser	13
+Neogale vison	13
+Camelus dromedarius	13
+shellfish	13
+Niviventer eha	13
+Praomys tullbergi	13
+mink	13
+Homo sapiens 5 months old baby girl	13
+Homo sapiens 9 months old baby boy	13
+Homo sapiens 10 months old baby girl	13
+Homo sapiens 10 years old girl	13
+chicken (broiler)	12
+Scotophilus kuhlii; sex: female	12
+feline	12
+Myotis petax	12
+Himalayan marmot	12
+Myotis pilosus	11
+Muscovy duck	11
+Myotis macrodactylus	11
+Coleura afra	11
+Retropinna retropinna	11
+Rattus flavipectus	11
+Phrynocephalus theobaldi	11
+Macaca fascicularis	11
+Rattus exulans	11
+Homo sapiens 6 years old boy	11
+Rhinolophus pearsonii	10
+Apodemus agrarius	10
+Nyctereutes procyonoides (Raccoon dog)	10
+rabbit	10
+guinea pig	10
+Marmota himalayana	10
+Canis familiaris	10
+Homo sapiens 62 years old female	10
+Homo sapiens 1 year 6 months old baby girl	10
+Goose	9
+Miniopterus orianae oceanensis	9
+porcupine	9
+Phrynocephalus erythrurus	9
+Homo sapiens; infant (<5 years)	9
+Homo sapiens; sex: M; age: 6 months	9
+Myotis bechsteinii	9
+Homo sapiens 2 years old baby boy	9
+goat; Mixed breed	8
+Marmota caudata	8
+Niviventer niviventer	8
+Pteropus alecto	8
+Rhinolophus coelophyllus	8
+Mastomys natalensis	8
+health cat	8
+yak	8
+Rattus andamanensis	8
+Myotis pequinius	8
+Myotis myotis	8
+Homo sapiens 1 year old male	8
+Anas penelope	8
+Rhinolophus pusillus	7
+Neodon fuscus	7
+Bactrian camel	7
+Muraenolepis sp.	7
+Rattus rattus; male	7
+Mops condylurus	7
+Scotophilus kuhlii; sex: male	7
+Miniopterus sp. (bat)	7
+Eidolon helvum (bat)	7
+Bos taurus breed Hanwoo	7
+goslings	7
+Spatula clypeata	7
+Rhinolophus thomasi; mixed sex	7
+Homo sapiens; infant	7
+Rousettus amplexicaudatus	7
+Hipposideros gigas	7
+laboratory mouse	7
+Vulpes vulpes (fox)	6
+Anser sp.	6
+calf	6
+Crocidura lasiura	6
+Rousettus aegyptiacus	6
+Miniopterus sp. clade 10 TD-2020	6
+Taphozous melanopogon; sex: female	6
+Ovis aries	6
+red fox	6
+Pipistrellus abramus	6
+Gobiomorphus cotidianus	6
+Roussetus leschenaulti; mixed sex	6
+Plecotus auritus	6
+Rhinolophus shameli	6
+Homo sapiens; sex: F; age: 9 months	6
+Homo sapiens; sex: F; age: 23 Y	6
+Homo sapiens; age: 3 Y	6
+Hortobagy goose	6
+Rattus argentiventer	6
+Anas clypeata	6
+Homo sapiens age 7 months	6
+Myotis sp.	5
+Crocidura attenuata	5
+Rattus nitidus	5
+Ia io	5
+Porcupine	5
+Sus scrofa domestica (domestic swine)	5
+Hylomyscus sp.	5
+Hipposideros ruber	5
+Homo sapiens; sex: M; age: 3 months	5
+stool	5
+Mus_musculus	5
+Homo sapiens; sex: M; age: 20 Y	5
+Taphozous perforatus	5
+Homo sapiens; sex: M; age: 11 months	5
+Bat	5
+Eptesicus serotinus andersoni	5
+Hystrix brachyurus	5
+Homo sapiens age 8 months	5
+Homo sapiens age 12 months	5
+Homo sapiens age 5 months	5
+Tylonycteris pachypus	4
+Anourosorex squamipes	4
+cat	4
+Nyctereutes procyonoides(racoon dog)	4
+Anser indicus (Bar-headed goose)	4
+Mus musculus; male	4
+Rhizomys pruinosus	4
+Myotis ricketti; sex: male	4
+Rhinolophus sp.	4
+Aythya marila	4
+Chodsigoa smithii	4
+Bovine	4
+Xenotilapia nasus	4
+Prunella montanella	4
+Coypu	4
+raccoon dog	4
+Jinding ducks	4
+Artibeus planirostris	4
+Anas castanea	4
+Anas superciliosa	4
+mouse	4
+Ochotona thibetana	4
+Sturnira lilium	4
+Chiroptera	4
+Passeriformes	4
+Coracias garrulus (European roller)	4
+Homo sapiens; sex: M; age: 5 months	4
+Homo sapiens; sex: F; age: 1 Y	4
+Homo sapiens; sex: M; age: 3 Y	4
+Homo sapiens; sex: F; age: 17 Y	4
+calf (bovine)	4
+Coelorinchus multispinulosus	4
+Lethenteron camtschaticum	4
+Nycteris thebaica	4
+Homo sapiens; sex: M; age: 25 Y	4
+Landes goose	4
+Ardeola sp.	4
+Homo sapiens age 9 months	4
+Hipposideros sp.	3
+Taphozous sp.	3
+Myotis laniger	3
+Tufted duck	3
+Phocarctos hookeri (New Zealand sea lion)	3
+Heteronotia planiceps	3
+Rattus rattus; sex: female	3
+Rattus rattus; female	3
+Miniopterus sp. clade 1 TD-2020	3
+Miniopterus schreibersii; sex: female	3
+Oryctolagus cuniculus	3
+Chalinolobus tuberculatus	3
+Streptopelia orientalis	3
+bird	3
+Rhinolophus thomasi	3
+Podarcis siculus; sex: male	3
+Luposicya lupus	3
+Istigobius goldmanni	3
+Asterropteryx semipunctata	3
+Istigobius nigroocellatus	3
+Istigobius decoratus	3
+Cabillus tongarevae	3
+Water buffalo	3
+Crow	3
+Raccoon dog	3
+spotted dove	3
+house crow	3
+mice	3
+Arenaria interpres (ruddy turnstone)	3
+Vespertilio murinus	3
+Pipistrellus sp. pipistrellus/pygmaeus AO-2021	3
+Tupaia glis	3
+Vulpes vulpes	3
+Mandrillus sphinx	3
+Macaca nemestrina	3
+Akodon cursor	3
+Carollia perspicillata	3
+Chaerephon pumilus	3
+Apodemus sylvaticus	3
+Parahypsugo crassulus	3
+roe deer	3
+Microtus agrestis	3
+Homo sapiens; sex: M; age: 28 Y	3
+Hipposideros turpis	3
+Homo sapiens; sex: F; age: 14 months	3
+Homo sapiens; sex: F; age: 2 months	3
+Homo sapiens; sex: M; age: 8 M	3
+Myodes rufocanus	3
+Cynops orientalis	3
+Myotis capaccinii	3
+Myotis emarginatus	3
+Eptesicus serotinus serotinus	3
+Anas platyrhynchos f. domestica	3
+Semnopithecus entellus	3
+guinea fowl	3
+Homo sapiens age 1 month	3
+Homo sapiens age 4 months	3
+Homo sapiens age 2 months	3
+Feral pigeon	3
+Trichosurus vulpecula	2
+Chiroptera sp.	2
+fish	2
+Gallus gallus gallus	2
+Pseudois nayaur	2
+Su. murinus	2
+Leucogeranus leucogeranus	2
+Crocidura dracula	2
+Ateles chamek	2
+Tursiops truncatus (Bottlenose dolphin)	2
+rook	2
+hooded crow	2
+Miniopterus fraterculus; sex: male	2
+Apodemus chevrieri	2
+Crocidura fuliginosa	2
+dairy cow	2
+Jiangnan White Goose	2
+Crocidura shantungensis	2
+carrier pigeon	2
+Rousettus madagascariensis	2
+Eidolon dupreanum	2
+Mus musculus; female	2
+Miniopterus sp. B76	2
+Cardioderma cor	2
+Eptesicus pachyomus; sex: female	2
+Myotis ricketti; sex: female	2
+Miniopterus schreibersii; sex: male	2
+Pelophylax nigromaculatus	2
+Canis lupus familiaris; sex: male	2
+Pachyptila vittata	2
+Rattus_tanezumi	2
+Myotis davidii	2
+Berylmys bowersi	2
+Nycteris sp. (bat)	2
+Limnochromis auritus	2
+Benthochromis horii	2
+Rhinolophus stheno	2
+Cervus elaphus (red deer)	2
+Bufo gargarizans	2
+Coloeus monedula	2
+Mus pahari	2
+Mus caroli	2
+Meriones unguiculatus	2
+Calliope calliope	2
+Cyanopica cyanus	2
+Phylloscopus inornatus	2
+Periparus ater	2
+domestic cat; sex: male	2
+eurasian red squirrel	2
+Ailurus fulgens	2
+marmot	2
+Helianthus niveus	2
+Gambusia holbrooki	2
+Homo sapiens; 2 years old; female	2
+Homo sapiens; 1 year 9 months old; female	2
+Gallus gallus broiler chicken	2
+Landaise goose	2
+Pipistrellus kuhlii	2
+Rhizomys sinensis	2
+Hipposideros commersoni	2
+Crocidura goliath	2
+Heimyscus fumosus	2
+Praomys sp.	2
+Tadarida sp.	2
+Gallus gallus (broiler)	2
+Homo sapiens; sex: M; age: 9 months	2
+Homo sapiens; sex: F; age: 3 months	2
+Culex sp. (mosquito)	2
+Homo sapiens; sex: F; age: 26 Y	2
+Homo sapiens; sex: F; age: 28 Y	2
+Homo sapiens; sex: F; age: 47 Y	2
+Homo sapiens; sex: F; age: 35 Y	2
+Homo sapiens; sex: F; age: 15 Y	2
+Homo sapiens; sex: F; age: 21 Y	2
+Homo sapiens; sex: M; age: 21 Y	2
+Homo sapiens; sex: M; age: 30 Y	2
+Homo sapiens; sex: F; age: 24 Y	2
+Homo sapiens; sex: M; age: 19 Y	2
+Scotomannes kuhlii	2
+Sarcophilus harrisii	2
+Homo sapiens; sex: M; age: 2 months	2
+Homo sapiens; sex: F; age: 8 months	2
+Homo sapiens; sex: M; age: 13 months	2
+Homo sapiens; sex: M; age: 10 months	2
+Homo sapiens; sex: F; age: 6 months	2
+Homo sapiens; sex: F; age: 31 months	2
+Homo sapiens; sex: F; age: 5 months	2
+Homo sapiens; age: 4 M	2
+Homo sapiens; age: 8 M	2
+Homo sapiens; age: 2 Y	2
+Homo sapiens; age: 9 M	2
+Homo sapiens; sex: F; age: 4 M	2
+Homo sapiens; sex: F; age: 11 Y	2
+Homo sapiens; sex: M; age: 8 Y	2
+Homo sapiens; age: 79 Y	2
+Homo sapiens; sex: F; age: 3 Y	2
+Lingxian White Goose	2
+Sorex araneus	2
+Eothenomys custos	2
+Homo sapiens; sex: F; age: 64 Y	2
+Homo sapiens; sex: F; age: 20 Y	2
+Red-necked Avocet	2
+Scoliodon macrorhynchos	2
+Chimaera sp.	2
+Polypedates megacephalus	2
+Hemidactylus bowringii	2
+Microhyla pulchra	2
+Macroramphosus scolopax	2
+Hyporhamphus sajori	2
+Crossorhombus sp.	2
+Budorcas taxicolor tibetana	2
+Rhinolophus lepidus	2
+Homo sapiens; sex: M; age: 18 Y	2
+Homo sapiens; sex: M; age: 23 Y	2
+Homo sapiens; sex: F; age: 30 Y	2
+Homo sapiens; sex: F; age: 18 Y	2
+Megaderma lyra	2
+Mytilus galloprovincialis	2
+Acinonyx jubatus	2
+Balaenoptera acutorostrata	2
+Capreolus capreolus	2
+Trachypithecus pileatus	2
+Hypothymis azurea	2
+Megaerops kusnotoi	2
+Homo sapiens 5 month old female	2
+Episoriculus leucops	2
+Volemys millicens	2
+Tylonycteris robustula	2
+Homo sapiens 8 month-old girl	2
+Apodemus flavicollis (yellow necked mouse)	2
+Homo sapiens 45 years old female	2
+Spilopelia chinensis	2
+Homo sapiens age 52 years	2
+Homo sapiens age 3 months	2
+Homo sapiens age 6 months	2
+Homo sapiens age 10 months	2
+Homo sapiens age 11 months	2
+Myotis adversus	1
+Myotis siligorensis	1
+Leopardus guttulus	1
+Gyps himalayensis	1
+Urocricetus kamensis	1
+Myotis ciliolabrum	1
+Episoriculus caudatus	1
+Crocidura suaveolens	1
+Uropsilus gracilis	1
+Dicentrarchus labrax	1
+Marmota sibirica	1
+Botrylloides leachii	1
+Cebus cuscinus	1
+Cricetulus longicaudatus	1
+Gadwall	1
+Pig	1
+Eumetopias jubatus (Steller sea lion)	1
+Eurasian tree sparrow	1
+Scotophilus dinganii; sex: male	1
+Praomys rostratus	1
+Mus setulosus	1
+Mastomys erythroleucus	1
+Lophuromys chrysopus	1
+Felis catus (domestic cat)	1
+Rhipicephalus sanguineus	1
+Niviventer confucianus	1
+Eothenomys miletus	1
+Niviventer huang	1
+Leopoldamys neilli	1
+Araneus ventricosus	1
+Helobdella robusta	1
+Gekko chinensis	1
+Hemidactylus frenatus	1
+Eolophus roseicapilla	1
+Alisterus scapularis	1
+Acalles camelus	1
+Ortmanniana pectorosa	1
+duck; breed: muscovy	1
+Mareca falcata	1
+Crocidura tanakae	1
+Oryctes sp.	1
+ticks	1
+Heteronotia binoei	1
+Pogonophryne immaculata	1
+Microgale brevicaudata; sex: male	1
+Rattus rattus; sex: male	1
+Aethomys hindei	1
+Miniopterus minor	1
+Rattus pyctoris	1
+Niviventer sp.	1
+Caracal caracal	1
+Eviota sp.	1
+Dascyllus reticulatus	1
+Chaetodon baronessa	1
+Plagiotremus tapeinosoma	1
+Chromis viridis	1
+Nyctalus plancyi; sex: female	1
+Nyctalus plancyi; sex: male	1
+Rhinolophus pusillus; sex: male	1
+Tylonycteris robustula; sex: male	1
+Betta splendens	1
+Peking duckling	1
+Woodworthia maculata	1
+Oligosoma aeneum	1
+duck; breed: Pekin	1
+racing pigeon	1
+Anguilla dieffenbachii	1
+Canis lupus familiaris; sex: female	1
+Hierococcyx sparverioides	1
+Gonidea angulata	1
+Araneae	1
+Oribatida	1
+Turdus dissimilis	1
+Bandicota savilei	1
+Vespertilio sinensis	1
+Phasianus colchicus	1
+ferret	1
+Typhlomys cinereus	1
+Hypsugo pulveratus	1
+Leopoldamys edwardsi	1
+Niviventer fulvescens	1
+Hipposideros pratti	1
+laying hens	1
+amur tiger	1
+Lamprologus kungweensis	1
+Petrochromis famula	1
+Neolamprologus brevis	1
+Enantiopus melanogenys	1
+Xenotilapia boulengeri	1
+Neolamprologus tetracanthus	1
+donkey	1
+Cynopterus sphinx	1
+Rhinolophus macrotis	1
+Ovibos moschatus	1
+Podarcis siculus; sex: female	1
+Tarentola mauritanica; sex: female	1
+Tarentola mauritanica; sex: male	1
+Canis lupus (wolf)	1
+Mustelidae	1
+Hystrix cristata (porcupine)	1
+rodent	1
+Hippocampus erectus	1
+goose embryo	1
+Blenniella sp.	1
+Capreolus capreolus (roe deer)	1
+Vulpes vulpes (red fox)	1
+Sichuan takin	1
+rhinos	1
+deer	1
+piglet	1
+landaise	1
+murine	1
+Corvus frugilegus	1
+Hirundo rustica	1
+Merops apiaster	1
+Hydroprogne caspia	1
+Porcine	1
+Strophurus ciliaris	1
+Manis javanica	1
+50-day-old Landes geese	1
+Miniopterus africanus	1
+Miniopterus natalensis	1
+home mice	1
+Spilopelia senegalensis	1
+Leersia hexandra	1
+Mus musculus; IFNAR KO	1
+Turdus philomelos	1
+chimpanzee	1
+Petroica macrocephala	1
+Zosterops lateralis	1
+Paradoxurus hermaphroditus	1
+Paguma larvata	1
+Myodes	1
+Hoary bamboo rat	1
+coypu	1
+masked palm civet	1
+pallas's squirrel	1
+hoary bamboo rat	1
+Eurasian red squirrel	1
+Tetragnatha nitens	1
+Culex tritaeniorhynchus	1
+Miniopterus gleni; UABBA 33031; male	1
+Miniopterus gleni; FMNH 221332; male	1
+Miniopterus gleni; FMNH 221331; male	1
+Miniopterus gleni; FMNH 221330; male	1
+Miniopterus gleni; UADBA 33027; male	1
+Macronycteris commersoni; UADBA 50272; female	1
+Macronycteris commersoni; UADBA 50270; female	1
+Macronycteris commersoni; FMNH 218012; female	1
+Mops leucostigma; female	1
+Mops leucostigma; male	1
+Chaerephon leucogaster; male	1
+Triaenops menamena; FMNH 218069; male	1
+Triaenops menamena; FMNH 218064; male	1
+Triaenops menamena; UADBA 50149; male	1
+Triaenops menamena; UADBA 50147; male	1
+Triaenops menamena; UADBA 50148; male	1
+Miniopterus sororculus; FMNH 218037; female	1
+Miniopterus sororculus; FMNH 218034; female	1
+Miniopterus sororculus; UADBA 50344; female	1
+Miniopterus mahafaliensis; FMNH 218028; male	1
+Miniopterus manavi; UADBA 33041; male	1
+Miniopterus manavi; UADBA 33039; male	1
+Miniopterus manavi; UADBA 33038; male	1
+Miniopterus manavi; UADBA 33036; male	1
+Miniopterus manavi; UADBA 33034; male	1
+Miniopterus manavi; UADBA 33033; male	1
+Miniopterus manavi; FMNH 221429; male	1
+Miniopterus manavi; FMNH 221428; male	1
+Miniopterus mahafaliensis; UADBA 50159; male	1
+Miniopterus mahafaliensis; FMNH 218040; male	1
+Miniopterus gleni; UADBA 50170; male	1
+Miniopterus gleni; UADBA 50174; male	1
+Miniopterus gleni; UADBA 50171; male	1
+feral pigeon	1
+white eye	1
+Eptesicus regulus	1
+Muscovy-duck	1
+Vespula vulgaris	1
+Rattus norvegicus (Norway rat)	1
+Odobenus rosmarus	1
+Zalophus californianus	1
+Nyctaus noctula	1
+Melanotaenia fluviatilis	1
+Leiopotherapon unicolor	1
+Neovison vison	1
+Desmodus rotundus	1
+Homo sapiens; 2 years 2 months old; female	1
+Homo sapiens; 2 years 6 months old; female	1
+Homo sapiens; 36 years old; female	1
+Homo sapiens; 2 years 5 months old; male	1
+Homo sapiens; 1 year 10 months old; male	1
+Homo sapiens; 2 years 3 months old; female	1
+Homo sapiens; 1 year 11 months old; female	1
+Homo sapiens; 1 year 5 months old; female	1
+Homo sapiens; 1 year 3 months old; male	1
+Homo sapiens; 1 year 3 months old; female	1
+Homo sapiens; 5 months old; female	1
+Homo sapiens; 1 year old; male	1
+Homo sapiens; 1 year old; female	1
+Homo sapiens; 7 months old; female	1
+Homo sapiens; 11 months old; male	1
+Chelidonichthys cuculus	1
+Zeus faber	1
+Platycephalus richardsoni	1
+Helicolenus barathri	1
+Rattus annandalei	1
+Mus musculus castaneus	1
+Callosciurus notatus	1
+Sus Scrofa	1
+Bubalus bubalis	1
+us musculus	1
+Mus musculus; Rag2-/-Il2rg-/- genotype	1
+Tadarida brasiliensis bat	1
+Pan troglodytes (chimpanzee)	1
+Solanum melongena L.	1
+grey squirrel	1
+Bos taurus breed Marchigiana	1
+white-tailed deer	1
+Macroglossus sobrinus	1
+Rhinosciurus laticaudatus	1
+Sundamys infraluteus	1
+Balionycteris maculata	1
+Arenaria interpres	1
+Accipiter nisus (Eurasian sparrowhawk)	1
+Acerodon celebensis	1
+Crocidura sp.	1
+Sorex sp.	1
+Artibeus lituratus	1
+Anoura caudifer	1
+Myonycteris angolensis	1
+Nycteris hispida	1
+Malacomys longipes	1
+Hylomyscus stella	1
+Bandicota bengalensis	1
+Homo sapiens 4-year-old boy	1
+Cricetomys gambianus	1
+broiler chicken	1
+Amur tiger	1
+Malacorhynchus membranaceus	1
+Calidris ruficollis	1
+Steer	1
+gosling	1
+Homo sapiens; female	1
+Mus musculus; CD1 Nude	1
+Canine lupus familaris	1
+Homo sapiens; sex:F; age:63	1
+Homo sapiens; sex:F; age:1	1
+Homo sapiens; sex:F; age:27	1
+Homo sapiens; sex: M; age:63	1
+Homo sapiens; sex: F; age: 13 months	1
+Homo sapiens; sex: M; age: 1 months	1
+Homo sapiens; sex: M; age: 7 months	1
+Homo sapiens; sex: M; age: 17 months	1
+Homo sapiens; sex: F; age: 1 months	1
+Homo sapiens; sex: F; age: 14 M	1
+Hybomys univittatus	1
+Pheasant	1
+Hyporhamphus australis	1
+Scorpaena jacksoniensis	1
+Pseudorhombus arsius	1
+Tscherskia triton	1
+Bandicota indica	1
+Microtus fortis	1
+Neodon clarkei	1
+Apodemus peninsulae	1
+Cricetulus barabensis	1
+Rattus tanezumi sladeni	1
+Lasiopodomys gregalis	1
+Meriones meridianus	1
+Homo sapiens; sex: M; age: 22 months	1
+Sylvirana guentheri	1
+Myrrophis chinensis	1
+Pleuronichthys japonicus	1
+Echelus uropterus	1
+Sardinella lemuru	1
+Gonorynchus abbreviatus	1
+Tropidophorus sinicus	1
+Gekko similignum	1
+Teratoscincus roborowskii	1
+Leptobrachium hainanense	1
+Hime japonica	1
+Hemitriakis japanica	1
+Calotes versicolor	1
+Minous monodactylus	1
+Parapercis lutevittata	1
+Arnoglossus sp.	1
+Plagiopsetta sp.	1
+Pachytriton brevipes	1
+Hyla simplex	1
+Duttaphrynus melanostictus	1
+Pterygotrigla hemisticta	1
+Lepidotrigla sp.	1
+Cynoglossus sp.	1
+Dasyatis akajei	1
+Cephalopholis spiloparaea	1
+Banjos banjos	1
+Homo sapiens; sex: M; age: 8 months	1
+Cerdocyon thous	1
+Miniopterus mossambicus	1
+Eptesicus serotinus	1
+Barbastella barbastellus	1
+Myotis myotis/blythii	1
+commercial broiler chicken	1
+Lande geese	1
+Rhinolophus rouxii	1
+Beijing duck	1
+Anous tenuirostris	1
+Tadarida brasiliensis	1
+Homo sapiens; sex: M; age: 4 Y	1
+Gorilla gorilla gorilla	1
+ovine	1
+Miniopterus griveaudi; FMNH 228875	1
+Triaenops menamena; UADBA SMG18885	1
+Triaenops menamena; UADBA SMG18884	1
+Triaenops menamena; UADBA SMG18883	1
+Triaenops menamena; FMNH 228864	1
+Triaenops menamena; FMNH 228863	1
+Triaenops menamena; FMNH 228860	1
+Rousettus madagascariensis; UADBA SMG18921	1
+Rousettus madagascariensis; FMNH 228826	1
+Paratriaenops furculus; UADBA SMG18902	1
+Paratriaenops furculus; UADBA SMG18894	1
+Paratriaenops furculus; UADBA SMG18892	1
+Paratriaenops furculus; UADBA SMG18890	1
+Paratriaenops furculus; UADBA SMG18888	1
+Paratriaenops furculus; UADBA SMG18886	1
+Paratriaenops furculus; FMNH 228851	1
+Paratriaenops furculus; FMNH 228848	1
+Paratriaenops furculus; FMNH 228844	1
+Myotis goudoti; UADBA SMG18920	1
+Myotis goudoti; FMNH 228866	1
+Myotis goudoti; FMNH 229045	1
+Miniopterus griveaudi; UADBA SMG18905	1
+Miniopterus griveaudi; UADBA SMG18874	1
+Miniopterus griveaudi; UADBA SMG18853	1
+Miniopterus griveaudi; FMNH 228882	1
+Miniopterus griveaudi; FMNH 228881	1
+Miniopterus griveaudi; FMNH 228878	1
+Miniopterus griveaudi; FMNH 228876	1
+Miniopterus griveaudi; FMNH 228874	1
+Miniopterus griveaudi; FMNH 228872	1
+Miniopterus griveaudi; FMNH 228870	1
+Canis lupus familaris	1
+lamb	1
+Macaca leonina	1
+Hylopetes sp.	1
+Leopoldamys sabanus	1
+turkey; young poult presenting PEMS	1
+Orcinus orca	1
+Myotis longipes	1
+Hylobatidae	1
+Papio anubis	1
+Chlorocebus pygerythrus	1
+Papio hamadryas	1
+Hoolock hoolock	1
+Pipistrellus nathusii;Pipistrellus pygmaeus	1
+Rhinolophus hipposideros	1
+Myotis mystacinus	1
+Ma duck	1
+Pekin duckling	1
+shorebird	1
+Homo sapiens 62 year old female	1
+Homo sapiens 1 year 6 month old female	1
+Homo sapiens 2 year old male	1
+Homo sapiens 6 year old male	1
+Homo sapiens 1 year 6 month old male	1
+Homo sapiens 9 month old male	1
+Homo sapiens 10 month female	1
+Homo sapiens 10 year old female	1
+Homo sapiens 1 year 6 month old male child	1
+Pygoscelis adeliae	1
+Homo sapiens 62 year old lady	1
+Homo sapiens 6 year old boy	1
+Homo sapiens 5 month old girl	1
+Homo sapiens 9 month old boy	1
+Homo sapiens 10 year old girl	1
+Homo sapiens one and half year old boy	1
+Homo sapiens 1 year old boy	1
+Pipistrellus pygmaeus	1
+Hipposideros cineraceus	1
+Homo sapiens 34 month-old girl	1
+Homo sapiens 36 month-old girl	1
+Homo sapiens 23 month-old boy	1
+Homo sapiens 24 month-old girl	1
+Homo sapiens 10 month-old girl	1
+Homo sapiens 11 month-old girl	1
+Homo sapiens 12 month-old girl	1
+Homo sapiens under 5 years old	1
+Homo sapiens 5 month-old boy	1
+Meleagris gallopavo; female	1
+Homo sapiens, 24 months old femail	1
+Homo sapiens 1 months old male	1
+Homo sapiens 16 months old male	1
+Homo sapiens 5 months old female	1
+puppy	1
+Tringa nebularia	1
+Platalea minor	1
+Dendrocygna javanica	1
+domestic sheep	1
+Homo sapiens age 57 years	1
+Homo sapiens age 69 years	1
+Homo sapiens age 80 years	1
+Homo sapiens age 85 years	1
+Homo sapiens age 16 months	1
+Homo sapiens age 14 months	1
+Homo sapiens age 25 months	1
+Wood pigeon	1
