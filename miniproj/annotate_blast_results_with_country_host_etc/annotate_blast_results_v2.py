@@ -62,7 +62,7 @@ def main():
     args = parse_args()
 
     diamond = pd.read_csv(args.diamond, sep="\t")
-    meta = pd.read_csv(args.metadata, sep=",", low_memory=False)
+    meta = pd.read_excel(args.metadata)
 
     diamond["Sample"] = diamond["qseqid"].apply(lambda x: x.split("|")[0])
     diamond["Profile"] = diamond["qseqid"].apply(

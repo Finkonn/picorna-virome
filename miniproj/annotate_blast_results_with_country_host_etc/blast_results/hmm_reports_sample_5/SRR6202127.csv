@@ -1,0 +1,6 @@
+,Query,Name,Score,From,To,Taxon,Threshold,Positive terms,Score_ratio,Lengh,Frame,Length_contig
+0,vHMM_13728,k119_2,12.753642,239,197,Tremovirus,5.5,polyprotein,2.318844,302,5,302
+1,vHMM_13354,k119_10,8.05174,296,266,Hepatovirus,12.1,polyprotein,0.6654330578512397,509,5,509
+2,vHMM_13254,k119_15,6.8566456,21,33,Bopivirus,11.6,polyprotein,0.5910901379310345,203,3,203
+3,vHMM_13254,k119_15,6.8566456,105,117,Bopivirus,11.6,polyprotein,0.5910901379310345,203,3,203
+4,vHMM_13254,k119_15,6.8566456,189,201,Bopivirus,11.6,polyprotein,0.5910901379310345,203,3,203
