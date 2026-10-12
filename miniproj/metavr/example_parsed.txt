@@ -1,0 +1,4365 @@
+[<html lang="en">
+ <head>
+ <meta charset="utf-8"/>
+ <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+ <title>MetaVR</title>
+ <!-- Bootstrap CSS -->
+ <link href="/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/>
+ <!-- Your site styles -->
+ <link href="/css/site.css?v=XFWQps7g3LDiQsXzgPRQOgLDxmQ0SMg20uGbXWieCPk" rel="stylesheet"/>
+ <link href="/MetaVR.styles.css?v=zBrVZYP8DZgoCgUs9mY5_bC9yX0UriBnW-Q0P-OlIkM" rel="stylesheet"/>
+ <!-- DataTables CSS (correct path) -->
+ <link href="/DataTables/datatables.css" rel="stylesheet"/>
+ <link href="/images/favicon.ico" rel="icon" type="image/x-icon"/>
+ </head>
+ <body>
+ <header b-64f2xrsiw0="">
+ <nav b-64f2xrsiw0="" class="navbar navbar-expand-sm navbar-dark custom-navbar">
+ <div b-64f2xrsiw0="" class="container-fluid">
+ <!-- Logo + Brand -->
+ <a b-64f2xrsiw0="" class="navbar-brand d-flex align-items-center" href="/">
+ <img alt="Logo" b-64f2xrsiw0="" class="logo-img" src="/images/logoFull.png"/>
+ </a>
+ <!-- Navbar Toggler for mobile -->
+ <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" b-64f2xrsiw0="" class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse" type="button">
+ <span b-64f2xrsiw0="" class="navbar-toggler-icon"></span>
+ </button>
+ <!-- Nav Links -->
+ <div b-64f2xrsiw0="" class="collapse navbar-collapse" id="navbarNav">
+ <ul b-64f2xrsiw0="" class="navbar-nav">
+ <li b-64f2xrsiw0="" class="nav-item dropdown">
+ <a b-64f2xrsiw0="" class="nav-link browse-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="browseDropdown">
+                                 Browse
+                             </a>
+ <ul aria-labelledby="browseDropdown" b-64f2xrsiw0="" class="dropdown-menu">
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-uvigs" href="/Uvigs">UViGs</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-votus" href="/Votus">vOTUs</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-pclusters" href="/Clusters">Protein clusters</a>
+ </li>
+ </ul>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item dropdown">
+ <a b-64f2xrsiw0="" class="nav-link browse-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="exploreDropdown">
+                                 Explore
+                             </a>
+ <ul aria-labelledby="exploreDropdown" b-64f2xrsiw0="" class="dropdown-menu">
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-phosts" href="/PredictedHosts">Predicted Hosts</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-vtaxonomy" href="/ViralTaxonomy">Viral Taxonomy</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-vtaxonomy" href="/EcosystemHierarchy">Ecosystem</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-geolocation" href="/GeoLocation">Geolocation</a>
+ </li>
+ </ul>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item">
+ <a class="nav-link" href="/QueryBuilder">Advanced Queries</a>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item dropdown">
+ <a b-64f2xrsiw0="" class="nav-link browse-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="toolsDropdown">
+                                 Search
+                             </a>
+ <ul aria-labelledby="browseDropdown" b-64f2xrsiw0="" class="dropdown-menu">
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-blast" href="/Blast">Nucleotide search</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-diamond" href="/Diamond">Protein search</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-reseek" href="/Reseek">Structure search</a>
+ </li>
+ </ul>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item">
+ <a class="nav-link" href="/Downloads">Downloads</a>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item">
+ <a b-64f2xrsiw0="" class="nav-link" href="https://meta-virome.org/api/" target="_blank">API</a>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item">
+ <a class="nav-link" href="/Statistics">Statistics</a>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item">
+ <a class="nav-link" href="/About">About</a>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item">
+ <a class="nav-link" href="/Help">Help</a>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item">
+ <a class="nav-link" href="/Contact">Contact</a>
+ </li>
+ </ul>
+ </div>
+ </div>
+ </nav>
+ </header>
+ <div b-64f2xrsiw0="" class="">
+ <main b-64f2xrsiw0="" class="pb-3" role="main">
+ <h2 class="meta-data-title">3300050632 Metadata</h2>
+ <div class="meta-data-section-grid">
+ <div class="meta-data-table-wrapper" style="margin-bottom: 24px;">
+ <h4 class="uvig-section-subtitle">General</h4>
+ <table class="meta-data-table">
+ <tbody>
+ <tr>
+ <td>Taxon Oid</td>
+ <td>
+ <a class="link-element" href="https://img.jgi.doe.gov/cgi-bin/m/main.cgi?section=TaxonDetail&amp;page=taxonDetail&amp;taxon_oid=3300050632" target="_blank">
+                                             3300050632
+                                         </a>
+ </td>
+ </tr>
+ <tr>
+ <td>Ncbi Domain</td>
+ <td>*Microbiome</td>
+ </tr>
+ <tr>
+ <td>Sequencing Status</td>
+ <td>Permanent Draft</td>
+ </tr>
+ <tr>
+ <td>Study Name</td>
+ <td>Peatland microbial communities from Stordalen Mire, Sweden</td>
+ </tr>
+ <tr>
+ <td>Genome Name Sample Name</td>
+ <td>Metatranscriptome of peat soil microbial communities from Stordalen Mire, Sweden - 719 S1 1-5 (Metagenome Metatranscriptome)</td>
+ </tr>
+ <tr>
+ <td>Img Genome Id</td>
+ <td>3300050632</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ <div class="meta-data-table-wrapper" style="margin-bottom: 24px;">
+ <h4 class="uvig-section-subtitle">Taxonomy</h4>
+ <table class="meta-data-table">
+ <tbody>
+ <tr>
+ <td>Ncbi Phylum</td>
+ <td>Environmental</td>
+ </tr>
+ <tr>
+ <td>Ncbi Class</td>
+ <td>Terrestrial</td>
+ </tr>
+ <tr>
+ <td>Ncbi Order</td>
+ <td>Soil</td>
+ </tr>
+ <tr>
+ <td>Ncbi Family</td>
+ <td>Peat</td>
+ </tr>
+ <tr>
+ <td>Ncbi Genus</td>
+ <td>Mire</td>
+ </tr>
+ <tr>
+ <td>Ncbi Species</td>
+ <td>Peatland microbial communities from Stordalen Mire, Sweden</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ <div class="meta-data-table-wrapper" style="margin-bottom: 24px;">
+ <h4 class="uvig-section-subtitle">Project / Publication</h4>
+ <table class="meta-data-table">
+ <tbody>
+ <tr>
+ <td>Gold Analysis Project Id</td>
+ <td>
+ <a class="link-element" href="https://gold.jgi.doe.gov/analysis_projects?id=Ga0509058" target="_blank">
+                                             Ga0509058
+                                         </a>
+ </td>
+ </tr>
+ <tr>
+ <td>Gold Sequencing Project Id</td>
+ <td>
+ <a class="link-element" href="https://gold.jgi.doe.gov/projects?id=Gp0596342" target="_blank">
+                                             Gp0596342
+                                         </a>
+ </td>
+ </tr>
+ <tr>
+ <td>Gold Study Id</td>
+ <td>
+ <a class="link-element" href="https://gold.jgi.doe.gov/study?id=Gs0131983" target="_blank">
+                                             Gs0131983
+                                         </a>
+ </td>
+ </tr>
+ <tr>
+ <td>Is Published</td>
+ <td>0</td>
+ </tr>
+ <tr>
+ <td>Add Date</td>
+ <td>03/09/2022</td>
+ </tr>
+ <tr>
+ <td>Public Release Date</td>
+ <td>03/02/2024</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ <div class="meta-data-table-wrapper" style="margin-bottom: 24px;">
+ <h4 class="uvig-section-subtitle">Environment / Ecosystem</h4>
+ <table class="meta-data-table">
+ <tbody>
+ <tr>
+ <td>Ecosystem</td>
+ <td>Environmental</td>
+ </tr>
+ <tr>
+ <td>Ecosystem Category</td>
+ <td>Terrestrial</td>
+ </tr>
+ <tr>
+ <td>Ecosystem Subtype</td>
+ <td>Peat</td>
+ </tr>
+ <tr>
+ <td>Ecosystem Type</td>
+ <td>Soil</td>
+ </tr>
+ <tr>
+ <td>Specific Ecosystem</td>
+ <td>Mire</td>
+ </tr>
+ <tr>
+ <td>Habitat</td>
+ <td>Peat soil</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ <div class="meta-data-table-wrapper" style="margin-bottom: 24px;">
+ <h4 class="uvig-section-subtitle">Sampling / Conditions</h4>
+ <table class="meta-data-table">
+ <tbody>
+ <tr>
+ <td>Geographic Location</td>
+ <td>Sweden: Norrbotten County, Stordalen Mire</td>
+ </tr>
+ <tr>
+ <td>Isolation Country</td>
+ <td>8843</td>
+ </tr>
+ <tr>
+ <td>Latitude</td>
+ <td>68.3532867</td>
+ </tr>
+ <tr>
+ <td>Longitude</td>
+ <td>19.0474583</td>
+ </tr>
+ <tr>
+ <td>Sample Collection Date</td>
+ <td>2019/7/20</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ <div class="meta-data-table-wrapper" style="margin-bottom: 24px;">
+ <h4 class="uvig-section-subtitle">Assembly</h4>
+ <table class="meta-data-table">
+ <tbody>
+ <tr>
+ <td>Genome Size Assembled</td>
+ <td>231877407</td>
+ </tr>
+ <tr>
+ <td>Gene Count Assembled</td>
+ <td>531704</td>
+ </tr>
+ <tr>
+ <td>Sequencing Strategy</td>
+ <td>Metatranscriptome</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ <div class="meta-data-table-wrapper" style="margin-bottom: 24px;">
+ <h4 class="uvig-section-subtitle">Other Metadata</h4>
+ <table class="meta-data-table">
+ <tbody>
+ <tr>
+ <td>Alt2 Contact Emails</td>
+ <td><a class="__cf_email__" data-cfemail="b0c3d1dcd5c3dbd1f0d5ddd1d9dc9ed1c2d9cadfded19ed5d4c5" href="/cdn-cgi/l/email-protection">[email protected]</a>; <a class="__cf_email__" data-cfemail="2d5f444e45031f1a1d6d425e5803484958" href="/cdn-cgi/l/email-protection">[email protected]</a></td>
+ </tr>
+ <tr>
+ <td>Alt2 Contact Names</td>
+ <td>Scott Saleska; Virginia Rich</td>
+ </tr>
+ <tr>
+ <td>Assembly Method</td>
+ <td>MEGAHIT v. 1.2.9</td>
+ </tr>
+ <tr>
+ <td>Award Doi</td>
+ <td>10.46936/10.25585/60001148</td>
+ </tr>
+ <tr>
+ <td>Comments</td>
+ <td>released based on JGI ITS</td>
+ </tr>
+ <tr>
+ <td>Contact Email</td>
+ <td><a class="__cf_email__" data-cfemail="7b081a171e08101a3b1e161a1217551a09120114151a551e1f0e" href="/cdn-cgi/l/email-protection">[email protected]</a></td>
+ </tr>
+ <tr>
+ <td>Contact Name</td>
+ <td>Scott Saleska</td>
+ </tr>
+ <tr>
+ <td>Crispr Arrays Assembled</td>
+ <td>173</td>
+ </tr>
+ <tr>
+ <td>Cultured</td>
+ <td>0</td>
+ </tr>
+ <tr>
+ <td>Depth In Meters</td>
+ <td>0.000000</td>
+ </tr>
+ <tr>
+ <td>Elevation In Meters</td>
+ <td>0.000000</td>
+ </tr>
+ <tr>
+ <td>Estimated Average Genome Size Assembled</td>
+ <td>0</td>
+ </tr>
+ <tr>
+ <td>Estimated Number Of Genomes Assembled</td>
+ <td>0</td>
+ </tr>
+ <tr>
+ <td>Funding Program</td>
+ <td>BERSS</td>
+ </tr>
+ <tr>
+ <td>Funding Year</td>
+ <td>2017</td>
+ </tr>
+ <tr>
+ <td>Gold Analysis Project Type</td>
+ <td>Metatranscriptome Analysis</td>
+ </tr>
+ <tr>
+ <td>Has Coverage</td>
+ <td>1</td>
+ </tr>
+ <tr>
+ <td>Id</td>
+ <td>78437</td>
+ </tr>
+ <tr>
+ <td>Img Release Pipeline Version</td>
+ <td>IMG Annotation Pipeline v.5.1.4</td>
+ </tr>
+ <tr>
+ <td>Img Submission Id</td>
+ <td>264255</td>
+ </tr>
+ <tr>
+ <td>In File</td>
+ <td>Yes</td>
+ </tr>
+ <tr>
+ <td>Is Public</td>
+ <td>Yes</td>
+ </tr>
+ <tr>
+ <td>Isolation</td>
+ <td>Permafrost peat</td>
+ </tr>
+ <tr>
+ <td>Metabat Bin Status</td>
+ <td>no binning for Metatranscriptome Analysis</td>
+ </tr>
+ <tr>
+ <td>Pct Assembled Reads Assembled</td>
+ <td>76.26</td>
+ </tr>
+ <tr>
+ <td>Rnd Project</td>
+ <td>1</td>
+ </tr>
+ <tr>
+ <td>Scaffold Count Assembled</td>
+ <td>451901</td>
+ </tr>
+ <tr>
+ <td>Sequencing Center</td>
+ <td>DOE Joint Genome Institute  (JGI)</td>
+ </tr>
+ <tr>
+ <td>Sequencing Method</td>
+ <td>Illumina NovaSeq S4</td>
+ </tr>
+ <tr>
+ <td>Submission Type</td>
+ <td>Primary</td>
+ </tr>
+ <tr>
+ <td>Submitter Name</td>
+ <td>Scott Saleska</td>
+ </tr>
+ <tr>
+ <td>Unnamed 0</td>
+ <td>18628</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ <div class="meta-data-table-wrapper" style="margin-bottom: 24px;">
+ <h4 class="uvig-section-subtitle">External Links</h4>
+ <table class="meta-data-table">
+ <thead>
+ <tr>
+ <td style="font-weight:600;color:#4b3b78;">Resource</td>
+ <td style="font-weight:600;color:#4b3b78;">Link</td>
+ </tr>
+ </thead>
+ <tbody>
+ <tr>
+ <td>IMG Taxon Detail</td>
+ <td>
+ <a class="link-element" href="https://img.jgi.doe.gov/cgi-bin/m/main.cgi?section=TaxonDetail&amp;page=taxonDetail&amp;taxon_oid=3300050632" rel="noopener" target="_blank">
+                                         3300050632
+                                     </a>
+ </td>
+ </tr>
+ <tr>
+ <td>GOLD Analysis Project</td>
+ <td>
+ <a class="link-element" href="https://gold.jgi.doe.gov/analysis_projects?id=Ga0509058" rel="noopener" target="_blank">
+                                         Ga0509058
+                                     </a>
+ </td>
+ </tr>
+ <tr>
+ <td>GOLD Study</td>
+ <td>
+ <a class="link-element" href="https://gold.jgi.doe.gov/study?id=Gs0131983" rel="noopener" target="_blank">
+                                         Gs0131983
+                                     </a>
+ </td>
+ </tr>
+ <tr>
+ <td>GOLD Sequencing Project</td>
+ <td>
+ <a class="link-element" href="https://gold.jgi.doe.gov/projects?id=Gp0596342" rel="noopener" target="_blank">
+                                         Gp0596342
+                                     </a>
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ </div>
+ <button id="backToTopBtn" title="Back to Top">↑</button>
+ <div id="mapArea">
+ <div id="map" style="height: 400px; width: 100%;"></div>
+ <a class="button-1 map-button" href="https://www.google.com/maps?q=68.3532867,19.0474583" target="_blank">
+         View on Google Maps
+     </a>
+ </div>
+ </main>
+ </div>
+ <footer b-64f2xrsiw0="" class="border-top footer text-muted">
+ <div b-64f2xrsiw0="" class="">
+             © <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(/\d{4}/.exec(Date())[0])</script> - MetaVR 
+             <a class="link-element hidden" href="/Privacy">Privacy</a>
+ </div>
+ </footer>
+ <!-- jQuery -->
+ <script src="/lib/jquery/dist/jquery.min.js"></script>
+ <!-- Bootstrap JS -->
+ <script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+ <!-- DataTables JS -->
+ <script src="/DataTables/datatables.js"></script>
+ <!-- site scripts -->
+ <script src="/js/site.js?v=x_-BJwe_Jnr0Nh9h-J_aPkuUkw-Wuw7bnijhHBkBoIU"></script>
+ <link href="https://unpkg.com/leaflet/dist/leaflet.css" rel="stylesheet"/>
+ <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+ <script>
+         var lat = parseFloat('68.3532867');
+         var lon = parseFloat('19.0474583');
+ 
+         if (!isNaN(lat) && !isNaN(lon)) {
+             var map = L.map('map').setView([lat, lon], 13);
+ 
+             L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                 maxZoom: 19,
+                 attribution: '© OpenStreetMap contributors'
+             }).addTo(map);
+ 
+             L.marker([lat, lon]).addTo(map)
+                 .bindPopup('Location: ' + lat + ', ' + lon)
+                 .openPopup();
+         } else {
+             document.getElementById('mapArea').style.display = 'none';
+         }
+     </script>
+ <script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a494fa2708935015',t:'MTc5MTc5NjI4Ng=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+ </html>,
+ <head>
+ <meta charset="utf-8"/>
+ <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+ <title>MetaVR</title>
+ <!-- Bootstrap CSS -->
+ <link href="/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/>
+ <!-- Your site styles -->
+ <link href="/css/site.css?v=XFWQps7g3LDiQsXzgPRQOgLDxmQ0SMg20uGbXWieCPk" rel="stylesheet"/>
+ <link href="/MetaVR.styles.css?v=zBrVZYP8DZgoCgUs9mY5_bC9yX0UriBnW-Q0P-OlIkM" rel="stylesheet"/>
+ <!-- DataTables CSS (correct path) -->
+ <link href="/DataTables/datatables.css" rel="stylesheet"/>
+ <link href="/images/favicon.ico" rel="icon" type="image/x-icon"/>
+ </head>,
+ <meta charset="utf-8"/>,
+ <meta content="width=device-width, initial-scale=1.0" name="viewport"/>,
+ <title>MetaVR</title>,
+ <link href="/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/>,
+ <link href="/css/site.css?v=XFWQps7g3LDiQsXzgPRQOgLDxmQ0SMg20uGbXWieCPk" rel="stylesheet"/>,
+ <link href="/MetaVR.styles.css?v=zBrVZYP8DZgoCgUs9mY5_bC9yX0UriBnW-Q0P-OlIkM" rel="stylesheet"/>,
+ <link href="/DataTables/datatables.css" rel="stylesheet"/>,
+ <link href="/images/favicon.ico" rel="icon" type="image/x-icon"/>,
+ <body>
+ <header b-64f2xrsiw0="">
+ <nav b-64f2xrsiw0="" class="navbar navbar-expand-sm navbar-dark custom-navbar">
+ <div b-64f2xrsiw0="" class="container-fluid">
+ <!-- Logo + Brand -->
+ <a b-64f2xrsiw0="" class="navbar-brand d-flex align-items-center" href="/">
+ <img alt="Logo" b-64f2xrsiw0="" class="logo-img" src="/images/logoFull.png"/>
+ </a>
+ <!-- Navbar Toggler for mobile -->
+ <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" b-64f2xrsiw0="" class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse" type="button">
+ <span b-64f2xrsiw0="" class="navbar-toggler-icon"></span>
+ </button>
+ <!-- Nav Links -->
+ <div b-64f2xrsiw0="" class="collapse navbar-collapse" id="navbarNav">
+ <ul b-64f2xrsiw0="" class="navbar-nav">
+ <li b-64f2xrsiw0="" class="nav-item dropdown">
+ <a b-64f2xrsiw0="" class="nav-link browse-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="browseDropdown">
+                                 Browse
+                             </a>
+ <ul aria-labelledby="browseDropdown" b-64f2xrsiw0="" class="dropdown-menu">
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-uvigs" href="/Uvigs">UViGs</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-votus" href="/Votus">vOTUs</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-pclusters" href="/Clusters">Protein clusters</a>
+ </li>
+ </ul>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item dropdown">
+ <a b-64f2xrsiw0="" class="nav-link browse-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="exploreDropdown">
+                                 Explore
+                             </a>
+ <ul aria-labelledby="exploreDropdown" b-64f2xrsiw0="" class="dropdown-menu">
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-phosts" href="/PredictedHosts">Predicted Hosts</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-vtaxonomy" href="/ViralTaxonomy">Viral Taxonomy</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-vtaxonomy" href="/EcosystemHierarchy">Ecosystem</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-geolocation" href="/GeoLocation">Geolocation</a>
+ </li>
+ </ul>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item">
+ <a class="nav-link" href="/QueryBuilder">Advanced Queries</a>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item dropdown">
+ <a b-64f2xrsiw0="" class="nav-link browse-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="toolsDropdown">
+                                 Search
+                             </a>
+ <ul aria-labelledby="browseDropdown" b-64f2xrsiw0="" class="dropdown-menu">
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-blast" href="/Blast">Nucleotide search</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-diamond" href="/Diamond">Protein search</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-reseek" href="/Reseek">Structure search</a>
+ </li>
+ </ul>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item">
+ <a class="nav-link" href="/Downloads">Downloads</a>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item">
+ <a b-64f2xrsiw0="" class="nav-link" href="https://meta-virome.org/api/" target="_blank">API</a>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item">
+ <a class="nav-link" href="/Statistics">Statistics</a>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item">
+ <a class="nav-link" href="/About">About</a>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item">
+ <a class="nav-link" href="/Help">Help</a>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item">
+ <a class="nav-link" href="/Contact">Contact</a>
+ </li>
+ </ul>
+ </div>
+ </div>
+ </nav>
+ </header>
+ <div b-64f2xrsiw0="" class="">
+ <main b-64f2xrsiw0="" class="pb-3" role="main">
+ <h2 class="meta-data-title">3300050632 Metadata</h2>
+ <div class="meta-data-section-grid">
+ <div class="meta-data-table-wrapper" style="margin-bottom: 24px;">
+ <h4 class="uvig-section-subtitle">General</h4>
+ <table class="meta-data-table">
+ <tbody>
+ <tr>
+ <td>Taxon Oid</td>
+ <td>
+ <a class="link-element" href="https://img.jgi.doe.gov/cgi-bin/m/main.cgi?section=TaxonDetail&amp;page=taxonDetail&amp;taxon_oid=3300050632" target="_blank">
+                                             3300050632
+                                         </a>
+ </td>
+ </tr>
+ <tr>
+ <td>Ncbi Domain</td>
+ <td>*Microbiome</td>
+ </tr>
+ <tr>
+ <td>Sequencing Status</td>
+ <td>Permanent Draft</td>
+ </tr>
+ <tr>
+ <td>Study Name</td>
+ <td>Peatland microbial communities from Stordalen Mire, Sweden</td>
+ </tr>
+ <tr>
+ <td>Genome Name Sample Name</td>
+ <td>Metatranscriptome of peat soil microbial communities from Stordalen Mire, Sweden - 719 S1 1-5 (Metagenome Metatranscriptome)</td>
+ </tr>
+ <tr>
+ <td>Img Genome Id</td>
+ <td>3300050632</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ <div class="meta-data-table-wrapper" style="margin-bottom: 24px;">
+ <h4 class="uvig-section-subtitle">Taxonomy</h4>
+ <table class="meta-data-table">
+ <tbody>
+ <tr>
+ <td>Ncbi Phylum</td>
+ <td>Environmental</td>
+ </tr>
+ <tr>
+ <td>Ncbi Class</td>
+ <td>Terrestrial</td>
+ </tr>
+ <tr>
+ <td>Ncbi Order</td>
+ <td>Soil</td>
+ </tr>
+ <tr>
+ <td>Ncbi Family</td>
+ <td>Peat</td>
+ </tr>
+ <tr>
+ <td>Ncbi Genus</td>
+ <td>Mire</td>
+ </tr>
+ <tr>
+ <td>Ncbi Species</td>
+ <td>Peatland microbial communities from Stordalen Mire, Sweden</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ <div class="meta-data-table-wrapper" style="margin-bottom: 24px;">
+ <h4 class="uvig-section-subtitle">Project / Publication</h4>
+ <table class="meta-data-table">
+ <tbody>
+ <tr>
+ <td>Gold Analysis Project Id</td>
+ <td>
+ <a class="link-element" href="https://gold.jgi.doe.gov/analysis_projects?id=Ga0509058" target="_blank">
+                                             Ga0509058
+                                         </a>
+ </td>
+ </tr>
+ <tr>
+ <td>Gold Sequencing Project Id</td>
+ <td>
+ <a class="link-element" href="https://gold.jgi.doe.gov/projects?id=Gp0596342" target="_blank">
+                                             Gp0596342
+                                         </a>
+ </td>
+ </tr>
+ <tr>
+ <td>Gold Study Id</td>
+ <td>
+ <a class="link-element" href="https://gold.jgi.doe.gov/study?id=Gs0131983" target="_blank">
+                                             Gs0131983
+                                         </a>
+ </td>
+ </tr>
+ <tr>
+ <td>Is Published</td>
+ <td>0</td>
+ </tr>
+ <tr>
+ <td>Add Date</td>
+ <td>03/09/2022</td>
+ </tr>
+ <tr>
+ <td>Public Release Date</td>
+ <td>03/02/2024</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ <div class="meta-data-table-wrapper" style="margin-bottom: 24px;">
+ <h4 class="uvig-section-subtitle">Environment / Ecosystem</h4>
+ <table class="meta-data-table">
+ <tbody>
+ <tr>
+ <td>Ecosystem</td>
+ <td>Environmental</td>
+ </tr>
+ <tr>
+ <td>Ecosystem Category</td>
+ <td>Terrestrial</td>
+ </tr>
+ <tr>
+ <td>Ecosystem Subtype</td>
+ <td>Peat</td>
+ </tr>
+ <tr>
+ <td>Ecosystem Type</td>
+ <td>Soil</td>
+ </tr>
+ <tr>
+ <td>Specific Ecosystem</td>
+ <td>Mire</td>
+ </tr>
+ <tr>
+ <td>Habitat</td>
+ <td>Peat soil</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ <div class="meta-data-table-wrapper" style="margin-bottom: 24px;">
+ <h4 class="uvig-section-subtitle">Sampling / Conditions</h4>
+ <table class="meta-data-table">
+ <tbody>
+ <tr>
+ <td>Geographic Location</td>
+ <td>Sweden: Norrbotten County, Stordalen Mire</td>
+ </tr>
+ <tr>
+ <td>Isolation Country</td>
+ <td>8843</td>
+ </tr>
+ <tr>
+ <td>Latitude</td>
+ <td>68.3532867</td>
+ </tr>
+ <tr>
+ <td>Longitude</td>
+ <td>19.0474583</td>
+ </tr>
+ <tr>
+ <td>Sample Collection Date</td>
+ <td>2019/7/20</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ <div class="meta-data-table-wrapper" style="margin-bottom: 24px;">
+ <h4 class="uvig-section-subtitle">Assembly</h4>
+ <table class="meta-data-table">
+ <tbody>
+ <tr>
+ <td>Genome Size Assembled</td>
+ <td>231877407</td>
+ </tr>
+ <tr>
+ <td>Gene Count Assembled</td>
+ <td>531704</td>
+ </tr>
+ <tr>
+ <td>Sequencing Strategy</td>
+ <td>Metatranscriptome</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ <div class="meta-data-table-wrapper" style="margin-bottom: 24px;">
+ <h4 class="uvig-section-subtitle">Other Metadata</h4>
+ <table class="meta-data-table">
+ <tbody>
+ <tr>
+ <td>Alt2 Contact Emails</td>
+ <td><a class="__cf_email__" data-cfemail="b0c3d1dcd5c3dbd1f0d5ddd1d9dc9ed1c2d9cadfded19ed5d4c5" href="/cdn-cgi/l/email-protection">[email protected]</a>; <a class="__cf_email__" data-cfemail="2d5f444e45031f1a1d6d425e5803484958" href="/cdn-cgi/l/email-protection">[email protected]</a></td>
+ </tr>
+ <tr>
+ <td>Alt2 Contact Names</td>
+ <td>Scott Saleska; Virginia Rich</td>
+ </tr>
+ <tr>
+ <td>Assembly Method</td>
+ <td>MEGAHIT v. 1.2.9</td>
+ </tr>
+ <tr>
+ <td>Award Doi</td>
+ <td>10.46936/10.25585/60001148</td>
+ </tr>
+ <tr>
+ <td>Comments</td>
+ <td>released based on JGI ITS</td>
+ </tr>
+ <tr>
+ <td>Contact Email</td>
+ <td><a class="__cf_email__" data-cfemail="7b081a171e08101a3b1e161a1217551a09120114151a551e1f0e" href="/cdn-cgi/l/email-protection">[email protected]</a></td>
+ </tr>
+ <tr>
+ <td>Contact Name</td>
+ <td>Scott Saleska</td>
+ </tr>
+ <tr>
+ <td>Crispr Arrays Assembled</td>
+ <td>173</td>
+ </tr>
+ <tr>
+ <td>Cultured</td>
+ <td>0</td>
+ </tr>
+ <tr>
+ <td>Depth In Meters</td>
+ <td>0.000000</td>
+ </tr>
+ <tr>
+ <td>Elevation In Meters</td>
+ <td>0.000000</td>
+ </tr>
+ <tr>
+ <td>Estimated Average Genome Size Assembled</td>
+ <td>0</td>
+ </tr>
+ <tr>
+ <td>Estimated Number Of Genomes Assembled</td>
+ <td>0</td>
+ </tr>
+ <tr>
+ <td>Funding Program</td>
+ <td>BERSS</td>
+ </tr>
+ <tr>
+ <td>Funding Year</td>
+ <td>2017</td>
+ </tr>
+ <tr>
+ <td>Gold Analysis Project Type</td>
+ <td>Metatranscriptome Analysis</td>
+ </tr>
+ <tr>
+ <td>Has Coverage</td>
+ <td>1</td>
+ </tr>
+ <tr>
+ <td>Id</td>
+ <td>78437</td>
+ </tr>
+ <tr>
+ <td>Img Release Pipeline Version</td>
+ <td>IMG Annotation Pipeline v.5.1.4</td>
+ </tr>
+ <tr>
+ <td>Img Submission Id</td>
+ <td>264255</td>
+ </tr>
+ <tr>
+ <td>In File</td>
+ <td>Yes</td>
+ </tr>
+ <tr>
+ <td>Is Public</td>
+ <td>Yes</td>
+ </tr>
+ <tr>
+ <td>Isolation</td>
+ <td>Permafrost peat</td>
+ </tr>
+ <tr>
+ <td>Metabat Bin Status</td>
+ <td>no binning for Metatranscriptome Analysis</td>
+ </tr>
+ <tr>
+ <td>Pct Assembled Reads Assembled</td>
+ <td>76.26</td>
+ </tr>
+ <tr>
+ <td>Rnd Project</td>
+ <td>1</td>
+ </tr>
+ <tr>
+ <td>Scaffold Count Assembled</td>
+ <td>451901</td>
+ </tr>
+ <tr>
+ <td>Sequencing Center</td>
+ <td>DOE Joint Genome Institute  (JGI)</td>
+ </tr>
+ <tr>
+ <td>Sequencing Method</td>
+ <td>Illumina NovaSeq S4</td>
+ </tr>
+ <tr>
+ <td>Submission Type</td>
+ <td>Primary</td>
+ </tr>
+ <tr>
+ <td>Submitter Name</td>
+ <td>Scott Saleska</td>
+ </tr>
+ <tr>
+ <td>Unnamed 0</td>
+ <td>18628</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ <div class="meta-data-table-wrapper" style="margin-bottom: 24px;">
+ <h4 class="uvig-section-subtitle">External Links</h4>
+ <table class="meta-data-table">
+ <thead>
+ <tr>
+ <td style="font-weight:600;color:#4b3b78;">Resource</td>
+ <td style="font-weight:600;color:#4b3b78;">Link</td>
+ </tr>
+ </thead>
+ <tbody>
+ <tr>
+ <td>IMG Taxon Detail</td>
+ <td>
+ <a class="link-element" href="https://img.jgi.doe.gov/cgi-bin/m/main.cgi?section=TaxonDetail&amp;page=taxonDetail&amp;taxon_oid=3300050632" rel="noopener" target="_blank">
+                                         3300050632
+                                     </a>
+ </td>
+ </tr>
+ <tr>
+ <td>GOLD Analysis Project</td>
+ <td>
+ <a class="link-element" href="https://gold.jgi.doe.gov/analysis_projects?id=Ga0509058" rel="noopener" target="_blank">
+                                         Ga0509058
+                                     </a>
+ </td>
+ </tr>
+ <tr>
+ <td>GOLD Study</td>
+ <td>
+ <a class="link-element" href="https://gold.jgi.doe.gov/study?id=Gs0131983" rel="noopener" target="_blank">
+                                         Gs0131983
+                                     </a>
+ </td>
+ </tr>
+ <tr>
+ <td>GOLD Sequencing Project</td>
+ <td>
+ <a class="link-element" href="https://gold.jgi.doe.gov/projects?id=Gp0596342" rel="noopener" target="_blank">
+                                         Gp0596342
+                                     </a>
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ </div>
+ <button id="backToTopBtn" title="Back to Top">↑</button>
+ <div id="mapArea">
+ <div id="map" style="height: 400px; width: 100%;"></div>
+ <a class="button-1 map-button" href="https://www.google.com/maps?q=68.3532867,19.0474583" target="_blank">
+         View on Google Maps
+     </a>
+ </div>
+ </main>
+ </div>
+ <footer b-64f2xrsiw0="" class="border-top footer text-muted">
+ <div b-64f2xrsiw0="" class="">
+             © <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(/\d{4}/.exec(Date())[0])</script> - MetaVR 
+             <a class="link-element hidden" href="/Privacy">Privacy</a>
+ </div>
+ </footer>
+ <!-- jQuery -->
+ <script src="/lib/jquery/dist/jquery.min.js"></script>
+ <!-- Bootstrap JS -->
+ <script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+ <!-- DataTables JS -->
+ <script src="/DataTables/datatables.js"></script>
+ <!-- site scripts -->
+ <script src="/js/site.js?v=x_-BJwe_Jnr0Nh9h-J_aPkuUkw-Wuw7bnijhHBkBoIU"></script>
+ <link href="https://unpkg.com/leaflet/dist/leaflet.css" rel="stylesheet"/>
+ <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+ <script>
+         var lat = parseFloat('68.3532867');
+         var lon = parseFloat('19.0474583');
+ 
+         if (!isNaN(lat) && !isNaN(lon)) {
+             var map = L.map('map').setView([lat, lon], 13);
+ 
+             L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                 maxZoom: 19,
+                 attribution: '© OpenStreetMap contributors'
+             }).addTo(map);
+ 
+             L.marker([lat, lon]).addTo(map)
+                 .bindPopup('Location: ' + lat + ', ' + lon)
+                 .openPopup();
+         } else {
+             document.getElementById('mapArea').style.display = 'none';
+         }
+     </script>
+ <script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a494fa2708935015',t:'MTc5MTc5NjI4Ng=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>,
+ <header b-64f2xrsiw0="">
+ <nav b-64f2xrsiw0="" class="navbar navbar-expand-sm navbar-dark custom-navbar">
+ <div b-64f2xrsiw0="" class="container-fluid">
+ <!-- Logo + Brand -->
+ <a b-64f2xrsiw0="" class="navbar-brand d-flex align-items-center" href="/">
+ <img alt="Logo" b-64f2xrsiw0="" class="logo-img" src="/images/logoFull.png"/>
+ </a>
+ <!-- Navbar Toggler for mobile -->
+ <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" b-64f2xrsiw0="" class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse" type="button">
+ <span b-64f2xrsiw0="" class="navbar-toggler-icon"></span>
+ </button>
+ <!-- Nav Links -->
+ <div b-64f2xrsiw0="" class="collapse navbar-collapse" id="navbarNav">
+ <ul b-64f2xrsiw0="" class="navbar-nav">
+ <li b-64f2xrsiw0="" class="nav-item dropdown">
+ <a b-64f2xrsiw0="" class="nav-link browse-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="browseDropdown">
+                                 Browse
+                             </a>
+ <ul aria-labelledby="browseDropdown" b-64f2xrsiw0="" class="dropdown-menu">
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-uvigs" href="/Uvigs">UViGs</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-votus" href="/Votus">vOTUs</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-pclusters" href="/Clusters">Protein clusters</a>
+ </li>
+ </ul>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item dropdown">
+ <a b-64f2xrsiw0="" class="nav-link browse-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="exploreDropdown">
+                                 Explore
+                             </a>
+ <ul aria-labelledby="exploreDropdown" b-64f2xrsiw0="" class="dropdown-menu">
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-phosts" href="/PredictedHosts">Predicted Hosts</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-vtaxonomy" href="/ViralTaxonomy">Viral Taxonomy</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-vtaxonomy" href="/EcosystemHierarchy">Ecosystem</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-geolocation" href="/GeoLocation">Geolocation</a>
+ </li>
+ </ul>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item">
+ <a class="nav-link" href="/QueryBuilder">Advanced Queries</a>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item dropdown">
+ <a b-64f2xrsiw0="" class="nav-link browse-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="toolsDropdown">
+                                 Search
+                             </a>
+ <ul aria-labelledby="browseDropdown" b-64f2xrsiw0="" class="dropdown-menu">
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-blast" href="/Blast">Nucleotide search</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-diamond" href="/Diamond">Protein search</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-reseek" href="/Reseek">Structure search</a>
+ </li>
+ </ul>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item">
+ <a class="nav-link" href="/Downloads">Downloads</a>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item">
+ <a b-64f2xrsiw0="" class="nav-link" href="https://meta-virome.org/api/" target="_blank">API</a>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item">
+ <a class="nav-link" href="/Statistics">Statistics</a>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item">
+ <a class="nav-link" href="/About">About</a>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item">
+ <a class="nav-link" href="/Help">Help</a>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item">
+ <a class="nav-link" href="/Contact">Contact</a>
+ </li>
+ </ul>
+ </div>
+ </div>
+ </nav>
+ </header>,
+ <nav b-64f2xrsiw0="" class="navbar navbar-expand-sm navbar-dark custom-navbar">
+ <div b-64f2xrsiw0="" class="container-fluid">
+ <!-- Logo + Brand -->
+ <a b-64f2xrsiw0="" class="navbar-brand d-flex align-items-center" href="/">
+ <img alt="Logo" b-64f2xrsiw0="" class="logo-img" src="/images/logoFull.png"/>
+ </a>
+ <!-- Navbar Toggler for mobile -->
+ <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" b-64f2xrsiw0="" class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse" type="button">
+ <span b-64f2xrsiw0="" class="navbar-toggler-icon"></span>
+ </button>
+ <!-- Nav Links -->
+ <div b-64f2xrsiw0="" class="collapse navbar-collapse" id="navbarNav">
+ <ul b-64f2xrsiw0="" class="navbar-nav">
+ <li b-64f2xrsiw0="" class="nav-item dropdown">
+ <a b-64f2xrsiw0="" class="nav-link browse-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="browseDropdown">
+                                 Browse
+                             </a>
+ <ul aria-labelledby="browseDropdown" b-64f2xrsiw0="" class="dropdown-menu">
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-uvigs" href="/Uvigs">UViGs</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-votus" href="/Votus">vOTUs</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-pclusters" href="/Clusters">Protein clusters</a>
+ </li>
+ </ul>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item dropdown">
+ <a b-64f2xrsiw0="" class="nav-link browse-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="exploreDropdown">
+                                 Explore
+                             </a>
+ <ul aria-labelledby="exploreDropdown" b-64f2xrsiw0="" class="dropdown-menu">
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-phosts" href="/PredictedHosts">Predicted Hosts</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-vtaxonomy" href="/ViralTaxonomy">Viral Taxonomy</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-vtaxonomy" href="/EcosystemHierarchy">Ecosystem</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-geolocation" href="/GeoLocation">Geolocation</a>
+ </li>
+ </ul>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item">
+ <a class="nav-link" href="/QueryBuilder">Advanced Queries</a>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item dropdown">
+ <a b-64f2xrsiw0="" class="nav-link browse-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="toolsDropdown">
+                                 Search
+                             </a>
+ <ul aria-labelledby="browseDropdown" b-64f2xrsiw0="" class="dropdown-menu">
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-blast" href="/Blast">Nucleotide search</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-diamond" href="/Diamond">Protein search</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-reseek" href="/Reseek">Structure search</a>
+ </li>
+ </ul>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item">
+ <a class="nav-link" href="/Downloads">Downloads</a>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item">
+ <a b-64f2xrsiw0="" class="nav-link" href="https://meta-virome.org/api/" target="_blank">API</a>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item">
+ <a class="nav-link" href="/Statistics">Statistics</a>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item">
+ <a class="nav-link" href="/About">About</a>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item">
+ <a class="nav-link" href="/Help">Help</a>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item">
+ <a class="nav-link" href="/Contact">Contact</a>
+ </li>
+ </ul>
+ </div>
+ </div>
+ </nav>,
+ <div b-64f2xrsiw0="" class="container-fluid">
+ <!-- Logo + Brand -->
+ <a b-64f2xrsiw0="" class="navbar-brand d-flex align-items-center" href="/">
+ <img alt="Logo" b-64f2xrsiw0="" class="logo-img" src="/images/logoFull.png"/>
+ </a>
+ <!-- Navbar Toggler for mobile -->
+ <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" b-64f2xrsiw0="" class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse" type="button">
+ <span b-64f2xrsiw0="" class="navbar-toggler-icon"></span>
+ </button>
+ <!-- Nav Links -->
+ <div b-64f2xrsiw0="" class="collapse navbar-collapse" id="navbarNav">
+ <ul b-64f2xrsiw0="" class="navbar-nav">
+ <li b-64f2xrsiw0="" class="nav-item dropdown">
+ <a b-64f2xrsiw0="" class="nav-link browse-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="browseDropdown">
+                                 Browse
+                             </a>
+ <ul aria-labelledby="browseDropdown" b-64f2xrsiw0="" class="dropdown-menu">
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-uvigs" href="/Uvigs">UViGs</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-votus" href="/Votus">vOTUs</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-pclusters" href="/Clusters">Protein clusters</a>
+ </li>
+ </ul>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item dropdown">
+ <a b-64f2xrsiw0="" class="nav-link browse-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="exploreDropdown">
+                                 Explore
+                             </a>
+ <ul aria-labelledby="exploreDropdown" b-64f2xrsiw0="" class="dropdown-menu">
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-phosts" href="/PredictedHosts">Predicted Hosts</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-vtaxonomy" href="/ViralTaxonomy">Viral Taxonomy</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-vtaxonomy" href="/EcosystemHierarchy">Ecosystem</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-geolocation" href="/GeoLocation">Geolocation</a>
+ </li>
+ </ul>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item">
+ <a class="nav-link" href="/QueryBuilder">Advanced Queries</a>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item dropdown">
+ <a b-64f2xrsiw0="" class="nav-link browse-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="toolsDropdown">
+                                 Search
+                             </a>
+ <ul aria-labelledby="browseDropdown" b-64f2xrsiw0="" class="dropdown-menu">
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-blast" href="/Blast">Nucleotide search</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-diamond" href="/Diamond">Protein search</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-reseek" href="/Reseek">Structure search</a>
+ </li>
+ </ul>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item">
+ <a class="nav-link" href="/Downloads">Downloads</a>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item">
+ <a b-64f2xrsiw0="" class="nav-link" href="https://meta-virome.org/api/" target="_blank">API</a>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item">
+ <a class="nav-link" href="/Statistics">Statistics</a>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item">
+ <a class="nav-link" href="/About">About</a>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item">
+ <a class="nav-link" href="/Help">Help</a>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item">
+ <a class="nav-link" href="/Contact">Contact</a>
+ </li>
+ </ul>
+ </div>
+ </div>,
+ <a b-64f2xrsiw0="" class="navbar-brand d-flex align-items-center" href="/">
+ <img alt="Logo" b-64f2xrsiw0="" class="logo-img" src="/images/logoFull.png"/>
+ </a>,
+ <img alt="Logo" b-64f2xrsiw0="" class="logo-img" src="/images/logoFull.png"/>,
+ <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" b-64f2xrsiw0="" class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse" type="button">
+ <span b-64f2xrsiw0="" class="navbar-toggler-icon"></span>
+ </button>,
+ <span b-64f2xrsiw0="" class="navbar-toggler-icon"></span>,
+ <div b-64f2xrsiw0="" class="collapse navbar-collapse" id="navbarNav">
+ <ul b-64f2xrsiw0="" class="navbar-nav">
+ <li b-64f2xrsiw0="" class="nav-item dropdown">
+ <a b-64f2xrsiw0="" class="nav-link browse-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="browseDropdown">
+                                 Browse
+                             </a>
+ <ul aria-labelledby="browseDropdown" b-64f2xrsiw0="" class="dropdown-menu">
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-uvigs" href="/Uvigs">UViGs</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-votus" href="/Votus">vOTUs</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-pclusters" href="/Clusters">Protein clusters</a>
+ </li>
+ </ul>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item dropdown">
+ <a b-64f2xrsiw0="" class="nav-link browse-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="exploreDropdown">
+                                 Explore
+                             </a>
+ <ul aria-labelledby="exploreDropdown" b-64f2xrsiw0="" class="dropdown-menu">
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-phosts" href="/PredictedHosts">Predicted Hosts</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-vtaxonomy" href="/ViralTaxonomy">Viral Taxonomy</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-vtaxonomy" href="/EcosystemHierarchy">Ecosystem</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-geolocation" href="/GeoLocation">Geolocation</a>
+ </li>
+ </ul>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item">
+ <a class="nav-link" href="/QueryBuilder">Advanced Queries</a>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item dropdown">
+ <a b-64f2xrsiw0="" class="nav-link browse-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="toolsDropdown">
+                                 Search
+                             </a>
+ <ul aria-labelledby="browseDropdown" b-64f2xrsiw0="" class="dropdown-menu">
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-blast" href="/Blast">Nucleotide search</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-diamond" href="/Diamond">Protein search</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-reseek" href="/Reseek">Structure search</a>
+ </li>
+ </ul>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item">
+ <a class="nav-link" href="/Downloads">Downloads</a>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item">
+ <a b-64f2xrsiw0="" class="nav-link" href="https://meta-virome.org/api/" target="_blank">API</a>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item">
+ <a class="nav-link" href="/Statistics">Statistics</a>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item">
+ <a class="nav-link" href="/About">About</a>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item">
+ <a class="nav-link" href="/Help">Help</a>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item">
+ <a class="nav-link" href="/Contact">Contact</a>
+ </li>
+ </ul>
+ </div>,
+ <ul b-64f2xrsiw0="" class="navbar-nav">
+ <li b-64f2xrsiw0="" class="nav-item dropdown">
+ <a b-64f2xrsiw0="" class="nav-link browse-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="browseDropdown">
+                                 Browse
+                             </a>
+ <ul aria-labelledby="browseDropdown" b-64f2xrsiw0="" class="dropdown-menu">
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-uvigs" href="/Uvigs">UViGs</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-votus" href="/Votus">vOTUs</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-pclusters" href="/Clusters">Protein clusters</a>
+ </li>
+ </ul>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item dropdown">
+ <a b-64f2xrsiw0="" class="nav-link browse-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="exploreDropdown">
+                                 Explore
+                             </a>
+ <ul aria-labelledby="exploreDropdown" b-64f2xrsiw0="" class="dropdown-menu">
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-phosts" href="/PredictedHosts">Predicted Hosts</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-vtaxonomy" href="/ViralTaxonomy">Viral Taxonomy</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-vtaxonomy" href="/EcosystemHierarchy">Ecosystem</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-geolocation" href="/GeoLocation">Geolocation</a>
+ </li>
+ </ul>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item">
+ <a class="nav-link" href="/QueryBuilder">Advanced Queries</a>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item dropdown">
+ <a b-64f2xrsiw0="" class="nav-link browse-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="toolsDropdown">
+                                 Search
+                             </a>
+ <ul aria-labelledby="browseDropdown" b-64f2xrsiw0="" class="dropdown-menu">
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-blast" href="/Blast">Nucleotide search</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-diamond" href="/Diamond">Protein search</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-reseek" href="/Reseek">Structure search</a>
+ </li>
+ </ul>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item">
+ <a class="nav-link" href="/Downloads">Downloads</a>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item">
+ <a b-64f2xrsiw0="" class="nav-link" href="https://meta-virome.org/api/" target="_blank">API</a>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item">
+ <a class="nav-link" href="/Statistics">Statistics</a>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item">
+ <a class="nav-link" href="/About">About</a>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item">
+ <a class="nav-link" href="/Help">Help</a>
+ </li>
+ <li b-64f2xrsiw0="" class="nav-item">
+ <a class="nav-link" href="/Contact">Contact</a>
+ </li>
+ </ul>,
+ <li b-64f2xrsiw0="" class="nav-item dropdown">
+ <a b-64f2xrsiw0="" class="nav-link browse-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="browseDropdown">
+                                 Browse
+                             </a>
+ <ul aria-labelledby="browseDropdown" b-64f2xrsiw0="" class="dropdown-menu">
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-uvigs" href="/Uvigs">UViGs</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-votus" href="/Votus">vOTUs</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-pclusters" href="/Clusters">Protein clusters</a>
+ </li>
+ </ul>
+ </li>,
+ <a b-64f2xrsiw0="" class="nav-link browse-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="browseDropdown">
+                                 Browse
+                             </a>,
+ <ul aria-labelledby="browseDropdown" b-64f2xrsiw0="" class="dropdown-menu">
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-uvigs" href="/Uvigs">UViGs</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-votus" href="/Votus">vOTUs</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-pclusters" href="/Clusters">Protein clusters</a>
+ </li>
+ </ul>,
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-uvigs" href="/Uvigs">UViGs</a>
+ </li>,
+ <a class="dropdown-item nav-link-uvigs" href="/Uvigs">UViGs</a>,
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-votus" href="/Votus">vOTUs</a>
+ </li>,
+ <a class="dropdown-item nav-link-votus" href="/Votus">vOTUs</a>,
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-pclusters" href="/Clusters">Protein clusters</a>
+ </li>,
+ <a class="dropdown-item nav-link-pclusters" href="/Clusters">Protein clusters</a>,
+ <li b-64f2xrsiw0="" class="nav-item dropdown">
+ <a b-64f2xrsiw0="" class="nav-link browse-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="exploreDropdown">
+                                 Explore
+                             </a>
+ <ul aria-labelledby="exploreDropdown" b-64f2xrsiw0="" class="dropdown-menu">
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-phosts" href="/PredictedHosts">Predicted Hosts</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-vtaxonomy" href="/ViralTaxonomy">Viral Taxonomy</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-vtaxonomy" href="/EcosystemHierarchy">Ecosystem</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-geolocation" href="/GeoLocation">Geolocation</a>
+ </li>
+ </ul>
+ </li>,
+ <a b-64f2xrsiw0="" class="nav-link browse-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="exploreDropdown">
+                                 Explore
+                             </a>,
+ <ul aria-labelledby="exploreDropdown" b-64f2xrsiw0="" class="dropdown-menu">
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-phosts" href="/PredictedHosts">Predicted Hosts</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-vtaxonomy" href="/ViralTaxonomy">Viral Taxonomy</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-vtaxonomy" href="/EcosystemHierarchy">Ecosystem</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-geolocation" href="/GeoLocation">Geolocation</a>
+ </li>
+ </ul>,
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-phosts" href="/PredictedHosts">Predicted Hosts</a>
+ </li>,
+ <a class="dropdown-item nav-link-phosts" href="/PredictedHosts">Predicted Hosts</a>,
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-vtaxonomy" href="/ViralTaxonomy">Viral Taxonomy</a>
+ </li>,
+ <a class="dropdown-item nav-link-vtaxonomy" href="/ViralTaxonomy">Viral Taxonomy</a>,
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-vtaxonomy" href="/EcosystemHierarchy">Ecosystem</a>
+ </li>,
+ <a class="dropdown-item nav-link-vtaxonomy" href="/EcosystemHierarchy">Ecosystem</a>,
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-geolocation" href="/GeoLocation">Geolocation</a>
+ </li>,
+ <a class="dropdown-item nav-link-geolocation" href="/GeoLocation">Geolocation</a>,
+ <li b-64f2xrsiw0="" class="nav-item">
+ <a class="nav-link" href="/QueryBuilder">Advanced Queries</a>
+ </li>,
+ <a class="nav-link" href="/QueryBuilder">Advanced Queries</a>,
+ <li b-64f2xrsiw0="" class="nav-item dropdown">
+ <a b-64f2xrsiw0="" class="nav-link browse-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="toolsDropdown">
+                                 Search
+                             </a>
+ <ul aria-labelledby="browseDropdown" b-64f2xrsiw0="" class="dropdown-menu">
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-blast" href="/Blast">Nucleotide search</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-diamond" href="/Diamond">Protein search</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-reseek" href="/Reseek">Structure search</a>
+ </li>
+ </ul>
+ </li>,
+ <a b-64f2xrsiw0="" class="nav-link browse-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="toolsDropdown">
+                                 Search
+                             </a>,
+ <ul aria-labelledby="browseDropdown" b-64f2xrsiw0="" class="dropdown-menu">
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-blast" href="/Blast">Nucleotide search</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-diamond" href="/Diamond">Protein search</a>
+ </li>
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-reseek" href="/Reseek">Structure search</a>
+ </li>
+ </ul>,
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-blast" href="/Blast">Nucleotide search</a>
+ </li>,
+ <a class="dropdown-item nav-link-blast" href="/Blast">Nucleotide search</a>,
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-diamond" href="/Diamond">Protein search</a>
+ </li>,
+ <a class="dropdown-item nav-link-diamond" href="/Diamond">Protein search</a>,
+ <li b-64f2xrsiw0="">
+ <a class="dropdown-item nav-link-reseek" href="/Reseek">Structure search</a>
+ </li>,
+ <a class="dropdown-item nav-link-reseek" href="/Reseek">Structure search</a>,
+ <li b-64f2xrsiw0="" class="nav-item">
+ <a class="nav-link" href="/Downloads">Downloads</a>
+ </li>,
+ <a class="nav-link" href="/Downloads">Downloads</a>,
+ <li b-64f2xrsiw0="" class="nav-item">
+ <a b-64f2xrsiw0="" class="nav-link" href="https://meta-virome.org/api/" target="_blank">API</a>
+ </li>,
+ <a b-64f2xrsiw0="" class="nav-link" href="https://meta-virome.org/api/" target="_blank">API</a>,
+ <li b-64f2xrsiw0="" class="nav-item">
+ <a class="nav-link" href="/Statistics">Statistics</a>
+ </li>,
+ <a class="nav-link" href="/Statistics">Statistics</a>,
+ <li b-64f2xrsiw0="" class="nav-item">
+ <a class="nav-link" href="/About">About</a>
+ </li>,
+ <a class="nav-link" href="/About">About</a>,
+ <li b-64f2xrsiw0="" class="nav-item">
+ <a class="nav-link" href="/Help">Help</a>
+ </li>,
+ <a class="nav-link" href="/Help">Help</a>,
+ <li b-64f2xrsiw0="" class="nav-item">
+ <a class="nav-link" href="/Contact">Contact</a>
+ </li>,
+ <a class="nav-link" href="/Contact">Contact</a>,
+ <div b-64f2xrsiw0="" class="">
+ <main b-64f2xrsiw0="" class="pb-3" role="main">
+ <h2 class="meta-data-title">3300050632 Metadata</h2>
+ <div class="meta-data-section-grid">
+ <div class="meta-data-table-wrapper" style="margin-bottom: 24px;">
+ <h4 class="uvig-section-subtitle">General</h4>
+ <table class="meta-data-table">
+ <tbody>
+ <tr>
+ <td>Taxon Oid</td>
+ <td>
+ <a class="link-element" href="https://img.jgi.doe.gov/cgi-bin/m/main.cgi?section=TaxonDetail&amp;page=taxonDetail&amp;taxon_oid=3300050632" target="_blank">
+                                             3300050632
+                                         </a>
+ </td>
+ </tr>
+ <tr>
+ <td>Ncbi Domain</td>
+ <td>*Microbiome</td>
+ </tr>
+ <tr>
+ <td>Sequencing Status</td>
+ <td>Permanent Draft</td>
+ </tr>
+ <tr>
+ <td>Study Name</td>
+ <td>Peatland microbial communities from Stordalen Mire, Sweden</td>
+ </tr>
+ <tr>
+ <td>Genome Name Sample Name</td>
+ <td>Metatranscriptome of peat soil microbial communities from Stordalen Mire, Sweden - 719 S1 1-5 (Metagenome Metatranscriptome)</td>
+ </tr>
+ <tr>
+ <td>Img Genome Id</td>
+ <td>3300050632</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ <div class="meta-data-table-wrapper" style="margin-bottom: 24px;">
+ <h4 class="uvig-section-subtitle">Taxonomy</h4>
+ <table class="meta-data-table">
+ <tbody>
+ <tr>
+ <td>Ncbi Phylum</td>
+ <td>Environmental</td>
+ </tr>
+ <tr>
+ <td>Ncbi Class</td>
+ <td>Terrestrial</td>
+ </tr>
+ <tr>
+ <td>Ncbi Order</td>
+ <td>Soil</td>
+ </tr>
+ <tr>
+ <td>Ncbi Family</td>
+ <td>Peat</td>
+ </tr>
+ <tr>
+ <td>Ncbi Genus</td>
+ <td>Mire</td>
+ </tr>
+ <tr>
+ <td>Ncbi Species</td>
+ <td>Peatland microbial communities from Stordalen Mire, Sweden</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ <div class="meta-data-table-wrapper" style="margin-bottom: 24px;">
+ <h4 class="uvig-section-subtitle">Project / Publication</h4>
+ <table class="meta-data-table">
+ <tbody>
+ <tr>
+ <td>Gold Analysis Project Id</td>
+ <td>
+ <a class="link-element" href="https://gold.jgi.doe.gov/analysis_projects?id=Ga0509058" target="_blank">
+                                             Ga0509058
+                                         </a>
+ </td>
+ </tr>
+ <tr>
+ <td>Gold Sequencing Project Id</td>
+ <td>
+ <a class="link-element" href="https://gold.jgi.doe.gov/projects?id=Gp0596342" target="_blank">
+                                             Gp0596342
+                                         </a>
+ </td>
+ </tr>
+ <tr>
+ <td>Gold Study Id</td>
+ <td>
+ <a class="link-element" href="https://gold.jgi.doe.gov/study?id=Gs0131983" target="_blank">
+                                             Gs0131983
+                                         </a>
+ </td>
+ </tr>
+ <tr>
+ <td>Is Published</td>
+ <td>0</td>
+ </tr>
+ <tr>
+ <td>Add Date</td>
+ <td>03/09/2022</td>
+ </tr>
+ <tr>
+ <td>Public Release Date</td>
+ <td>03/02/2024</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ <div class="meta-data-table-wrapper" style="margin-bottom: 24px;">
+ <h4 class="uvig-section-subtitle">Environment / Ecosystem</h4>
+ <table class="meta-data-table">
+ <tbody>
+ <tr>
+ <td>Ecosystem</td>
+ <td>Environmental</td>
+ </tr>
+ <tr>
+ <td>Ecosystem Category</td>
+ <td>Terrestrial</td>
+ </tr>
+ <tr>
+ <td>Ecosystem Subtype</td>
+ <td>Peat</td>
+ </tr>
+ <tr>
+ <td>Ecosystem Type</td>
+ <td>Soil</td>
+ </tr>
+ <tr>
+ <td>Specific Ecosystem</td>
+ <td>Mire</td>
+ </tr>
+ <tr>
+ <td>Habitat</td>
+ <td>Peat soil</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ <div class="meta-data-table-wrapper" style="margin-bottom: 24px;">
+ <h4 class="uvig-section-subtitle">Sampling / Conditions</h4>
+ <table class="meta-data-table">
+ <tbody>
+ <tr>
+ <td>Geographic Location</td>
+ <td>Sweden: Norrbotten County, Stordalen Mire</td>
+ </tr>
+ <tr>
+ <td>Isolation Country</td>
+ <td>8843</td>
+ </tr>
+ <tr>
+ <td>Latitude</td>
+ <td>68.3532867</td>
+ </tr>
+ <tr>
+ <td>Longitude</td>
+ <td>19.0474583</td>
+ </tr>
+ <tr>
+ <td>Sample Collection Date</td>
+ <td>2019/7/20</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ <div class="meta-data-table-wrapper" style="margin-bottom: 24px;">
+ <h4 class="uvig-section-subtitle">Assembly</h4>
+ <table class="meta-data-table">
+ <tbody>
+ <tr>
+ <td>Genome Size Assembled</td>
+ <td>231877407</td>
+ </tr>
+ <tr>
+ <td>Gene Count Assembled</td>
+ <td>531704</td>
+ </tr>
+ <tr>
+ <td>Sequencing Strategy</td>
+ <td>Metatranscriptome</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ <div class="meta-data-table-wrapper" style="margin-bottom: 24px;">
+ <h4 class="uvig-section-subtitle">Other Metadata</h4>
+ <table class="meta-data-table">
+ <tbody>
+ <tr>
+ <td>Alt2 Contact Emails</td>
+ <td><a class="__cf_email__" data-cfemail="b0c3d1dcd5c3dbd1f0d5ddd1d9dc9ed1c2d9cadfded19ed5d4c5" href="/cdn-cgi/l/email-protection">[email protected]</a>; <a class="__cf_email__" data-cfemail="2d5f444e45031f1a1d6d425e5803484958" href="/cdn-cgi/l/email-protection">[email protected]</a></td>
+ </tr>
+ <tr>
+ <td>Alt2 Contact Names</td>
+ <td>Scott Saleska; Virginia Rich</td>
+ </tr>
+ <tr>
+ <td>Assembly Method</td>
+ <td>MEGAHIT v. 1.2.9</td>
+ </tr>
+ <tr>
+ <td>Award Doi</td>
+ <td>10.46936/10.25585/60001148</td>
+ </tr>
+ <tr>
+ <td>Comments</td>
+ <td>released based on JGI ITS</td>
+ </tr>
+ <tr>
+ <td>Contact Email</td>
+ <td><a class="__cf_email__" data-cfemail="7b081a171e08101a3b1e161a1217551a09120114151a551e1f0e" href="/cdn-cgi/l/email-protection">[email protected]</a></td>
+ </tr>
+ <tr>
+ <td>Contact Name</td>
+ <td>Scott Saleska</td>
+ </tr>
+ <tr>
+ <td>Crispr Arrays Assembled</td>
+ <td>173</td>
+ </tr>
+ <tr>
+ <td>Cultured</td>
+ <td>0</td>
+ </tr>
+ <tr>
+ <td>Depth In Meters</td>
+ <td>0.000000</td>
+ </tr>
+ <tr>
+ <td>Elevation In Meters</td>
+ <td>0.000000</td>
+ </tr>
+ <tr>
+ <td>Estimated Average Genome Size Assembled</td>
+ <td>0</td>
+ </tr>
+ <tr>
+ <td>Estimated Number Of Genomes Assembled</td>
+ <td>0</td>
+ </tr>
+ <tr>
+ <td>Funding Program</td>
+ <td>BERSS</td>
+ </tr>
+ <tr>
+ <td>Funding Year</td>
+ <td>2017</td>
+ </tr>
+ <tr>
+ <td>Gold Analysis Project Type</td>
+ <td>Metatranscriptome Analysis</td>
+ </tr>
+ <tr>
+ <td>Has Coverage</td>
+ <td>1</td>
+ </tr>
+ <tr>
+ <td>Id</td>
+ <td>78437</td>
+ </tr>
+ <tr>
+ <td>Img Release Pipeline Version</td>
+ <td>IMG Annotation Pipeline v.5.1.4</td>
+ </tr>
+ <tr>
+ <td>Img Submission Id</td>
+ <td>264255</td>
+ </tr>
+ <tr>
+ <td>In File</td>
+ <td>Yes</td>
+ </tr>
+ <tr>
+ <td>Is Public</td>
+ <td>Yes</td>
+ </tr>
+ <tr>
+ <td>Isolation</td>
+ <td>Permafrost peat</td>
+ </tr>
+ <tr>
+ <td>Metabat Bin Status</td>
+ <td>no binning for Metatranscriptome Analysis</td>
+ </tr>
+ <tr>
+ <td>Pct Assembled Reads Assembled</td>
+ <td>76.26</td>
+ </tr>
+ <tr>
+ <td>Rnd Project</td>
+ <td>1</td>
+ </tr>
+ <tr>
+ <td>Scaffold Count Assembled</td>
+ <td>451901</td>
+ </tr>
+ <tr>
+ <td>Sequencing Center</td>
+ <td>DOE Joint Genome Institute  (JGI)</td>
+ </tr>
+ <tr>
+ <td>Sequencing Method</td>
+ <td>Illumina NovaSeq S4</td>
+ </tr>
+ <tr>
+ <td>Submission Type</td>
+ <td>Primary</td>
+ </tr>
+ <tr>
+ <td>Submitter Name</td>
+ <td>Scott Saleska</td>
+ </tr>
+ <tr>
+ <td>Unnamed 0</td>
+ <td>18628</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ <div class="meta-data-table-wrapper" style="margin-bottom: 24px;">
+ <h4 class="uvig-section-subtitle">External Links</h4>
+ <table class="meta-data-table">
+ <thead>
+ <tr>
+ <td style="font-weight:600;color:#4b3b78;">Resource</td>
+ <td style="font-weight:600;color:#4b3b78;">Link</td>
+ </tr>
+ </thead>
+ <tbody>
+ <tr>
+ <td>IMG Taxon Detail</td>
+ <td>
+ <a class="link-element" href="https://img.jgi.doe.gov/cgi-bin/m/main.cgi?section=TaxonDetail&amp;page=taxonDetail&amp;taxon_oid=3300050632" rel="noopener" target="_blank">
+                                         3300050632
+                                     </a>
+ </td>
+ </tr>
+ <tr>
+ <td>GOLD Analysis Project</td>
+ <td>
+ <a class="link-element" href="https://gold.jgi.doe.gov/analysis_projects?id=Ga0509058" rel="noopener" target="_blank">
+                                         Ga0509058
+                                     </a>
+ </td>
+ </tr>
+ <tr>
+ <td>GOLD Study</td>
+ <td>
+ <a class="link-element" href="https://gold.jgi.doe.gov/study?id=Gs0131983" rel="noopener" target="_blank">
+                                         Gs0131983
+                                     </a>
+ </td>
+ </tr>
+ <tr>
+ <td>GOLD Sequencing Project</td>
+ <td>
+ <a class="link-element" href="https://gold.jgi.doe.gov/projects?id=Gp0596342" rel="noopener" target="_blank">
+                                         Gp0596342
+                                     </a>
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ </div>
+ <button id="backToTopBtn" title="Back to Top">↑</button>
+ <div id="mapArea">
+ <div id="map" style="height: 400px; width: 100%;"></div>
+ <a class="button-1 map-button" href="https://www.google.com/maps?q=68.3532867,19.0474583" target="_blank">
+         View on Google Maps
+     </a>
+ </div>
+ </main>
+ </div>,
+ <main b-64f2xrsiw0="" class="pb-3" role="main">
+ <h2 class="meta-data-title">3300050632 Metadata</h2>
+ <div class="meta-data-section-grid">
+ <div class="meta-data-table-wrapper" style="margin-bottom: 24px;">
+ <h4 class="uvig-section-subtitle">General</h4>
+ <table class="meta-data-table">
+ <tbody>
+ <tr>
+ <td>Taxon Oid</td>
+ <td>
+ <a class="link-element" href="https://img.jgi.doe.gov/cgi-bin/m/main.cgi?section=TaxonDetail&amp;page=taxonDetail&amp;taxon_oid=3300050632" target="_blank">
+                                             3300050632
+                                         </a>
+ </td>
+ </tr>
+ <tr>
+ <td>Ncbi Domain</td>
+ <td>*Microbiome</td>
+ </tr>
+ <tr>
+ <td>Sequencing Status</td>
+ <td>Permanent Draft</td>
+ </tr>
+ <tr>
+ <td>Study Name</td>
+ <td>Peatland microbial communities from Stordalen Mire, Sweden</td>
+ </tr>
+ <tr>
+ <td>Genome Name Sample Name</td>
+ <td>Metatranscriptome of peat soil microbial communities from Stordalen Mire, Sweden - 719 S1 1-5 (Metagenome Metatranscriptome)</td>
+ </tr>
+ <tr>
+ <td>Img Genome Id</td>
+ <td>3300050632</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ <div class="meta-data-table-wrapper" style="margin-bottom: 24px;">
+ <h4 class="uvig-section-subtitle">Taxonomy</h4>
+ <table class="meta-data-table">
+ <tbody>
+ <tr>
+ <td>Ncbi Phylum</td>
+ <td>Environmental</td>
+ </tr>
+ <tr>
+ <td>Ncbi Class</td>
+ <td>Terrestrial</td>
+ </tr>
+ <tr>
+ <td>Ncbi Order</td>
+ <td>Soil</td>
+ </tr>
+ <tr>
+ <td>Ncbi Family</td>
+ <td>Peat</td>
+ </tr>
+ <tr>
+ <td>Ncbi Genus</td>
+ <td>Mire</td>
+ </tr>
+ <tr>
+ <td>Ncbi Species</td>
+ <td>Peatland microbial communities from Stordalen Mire, Sweden</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ <div class="meta-data-table-wrapper" style="margin-bottom: 24px;">
+ <h4 class="uvig-section-subtitle">Project / Publication</h4>
+ <table class="meta-data-table">
+ <tbody>
+ <tr>
+ <td>Gold Analysis Project Id</td>
+ <td>
+ <a class="link-element" href="https://gold.jgi.doe.gov/analysis_projects?id=Ga0509058" target="_blank">
+                                             Ga0509058
+                                         </a>
+ </td>
+ </tr>
+ <tr>
+ <td>Gold Sequencing Project Id</td>
+ <td>
+ <a class="link-element" href="https://gold.jgi.doe.gov/projects?id=Gp0596342" target="_blank">
+                                             Gp0596342
+                                         </a>
+ </td>
+ </tr>
+ <tr>
+ <td>Gold Study Id</td>
+ <td>
+ <a class="link-element" href="https://gold.jgi.doe.gov/study?id=Gs0131983" target="_blank">
+                                             Gs0131983
+                                         </a>
+ </td>
+ </tr>
+ <tr>
+ <td>Is Published</td>
+ <td>0</td>
+ </tr>
+ <tr>
+ <td>Add Date</td>
+ <td>03/09/2022</td>
+ </tr>
+ <tr>
+ <td>Public Release Date</td>
+ <td>03/02/2024</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ <div class="meta-data-table-wrapper" style="margin-bottom: 24px;">
+ <h4 class="uvig-section-subtitle">Environment / Ecosystem</h4>
+ <table class="meta-data-table">
+ <tbody>
+ <tr>
+ <td>Ecosystem</td>
+ <td>Environmental</td>
+ </tr>
+ <tr>
+ <td>Ecosystem Category</td>
+ <td>Terrestrial</td>
+ </tr>
+ <tr>
+ <td>Ecosystem Subtype</td>
+ <td>Peat</td>
+ </tr>
+ <tr>
+ <td>Ecosystem Type</td>
+ <td>Soil</td>
+ </tr>
+ <tr>
+ <td>Specific Ecosystem</td>
+ <td>Mire</td>
+ </tr>
+ <tr>
+ <td>Habitat</td>
+ <td>Peat soil</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ <div class="meta-data-table-wrapper" style="margin-bottom: 24px;">
+ <h4 class="uvig-section-subtitle">Sampling / Conditions</h4>
+ <table class="meta-data-table">
+ <tbody>
+ <tr>
+ <td>Geographic Location</td>
+ <td>Sweden: Norrbotten County, Stordalen Mire</td>
+ </tr>
+ <tr>
+ <td>Isolation Country</td>
+ <td>8843</td>
+ </tr>
+ <tr>
+ <td>Latitude</td>
+ <td>68.3532867</td>
+ </tr>
+ <tr>
+ <td>Longitude</td>
+ <td>19.0474583</td>
+ </tr>
+ <tr>
+ <td>Sample Collection Date</td>
+ <td>2019/7/20</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ <div class="meta-data-table-wrapper" style="margin-bottom: 24px;">
+ <h4 class="uvig-section-subtitle">Assembly</h4>
+ <table class="meta-data-table">
+ <tbody>
+ <tr>
+ <td>Genome Size Assembled</td>
+ <td>231877407</td>
+ </tr>
+ <tr>
+ <td>Gene Count Assembled</td>
+ <td>531704</td>
+ </tr>
+ <tr>
+ <td>Sequencing Strategy</td>
+ <td>Metatranscriptome</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ <div class="meta-data-table-wrapper" style="margin-bottom: 24px;">
+ <h4 class="uvig-section-subtitle">Other Metadata</h4>
+ <table class="meta-data-table">
+ <tbody>
+ <tr>
+ <td>Alt2 Contact Emails</td>
+ <td><a class="__cf_email__" data-cfemail="b0c3d1dcd5c3dbd1f0d5ddd1d9dc9ed1c2d9cadfded19ed5d4c5" href="/cdn-cgi/l/email-protection">[email protected]</a>; <a class="__cf_email__" data-cfemail="2d5f444e45031f1a1d6d425e5803484958" href="/cdn-cgi/l/email-protection">[email protected]</a></td>
+ </tr>
+ <tr>
+ <td>Alt2 Contact Names</td>
+ <td>Scott Saleska; Virginia Rich</td>
+ </tr>
+ <tr>
+ <td>Assembly Method</td>
+ <td>MEGAHIT v. 1.2.9</td>
+ </tr>
+ <tr>
+ <td>Award Doi</td>
+ <td>10.46936/10.25585/60001148</td>
+ </tr>
+ <tr>
+ <td>Comments</td>
+ <td>released based on JGI ITS</td>
+ </tr>
+ <tr>
+ <td>Contact Email</td>
+ <td><a class="__cf_email__" data-cfemail="7b081a171e08101a3b1e161a1217551a09120114151a551e1f0e" href="/cdn-cgi/l/email-protection">[email protected]</a></td>
+ </tr>
+ <tr>
+ <td>Contact Name</td>
+ <td>Scott Saleska</td>
+ </tr>
+ <tr>
+ <td>Crispr Arrays Assembled</td>
+ <td>173</td>
+ </tr>
+ <tr>
+ <td>Cultured</td>
+ <td>0</td>
+ </tr>
+ <tr>
+ <td>Depth In Meters</td>
+ <td>0.000000</td>
+ </tr>
+ <tr>
+ <td>Elevation In Meters</td>
+ <td>0.000000</td>
+ </tr>
+ <tr>
+ <td>Estimated Average Genome Size Assembled</td>
+ <td>0</td>
+ </tr>
+ <tr>
+ <td>Estimated Number Of Genomes Assembled</td>
+ <td>0</td>
+ </tr>
+ <tr>
+ <td>Funding Program</td>
+ <td>BERSS</td>
+ </tr>
+ <tr>
+ <td>Funding Year</td>
+ <td>2017</td>
+ </tr>
+ <tr>
+ <td>Gold Analysis Project Type</td>
+ <td>Metatranscriptome Analysis</td>
+ </tr>
+ <tr>
+ <td>Has Coverage</td>
+ <td>1</td>
+ </tr>
+ <tr>
+ <td>Id</td>
+ <td>78437</td>
+ </tr>
+ <tr>
+ <td>Img Release Pipeline Version</td>
+ <td>IMG Annotation Pipeline v.5.1.4</td>
+ </tr>
+ <tr>
+ <td>Img Submission Id</td>
+ <td>264255</td>
+ </tr>
+ <tr>
+ <td>In File</td>
+ <td>Yes</td>
+ </tr>
+ <tr>
+ <td>Is Public</td>
+ <td>Yes</td>
+ </tr>
+ <tr>
+ <td>Isolation</td>
+ <td>Permafrost peat</td>
+ </tr>
+ <tr>
+ <td>Metabat Bin Status</td>
+ <td>no binning for Metatranscriptome Analysis</td>
+ </tr>
+ <tr>
+ <td>Pct Assembled Reads Assembled</td>
+ <td>76.26</td>
+ </tr>
+ <tr>
+ <td>Rnd Project</td>
+ <td>1</td>
+ </tr>
+ <tr>
+ <td>Scaffold Count Assembled</td>
+ <td>451901</td>
+ </tr>
+ <tr>
+ <td>Sequencing Center</td>
+ <td>DOE Joint Genome Institute  (JGI)</td>
+ </tr>
+ <tr>
+ <td>Sequencing Method</td>
+ <td>Illumina NovaSeq S4</td>
+ </tr>
+ <tr>
+ <td>Submission Type</td>
+ <td>Primary</td>
+ </tr>
+ <tr>
+ <td>Submitter Name</td>
+ <td>Scott Saleska</td>
+ </tr>
+ <tr>
+ <td>Unnamed 0</td>
+ <td>18628</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ <div class="meta-data-table-wrapper" style="margin-bottom: 24px;">
+ <h4 class="uvig-section-subtitle">External Links</h4>
+ <table class="meta-data-table">
+ <thead>
+ <tr>
+ <td style="font-weight:600;color:#4b3b78;">Resource</td>
+ <td style="font-weight:600;color:#4b3b78;">Link</td>
+ </tr>
+ </thead>
+ <tbody>
+ <tr>
+ <td>IMG Taxon Detail</td>
+ <td>
+ <a class="link-element" href="https://img.jgi.doe.gov/cgi-bin/m/main.cgi?section=TaxonDetail&amp;page=taxonDetail&amp;taxon_oid=3300050632" rel="noopener" target="_blank">
+                                         3300050632
+                                     </a>
+ </td>
+ </tr>
+ <tr>
+ <td>GOLD Analysis Project</td>
+ <td>
+ <a class="link-element" href="https://gold.jgi.doe.gov/analysis_projects?id=Ga0509058" rel="noopener" target="_blank">
+                                         Ga0509058
+                                     </a>
+ </td>
+ </tr>
+ <tr>
+ <td>GOLD Study</td>
+ <td>
+ <a class="link-element" href="https://gold.jgi.doe.gov/study?id=Gs0131983" rel="noopener" target="_blank">
+                                         Gs0131983
+                                     </a>
+ </td>
+ </tr>
+ <tr>
+ <td>GOLD Sequencing Project</td>
+ <td>
+ <a class="link-element" href="https://gold.jgi.doe.gov/projects?id=Gp0596342" rel="noopener" target="_blank">
+                                         Gp0596342
+                                     </a>
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ </div>
+ <button id="backToTopBtn" title="Back to Top">↑</button>
+ <div id="mapArea">
+ <div id="map" style="height: 400px; width: 100%;"></div>
+ <a class="button-1 map-button" href="https://www.google.com/maps?q=68.3532867,19.0474583" target="_blank">
+         View on Google Maps
+     </a>
+ </div>
+ </main>,
+ <h2 class="meta-data-title">3300050632 Metadata</h2>,
+ <div class="meta-data-section-grid">
+ <div class="meta-data-table-wrapper" style="margin-bottom: 24px;">
+ <h4 class="uvig-section-subtitle">General</h4>
+ <table class="meta-data-table">
+ <tbody>
+ <tr>
+ <td>Taxon Oid</td>
+ <td>
+ <a class="link-element" href="https://img.jgi.doe.gov/cgi-bin/m/main.cgi?section=TaxonDetail&amp;page=taxonDetail&amp;taxon_oid=3300050632" target="_blank">
+                                             3300050632
+                                         </a>
+ </td>
+ </tr>
+ <tr>
+ <td>Ncbi Domain</td>
+ <td>*Microbiome</td>
+ </tr>
+ <tr>
+ <td>Sequencing Status</td>
+ <td>Permanent Draft</td>
+ </tr>
+ <tr>
+ <td>Study Name</td>
+ <td>Peatland microbial communities from Stordalen Mire, Sweden</td>
+ </tr>
+ <tr>
+ <td>Genome Name Sample Name</td>
+ <td>Metatranscriptome of peat soil microbial communities from Stordalen Mire, Sweden - 719 S1 1-5 (Metagenome Metatranscriptome)</td>
+ </tr>
+ <tr>
+ <td>Img Genome Id</td>
+ <td>3300050632</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ <div class="meta-data-table-wrapper" style="margin-bottom: 24px;">
+ <h4 class="uvig-section-subtitle">Taxonomy</h4>
+ <table class="meta-data-table">
+ <tbody>
+ <tr>
+ <td>Ncbi Phylum</td>
+ <td>Environmental</td>
+ </tr>
+ <tr>
+ <td>Ncbi Class</td>
+ <td>Terrestrial</td>
+ </tr>
+ <tr>
+ <td>Ncbi Order</td>
+ <td>Soil</td>
+ </tr>
+ <tr>
+ <td>Ncbi Family</td>
+ <td>Peat</td>
+ </tr>
+ <tr>
+ <td>Ncbi Genus</td>
+ <td>Mire</td>
+ </tr>
+ <tr>
+ <td>Ncbi Species</td>
+ <td>Peatland microbial communities from Stordalen Mire, Sweden</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ <div class="meta-data-table-wrapper" style="margin-bottom: 24px;">
+ <h4 class="uvig-section-subtitle">Project / Publication</h4>
+ <table class="meta-data-table">
+ <tbody>
+ <tr>
+ <td>Gold Analysis Project Id</td>
+ <td>
+ <a class="link-element" href="https://gold.jgi.doe.gov/analysis_projects?id=Ga0509058" target="_blank">
+                                             Ga0509058
+                                         </a>
+ </td>
+ </tr>
+ <tr>
+ <td>Gold Sequencing Project Id</td>
+ <td>
+ <a class="link-element" href="https://gold.jgi.doe.gov/projects?id=Gp0596342" target="_blank">
+                                             Gp0596342
+                                         </a>
+ </td>
+ </tr>
+ <tr>
+ <td>Gold Study Id</td>
+ <td>
+ <a class="link-element" href="https://gold.jgi.doe.gov/study?id=Gs0131983" target="_blank">
+                                             Gs0131983
+                                         </a>
+ </td>
+ </tr>
+ <tr>
+ <td>Is Published</td>
+ <td>0</td>
+ </tr>
+ <tr>
+ <td>Add Date</td>
+ <td>03/09/2022</td>
+ </tr>
+ <tr>
+ <td>Public Release Date</td>
+ <td>03/02/2024</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ <div class="meta-data-table-wrapper" style="margin-bottom: 24px;">
+ <h4 class="uvig-section-subtitle">Environment / Ecosystem</h4>
+ <table class="meta-data-table">
+ <tbody>
+ <tr>
+ <td>Ecosystem</td>
+ <td>Environmental</td>
+ </tr>
+ <tr>
+ <td>Ecosystem Category</td>
+ <td>Terrestrial</td>
+ </tr>
+ <tr>
+ <td>Ecosystem Subtype</td>
+ <td>Peat</td>
+ </tr>
+ <tr>
+ <td>Ecosystem Type</td>
+ <td>Soil</td>
+ </tr>
+ <tr>
+ <td>Specific Ecosystem</td>
+ <td>Mire</td>
+ </tr>
+ <tr>
+ <td>Habitat</td>
+ <td>Peat soil</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ <div class="meta-data-table-wrapper" style="margin-bottom: 24px;">
+ <h4 class="uvig-section-subtitle">Sampling / Conditions</h4>
+ <table class="meta-data-table">
+ <tbody>
+ <tr>
+ <td>Geographic Location</td>
+ <td>Sweden: Norrbotten County, Stordalen Mire</td>
+ </tr>
+ <tr>
+ <td>Isolation Country</td>
+ <td>8843</td>
+ </tr>
+ <tr>
+ <td>Latitude</td>
+ <td>68.3532867</td>
+ </tr>
+ <tr>
+ <td>Longitude</td>
+ <td>19.0474583</td>
+ </tr>
+ <tr>
+ <td>Sample Collection Date</td>
+ <td>2019/7/20</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ <div class="meta-data-table-wrapper" style="margin-bottom: 24px;">
+ <h4 class="uvig-section-subtitle">Assembly</h4>
+ <table class="meta-data-table">
+ <tbody>
+ <tr>
+ <td>Genome Size Assembled</td>
+ <td>231877407</td>
+ </tr>
+ <tr>
+ <td>Gene Count Assembled</td>
+ <td>531704</td>
+ </tr>
+ <tr>
+ <td>Sequencing Strategy</td>
+ <td>Metatranscriptome</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ <div class="meta-data-table-wrapper" style="margin-bottom: 24px;">
+ <h4 class="uvig-section-subtitle">Other Metadata</h4>
+ <table class="meta-data-table">
+ <tbody>
+ <tr>
+ <td>Alt2 Contact Emails</td>
+ <td><a class="__cf_email__" data-cfemail="b0c3d1dcd5c3dbd1f0d5ddd1d9dc9ed1c2d9cadfded19ed5d4c5" href="/cdn-cgi/l/email-protection">[email protected]</a>; <a class="__cf_email__" data-cfemail="2d5f444e45031f1a1d6d425e5803484958" href="/cdn-cgi/l/email-protection">[email protected]</a></td>
+ </tr>
+ <tr>
+ <td>Alt2 Contact Names</td>
+ <td>Scott Saleska; Virginia Rich</td>
+ </tr>
+ <tr>
+ <td>Assembly Method</td>
+ <td>MEGAHIT v. 1.2.9</td>
+ </tr>
+ <tr>
+ <td>Award Doi</td>
+ <td>10.46936/10.25585/60001148</td>
+ </tr>
+ <tr>
+ <td>Comments</td>
+ <td>released based on JGI ITS</td>
+ </tr>
+ <tr>
+ <td>Contact Email</td>
+ <td><a class="__cf_email__" data-cfemail="7b081a171e08101a3b1e161a1217551a09120114151a551e1f0e" href="/cdn-cgi/l/email-protection">[email protected]</a></td>
+ </tr>
+ <tr>
+ <td>Contact Name</td>
+ <td>Scott Saleska</td>
+ </tr>
+ <tr>
+ <td>Crispr Arrays Assembled</td>
+ <td>173</td>
+ </tr>
+ <tr>
+ <td>Cultured</td>
+ <td>0</td>
+ </tr>
+ <tr>
+ <td>Depth In Meters</td>
+ <td>0.000000</td>
+ </tr>
+ <tr>
+ <td>Elevation In Meters</td>
+ <td>0.000000</td>
+ </tr>
+ <tr>
+ <td>Estimated Average Genome Size Assembled</td>
+ <td>0</td>
+ </tr>
+ <tr>
+ <td>Estimated Number Of Genomes Assembled</td>
+ <td>0</td>
+ </tr>
+ <tr>
+ <td>Funding Program</td>
+ <td>BERSS</td>
+ </tr>
+ <tr>
+ <td>Funding Year</td>
+ <td>2017</td>
+ </tr>
+ <tr>
+ <td>Gold Analysis Project Type</td>
+ <td>Metatranscriptome Analysis</td>
+ </tr>
+ <tr>
+ <td>Has Coverage</td>
+ <td>1</td>
+ </tr>
+ <tr>
+ <td>Id</td>
+ <td>78437</td>
+ </tr>
+ <tr>
+ <td>Img Release Pipeline Version</td>
+ <td>IMG Annotation Pipeline v.5.1.4</td>
+ </tr>
+ <tr>
+ <td>Img Submission Id</td>
+ <td>264255</td>
+ </tr>
+ <tr>
+ <td>In File</td>
+ <td>Yes</td>
+ </tr>
+ <tr>
+ <td>Is Public</td>
+ <td>Yes</td>
+ </tr>
+ <tr>
+ <td>Isolation</td>
+ <td>Permafrost peat</td>
+ </tr>
+ <tr>
+ <td>Metabat Bin Status</td>
+ <td>no binning for Metatranscriptome Analysis</td>
+ </tr>
+ <tr>
+ <td>Pct Assembled Reads Assembled</td>
+ <td>76.26</td>
+ </tr>
+ <tr>
+ <td>Rnd Project</td>
+ <td>1</td>
+ </tr>
+ <tr>
+ <td>Scaffold Count Assembled</td>
+ <td>451901</td>
+ </tr>
+ <tr>
+ <td>Sequencing Center</td>
+ <td>DOE Joint Genome Institute  (JGI)</td>
+ </tr>
+ <tr>
+ <td>Sequencing Method</td>
+ <td>Illumina NovaSeq S4</td>
+ </tr>
+ <tr>
+ <td>Submission Type</td>
+ <td>Primary</td>
+ </tr>
+ <tr>
+ <td>Submitter Name</td>
+ <td>Scott Saleska</td>
+ </tr>
+ <tr>
+ <td>Unnamed 0</td>
+ <td>18628</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ <div class="meta-data-table-wrapper" style="margin-bottom: 24px;">
+ <h4 class="uvig-section-subtitle">External Links</h4>
+ <table class="meta-data-table">
+ <thead>
+ <tr>
+ <td style="font-weight:600;color:#4b3b78;">Resource</td>
+ <td style="font-weight:600;color:#4b3b78;">Link</td>
+ </tr>
+ </thead>
+ <tbody>
+ <tr>
+ <td>IMG Taxon Detail</td>
+ <td>
+ <a class="link-element" href="https://img.jgi.doe.gov/cgi-bin/m/main.cgi?section=TaxonDetail&amp;page=taxonDetail&amp;taxon_oid=3300050632" rel="noopener" target="_blank">
+                                         3300050632
+                                     </a>
+ </td>
+ </tr>
+ <tr>
+ <td>GOLD Analysis Project</td>
+ <td>
+ <a class="link-element" href="https://gold.jgi.doe.gov/analysis_projects?id=Ga0509058" rel="noopener" target="_blank">
+                                         Ga0509058
+                                     </a>
+ </td>
+ </tr>
+ <tr>
+ <td>GOLD Study</td>
+ <td>
+ <a class="link-element" href="https://gold.jgi.doe.gov/study?id=Gs0131983" rel="noopener" target="_blank">
+                                         Gs0131983
+                                     </a>
+ </td>
+ </tr>
+ <tr>
+ <td>GOLD Sequencing Project</td>
+ <td>
+ <a class="link-element" href="https://gold.jgi.doe.gov/projects?id=Gp0596342" rel="noopener" target="_blank">
+                                         Gp0596342
+                                     </a>
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ </div>,
+ <div class="meta-data-table-wrapper" style="margin-bottom: 24px;">
+ <h4 class="uvig-section-subtitle">General</h4>
+ <table class="meta-data-table">
+ <tbody>
+ <tr>
+ <td>Taxon Oid</td>
+ <td>
+ <a class="link-element" href="https://img.jgi.doe.gov/cgi-bin/m/main.cgi?section=TaxonDetail&amp;page=taxonDetail&amp;taxon_oid=3300050632" target="_blank">
+                                             3300050632
+                                         </a>
+ </td>
+ </tr>
+ <tr>
+ <td>Ncbi Domain</td>
+ <td>*Microbiome</td>
+ </tr>
+ <tr>
+ <td>Sequencing Status</td>
+ <td>Permanent Draft</td>
+ </tr>
+ <tr>
+ <td>Study Name</td>
+ <td>Peatland microbial communities from Stordalen Mire, Sweden</td>
+ </tr>
+ <tr>
+ <td>Genome Name Sample Name</td>
+ <td>Metatranscriptome of peat soil microbial communities from Stordalen Mire, Sweden - 719 S1 1-5 (Metagenome Metatranscriptome)</td>
+ </tr>
+ <tr>
+ <td>Img Genome Id</td>
+ <td>3300050632</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>,
+ <h4 class="uvig-section-subtitle">General</h4>,
+ <table class="meta-data-table">
+ <tbody>
+ <tr>
+ <td>Taxon Oid</td>
+ <td>
+ <a class="link-element" href="https://img.jgi.doe.gov/cgi-bin/m/main.cgi?section=TaxonDetail&amp;page=taxonDetail&amp;taxon_oid=3300050632" target="_blank">
+                                             3300050632
+                                         </a>
+ </td>
+ </tr>
+ <tr>
+ <td>Ncbi Domain</td>
+ <td>*Microbiome</td>
+ </tr>
+ <tr>
+ <td>Sequencing Status</td>
+ <td>Permanent Draft</td>
+ </tr>
+ <tr>
+ <td>Study Name</td>
+ <td>Peatland microbial communities from Stordalen Mire, Sweden</td>
+ </tr>
+ <tr>
+ <td>Genome Name Sample Name</td>
+ <td>Metatranscriptome of peat soil microbial communities from Stordalen Mire, Sweden - 719 S1 1-5 (Metagenome Metatranscriptome)</td>
+ </tr>
+ <tr>
+ <td>Img Genome Id</td>
+ <td>3300050632</td>
+ </tr>
+ </tbody>
+ </table>,
+ <tbody>
+ <tr>
+ <td>Taxon Oid</td>
+ <td>
+ <a class="link-element" href="https://img.jgi.doe.gov/cgi-bin/m/main.cgi?section=TaxonDetail&amp;page=taxonDetail&amp;taxon_oid=3300050632" target="_blank">
+                                             3300050632
+                                         </a>
+ </td>
+ </tr>
+ <tr>
+ <td>Ncbi Domain</td>
+ <td>*Microbiome</td>
+ </tr>
+ <tr>
+ <td>Sequencing Status</td>
+ <td>Permanent Draft</td>
+ </tr>
+ <tr>
+ <td>Study Name</td>
+ <td>Peatland microbial communities from Stordalen Mire, Sweden</td>
+ </tr>
+ <tr>
+ <td>Genome Name Sample Name</td>
+ <td>Metatranscriptome of peat soil microbial communities from Stordalen Mire, Sweden - 719 S1 1-5 (Metagenome Metatranscriptome)</td>
+ </tr>
+ <tr>
+ <td>Img Genome Id</td>
+ <td>3300050632</td>
+ </tr>
+ </tbody>,
+ <tr>
+ <td>Taxon Oid</td>
+ <td>
+ <a class="link-element" href="https://img.jgi.doe.gov/cgi-bin/m/main.cgi?section=TaxonDetail&amp;page=taxonDetail&amp;taxon_oid=3300050632" target="_blank">
+                                             3300050632
+                                         </a>
+ </td>
+ </tr>,
+ <td>Taxon Oid</td>,
+ <td>
+ <a class="link-element" href="https://img.jgi.doe.gov/cgi-bin/m/main.cgi?section=TaxonDetail&amp;page=taxonDetail&amp;taxon_oid=3300050632" target="_blank">
+                                             3300050632
+                                         </a>
+ </td>,
+ <a class="link-element" href="https://img.jgi.doe.gov/cgi-bin/m/main.cgi?section=TaxonDetail&amp;page=taxonDetail&amp;taxon_oid=3300050632" target="_blank">
+                                             3300050632
+                                         </a>,
+ <tr>
+ <td>Ncbi Domain</td>
+ <td>*Microbiome</td>
+ </tr>,
+ <td>Ncbi Domain</td>,
+ <td>*Microbiome</td>,
+ <tr>
+ <td>Sequencing Status</td>
+ <td>Permanent Draft</td>
+ </tr>,
+ <td>Sequencing Status</td>,
+ <td>Permanent Draft</td>,
+ <tr>
+ <td>Study Name</td>
+ <td>Peatland microbial communities from Stordalen Mire, Sweden</td>
+ </tr>,
+ <td>Study Name</td>,
+ <td>Peatland microbial communities from Stordalen Mire, Sweden</td>,
+ <tr>
+ <td>Genome Name Sample Name</td>
+ <td>Metatranscriptome of peat soil microbial communities from Stordalen Mire, Sweden - 719 S1 1-5 (Metagenome Metatranscriptome)</td>
+ </tr>,
+ <td>Genome Name Sample Name</td>,
+ <td>Metatranscriptome of peat soil microbial communities from Stordalen Mire, Sweden - 719 S1 1-5 (Metagenome Metatranscriptome)</td>,
+ <tr>
+ <td>Img Genome Id</td>
+ <td>3300050632</td>
+ </tr>,
+ <td>Img Genome Id</td>,
+ <td>3300050632</td>,
+ <div class="meta-data-table-wrapper" style="margin-bottom: 24px;">
+ <h4 class="uvig-section-subtitle">Taxonomy</h4>
+ <table class="meta-data-table">
+ <tbody>
+ <tr>
+ <td>Ncbi Phylum</td>
+ <td>Environmental</td>
+ </tr>
+ <tr>
+ <td>Ncbi Class</td>
+ <td>Terrestrial</td>
+ </tr>
+ <tr>
+ <td>Ncbi Order</td>
+ <td>Soil</td>
+ </tr>
+ <tr>
+ <td>Ncbi Family</td>
+ <td>Peat</td>
+ </tr>
+ <tr>
+ <td>Ncbi Genus</td>
+ <td>Mire</td>
+ </tr>
+ <tr>
+ <td>Ncbi Species</td>
+ <td>Peatland microbial communities from Stordalen Mire, Sweden</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>,
+ <h4 class="uvig-section-subtitle">Taxonomy</h4>,
+ <table class="meta-data-table">
+ <tbody>
+ <tr>
+ <td>Ncbi Phylum</td>
+ <td>Environmental</td>
+ </tr>
+ <tr>
+ <td>Ncbi Class</td>
+ <td>Terrestrial</td>
+ </tr>
+ <tr>
+ <td>Ncbi Order</td>
+ <td>Soil</td>
+ </tr>
+ <tr>
+ <td>Ncbi Family</td>
+ <td>Peat</td>
+ </tr>
+ <tr>
+ <td>Ncbi Genus</td>
+ <td>Mire</td>
+ </tr>
+ <tr>
+ <td>Ncbi Species</td>
+ <td>Peatland microbial communities from Stordalen Mire, Sweden</td>
+ </tr>
+ </tbody>
+ </table>,
+ <tbody>
+ <tr>
+ <td>Ncbi Phylum</td>
+ <td>Environmental</td>
+ </tr>
+ <tr>
+ <td>Ncbi Class</td>
+ <td>Terrestrial</td>
+ </tr>
+ <tr>
+ <td>Ncbi Order</td>
+ <td>Soil</td>
+ </tr>
+ <tr>
+ <td>Ncbi Family</td>
+ <td>Peat</td>
+ </tr>
+ <tr>
+ <td>Ncbi Genus</td>
+ <td>Mire</td>
+ </tr>
+ <tr>
+ <td>Ncbi Species</td>
+ <td>Peatland microbial communities from Stordalen Mire, Sweden</td>
+ </tr>
+ </tbody>,
+ <tr>
+ <td>Ncbi Phylum</td>
+ <td>Environmental</td>
+ </tr>,
+ <td>Ncbi Phylum</td>,
+ <td>Environmental</td>,
+ <tr>
+ <td>Ncbi Class</td>
+ <td>Terrestrial</td>
+ </tr>,
+ <td>Ncbi Class</td>,
+ <td>Terrestrial</td>,
+ <tr>
+ <td>Ncbi Order</td>
+ <td>Soil</td>
+ </tr>,
+ <td>Ncbi Order</td>,
+ <td>Soil</td>,
+ <tr>
+ <td>Ncbi Family</td>
+ <td>Peat</td>
+ </tr>,
+ <td>Ncbi Family</td>,
+ <td>Peat</td>,
+ <tr>
+ <td>Ncbi Genus</td>
+ <td>Mire</td>
+ </tr>,
+ <td>Ncbi Genus</td>,
+ <td>Mire</td>,
+ <tr>
+ <td>Ncbi Species</td>
+ <td>Peatland microbial communities from Stordalen Mire, Sweden</td>
+ </tr>,
+ <td>Ncbi Species</td>,
+ <td>Peatland microbial communities from Stordalen Mire, Sweden</td>,
+ <div class="meta-data-table-wrapper" style="margin-bottom: 24px;">
+ <h4 class="uvig-section-subtitle">Project / Publication</h4>
+ <table class="meta-data-table">
+ <tbody>
+ <tr>
+ <td>Gold Analysis Project Id</td>
+ <td>
+ <a class="link-element" href="https://gold.jgi.doe.gov/analysis_projects?id=Ga0509058" target="_blank">
+                                             Ga0509058
+                                         </a>
+ </td>
+ </tr>
+ <tr>
+ <td>Gold Sequencing Project Id</td>
+ <td>
+ <a class="link-element" href="https://gold.jgi.doe.gov/projects?id=Gp0596342" target="_blank">
+                                             Gp0596342
+                                         </a>
+ </td>
+ </tr>
+ <tr>
+ <td>Gold Study Id</td>
+ <td>
+ <a class="link-element" href="https://gold.jgi.doe.gov/study?id=Gs0131983" target="_blank">
+                                             Gs0131983
+                                         </a>
+ </td>
+ </tr>
+ <tr>
+ <td>Is Published</td>
+ <td>0</td>
+ </tr>
+ <tr>
+ <td>Add Date</td>
+ <td>03/09/2022</td>
+ </tr>
+ <tr>
+ <td>Public Release Date</td>
+ <td>03/02/2024</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>,
+ <h4 class="uvig-section-subtitle">Project / Publication</h4>,
+ <table class="meta-data-table">
+ <tbody>
+ <tr>
+ <td>Gold Analysis Project Id</td>
+ <td>
+ <a class="link-element" href="https://gold.jgi.doe.gov/analysis_projects?id=Ga0509058" target="_blank">
+                                             Ga0509058
+                                         </a>
+ </td>
+ </tr>
+ <tr>
+ <td>Gold Sequencing Project Id</td>
+ <td>
+ <a class="link-element" href="https://gold.jgi.doe.gov/projects?id=Gp0596342" target="_blank">
+                                             Gp0596342
+                                         </a>
+ </td>
+ </tr>
+ <tr>
+ <td>Gold Study Id</td>
+ <td>
+ <a class="link-element" href="https://gold.jgi.doe.gov/study?id=Gs0131983" target="_blank">
+                                             Gs0131983
+                                         </a>
+ </td>
+ </tr>
+ <tr>
+ <td>Is Published</td>
+ <td>0</td>
+ </tr>
+ <tr>
+ <td>Add Date</td>
+ <td>03/09/2022</td>
+ </tr>
+ <tr>
+ <td>Public Release Date</td>
+ <td>03/02/2024</td>
+ </tr>
+ </tbody>
+ </table>,
+ <tbody>
+ <tr>
+ <td>Gold Analysis Project Id</td>
+ <td>
+ <a class="link-element" href="https://gold.jgi.doe.gov/analysis_projects?id=Ga0509058" target="_blank">
+                                             Ga0509058
+                                         </a>
+ </td>
+ </tr>
+ <tr>
+ <td>Gold Sequencing Project Id</td>
+ <td>
+ <a class="link-element" href="https://gold.jgi.doe.gov/projects?id=Gp0596342" target="_blank">
+                                             Gp0596342
+                                         </a>
+ </td>
+ </tr>
+ <tr>
+ <td>Gold Study Id</td>
+ <td>
+ <a class="link-element" href="https://gold.jgi.doe.gov/study?id=Gs0131983" target="_blank">
+                                             Gs0131983
+                                         </a>
+ </td>
+ </tr>
+ <tr>
+ <td>Is Published</td>
+ <td>0</td>
+ </tr>
+ <tr>
+ <td>Add Date</td>
+ <td>03/09/2022</td>
+ </tr>
+ <tr>
+ <td>Public Release Date</td>
+ <td>03/02/2024</td>
+ </tr>
+ </tbody>,
+ <tr>
+ <td>Gold Analysis Project Id</td>
+ <td>
+ <a class="link-element" href="https://gold.jgi.doe.gov/analysis_projects?id=Ga0509058" target="_blank">
+                                             Ga0509058
+                                         </a>
+ </td>
+ </tr>,
+ <td>Gold Analysis Project Id</td>,
+ <td>
+ <a class="link-element" href="https://gold.jgi.doe.gov/analysis_projects?id=Ga0509058" target="_blank">
+                                             Ga0509058
+                                         </a>
+ </td>,
+ <a class="link-element" href="https://gold.jgi.doe.gov/analysis_projects?id=Ga0509058" target="_blank">
+                                             Ga0509058
+                                         </a>,
+ <tr>
+ <td>Gold Sequencing Project Id</td>
+ <td>
+ <a class="link-element" href="https://gold.jgi.doe.gov/projects?id=Gp0596342" target="_blank">
+                                             Gp0596342
+                                         </a>
+ </td>
+ </tr>,
+ <td>Gold Sequencing Project Id</td>,
+ <td>
+ <a class="link-element" href="https://gold.jgi.doe.gov/projects?id=Gp0596342" target="_blank">
+                                             Gp0596342
+                                         </a>
+ </td>,
+ <a class="link-element" href="https://gold.jgi.doe.gov/projects?id=Gp0596342" target="_blank">
+                                             Gp0596342
+                                         </a>,
+ <tr>
+ <td>Gold Study Id</td>
+ <td>
+ <a class="link-element" href="https://gold.jgi.doe.gov/study?id=Gs0131983" target="_blank">
+                                             Gs0131983
+                                         </a>
+ </td>
+ </tr>,
+ <td>Gold Study Id</td>,
+ <td>
+ <a class="link-element" href="https://gold.jgi.doe.gov/study?id=Gs0131983" target="_blank">
+                                             Gs0131983
+                                         </a>
+ </td>,
+ <a class="link-element" href="https://gold.jgi.doe.gov/study?id=Gs0131983" target="_blank">
+                                             Gs0131983
+                                         </a>,
+ <tr>
+ <td>Is Published</td>
+ <td>0</td>
+ </tr>,
+ <td>Is Published</td>,
+ <td>0</td>,
+ <tr>
+ <td>Add Date</td>
+ <td>03/09/2022</td>
+ </tr>,
+ <td>Add Date</td>,
+ <td>03/09/2022</td>,
+ <tr>
+ <td>Public Release Date</td>
+ <td>03/02/2024</td>
+ </tr>,
+ <td>Public Release Date</td>,
+ <td>03/02/2024</td>,
+ <div class="meta-data-table-wrapper" style="margin-bottom: 24px;">
+ <h4 class="uvig-section-subtitle">Environment / Ecosystem</h4>
+ <table class="meta-data-table">
+ <tbody>
+ <tr>
+ <td>Ecosystem</td>
+ <td>Environmental</td>
+ </tr>
+ <tr>
+ <td>Ecosystem Category</td>
+ <td>Terrestrial</td>
+ </tr>
+ <tr>
+ <td>Ecosystem Subtype</td>
+ <td>Peat</td>
+ </tr>
+ <tr>
+ <td>Ecosystem Type</td>
+ <td>Soil</td>
+ </tr>
+ <tr>
+ <td>Specific Ecosystem</td>
+ <td>Mire</td>
+ </tr>
+ <tr>
+ <td>Habitat</td>
+ <td>Peat soil</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>,
+ <h4 class="uvig-section-subtitle">Environment / Ecosystem</h4>,
+ <table class="meta-data-table">
+ <tbody>
+ <tr>
+ <td>Ecosystem</td>
+ <td>Environmental</td>
+ </tr>
+ <tr>
+ <td>Ecosystem Category</td>
+ <td>Terrestrial</td>
+ </tr>
+ <tr>
+ <td>Ecosystem Subtype</td>
+ <td>Peat</td>
+ </tr>
+ <tr>
+ <td>Ecosystem Type</td>
+ <td>Soil</td>
+ </tr>
+ <tr>
+ <td>Specific Ecosystem</td>
+ <td>Mire</td>
+ </tr>
+ <tr>
+ <td>Habitat</td>
+ <td>Peat soil</td>
+ </tr>
+ </tbody>
+ </table>,
+ <tbody>
+ <tr>
+ <td>Ecosystem</td>
+ <td>Environmental</td>
+ </tr>
+ <tr>
+ <td>Ecosystem Category</td>
+ <td>Terrestrial</td>
+ </tr>
+ <tr>
+ <td>Ecosystem Subtype</td>
+ <td>Peat</td>
+ </tr>
+ <tr>
+ <td>Ecosystem Type</td>
+ <td>Soil</td>
+ </tr>
+ <tr>
+ <td>Specific Ecosystem</td>
+ <td>Mire</td>
+ </tr>
+ <tr>
+ <td>Habitat</td>
+ <td>Peat soil</td>
+ </tr>
+ </tbody>,
+ <tr>
+ <td>Ecosystem</td>
+ <td>Environmental</td>
+ </tr>,
+ <td>Ecosystem</td>,
+ <td>Environmental</td>,
+ <tr>
+ <td>Ecosystem Category</td>
+ <td>Terrestrial</td>
+ </tr>,
+ <td>Ecosystem Category</td>,
+ <td>Terrestrial</td>,
+ <tr>
+ <td>Ecosystem Subtype</td>
+ <td>Peat</td>
+ </tr>,
+ <td>Ecosystem Subtype</td>,
+ <td>Peat</td>,
+ <tr>
+ <td>Ecosystem Type</td>
+ <td>Soil</td>
+ </tr>,
+ <td>Ecosystem Type</td>,
+ <td>Soil</td>,
+ <tr>
+ <td>Specific Ecosystem</td>
+ <td>Mire</td>
+ </tr>,
+ <td>Specific Ecosystem</td>,
+ <td>Mire</td>,
+ <tr>
+ <td>Habitat</td>
+ <td>Peat soil</td>
+ </tr>,
+ <td>Habitat</td>,
+ <td>Peat soil</td>,
+ <div class="meta-data-table-wrapper" style="margin-bottom: 24px;">
+ <h4 class="uvig-section-subtitle">Sampling / Conditions</h4>
+ <table class="meta-data-table">
+ <tbody>
+ <tr>
+ <td>Geographic Location</td>
+ <td>Sweden: Norrbotten County, Stordalen Mire</td>
+ </tr>
+ <tr>
+ <td>Isolation Country</td>
+ <td>8843</td>
+ </tr>
+ <tr>
+ <td>Latitude</td>
+ <td>68.3532867</td>
+ </tr>
+ <tr>
+ <td>Longitude</td>
+ <td>19.0474583</td>
+ </tr>
+ <tr>
+ <td>Sample Collection Date</td>
+ <td>2019/7/20</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>,
+ <h4 class="uvig-section-subtitle">Sampling / Conditions</h4>,
+ <table class="meta-data-table">
+ <tbody>
+ <tr>
+ <td>Geographic Location</td>
+ <td>Sweden: Norrbotten County, Stordalen Mire</td>
+ </tr>
+ <tr>
+ <td>Isolation Country</td>
+ <td>8843</td>
+ </tr>
+ <tr>
+ <td>Latitude</td>
+ <td>68.3532867</td>
+ </tr>
+ <tr>
+ <td>Longitude</td>
+ <td>19.0474583</td>
+ </tr>
+ <tr>
+ <td>Sample Collection Date</td>
+ <td>2019/7/20</td>
+ </tr>
+ </tbody>
+ </table>,
+ <tbody>
+ <tr>
+ <td>Geographic Location</td>
+ <td>Sweden: Norrbotten County, Stordalen Mire</td>
+ </tr>
+ <tr>
+ <td>Isolation Country</td>
+ <td>8843</td>
+ </tr>
+ <tr>
+ <td>Latitude</td>
+ <td>68.3532867</td>
+ </tr>
+ <tr>
+ <td>Longitude</td>
+ <td>19.0474583</td>
+ </tr>
+ <tr>
+ <td>Sample Collection Date</td>
+ <td>2019/7/20</td>
+ </tr>
+ </tbody>,
+ <tr>
+ <td>Geographic Location</td>
+ <td>Sweden: Norrbotten County, Stordalen Mire</td>
+ </tr>,
+ <td>Geographic Location</td>,
+ <td>Sweden: Norrbotten County, Stordalen Mire</td>,
+ <tr>
+ <td>Isolation Country</td>
+ <td>8843</td>
+ </tr>,
+ <td>Isolation Country</td>,
+ <td>8843</td>,
+ <tr>
+ <td>Latitude</td>
+ <td>68.3532867</td>
+ </tr>,
+ <td>Latitude</td>,
+ <td>68.3532867</td>,
+ <tr>
+ <td>Longitude</td>
+ <td>19.0474583</td>
+ </tr>,
+ <td>Longitude</td>,
+ <td>19.0474583</td>,
+ <tr>
+ <td>Sample Collection Date</td>
+ <td>2019/7/20</td>
+ </tr>,
+ <td>Sample Collection Date</td>,
+ <td>2019/7/20</td>,
+ <div class="meta-data-table-wrapper" style="margin-bottom: 24px;">
+ <h4 class="uvig-section-subtitle">Assembly</h4>
+ <table class="meta-data-table">
+ <tbody>
+ <tr>
+ <td>Genome Size Assembled</td>
+ <td>231877407</td>
+ </tr>
+ <tr>
+ <td>Gene Count Assembled</td>
+ <td>531704</td>
+ </tr>
+ <tr>
+ <td>Sequencing Strategy</td>
+ <td>Metatranscriptome</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>,
+ <h4 class="uvig-section-subtitle">Assembly</h4>,
+ <table class="meta-data-table">
+ <tbody>
+ <tr>
+ <td>Genome Size Assembled</td>
+ <td>231877407</td>
+ </tr>
+ <tr>
+ <td>Gene Count Assembled</td>
+ <td>531704</td>
+ </tr>
+ <tr>
+ <td>Sequencing Strategy</td>
+ <td>Metatranscriptome</td>
+ </tr>
+ </tbody>
+ </table>,
+ <tbody>
+ <tr>
+ <td>Genome Size Assembled</td>
+ <td>231877407</td>
+ </tr>
+ <tr>
+ <td>Gene Count Assembled</td>
+ <td>531704</td>
+ </tr>
+ <tr>
+ <td>Sequencing Strategy</td>
+ <td>Metatranscriptome</td>
+ </tr>
+ </tbody>,
+ <tr>
+ <td>Genome Size Assembled</td>
+ <td>231877407</td>
+ </tr>,
+ <td>Genome Size Assembled</td>,
+ <td>231877407</td>,
+ <tr>
+ <td>Gene Count Assembled</td>
+ <td>531704</td>
+ </tr>,
+ <td>Gene Count Assembled</td>,
+ <td>531704</td>,
+ <tr>
+ <td>Sequencing Strategy</td>
+ <td>Metatranscriptome</td>
+ </tr>,
+ <td>Sequencing Strategy</td>,
+ <td>Metatranscriptome</td>,
+ <div class="meta-data-table-wrapper" style="margin-bottom: 24px;">
+ <h4 class="uvig-section-subtitle">Other Metadata</h4>
+ <table class="meta-data-table">
+ <tbody>
+ <tr>
+ <td>Alt2 Contact Emails</td>
+ <td><a class="__cf_email__" data-cfemail="b0c3d1dcd5c3dbd1f0d5ddd1d9dc9ed1c2d9cadfded19ed5d4c5" href="/cdn-cgi/l/email-protection">[email protected]</a>; <a class="__cf_email__" data-cfemail="2d5f444e45031f1a1d6d425e5803484958" href="/cdn-cgi/l/email-protection">[email protected]</a></td>
+ </tr>
+ <tr>
+ <td>Alt2 Contact Names</td>
+ <td>Scott Saleska; Virginia Rich</td>
+ </tr>
+ <tr>
+ <td>Assembly Method</td>
+ <td>MEGAHIT v. 1.2.9</td>
+ </tr>
+ <tr>
+ <td>Award Doi</td>
+ <td>10.46936/10.25585/60001148</td>
+ </tr>
+ <tr>
+ <td>Comments</td>
+ <td>released based on JGI ITS</td>
+ </tr>
+ <tr>
+ <td>Contact Email</td>
+ <td><a class="__cf_email__" data-cfemail="7b081a171e08101a3b1e161a1217551a09120114151a551e1f0e" href="/cdn-cgi/l/email-protection">[email protected]</a></td>
+ </tr>
+ <tr>
+ <td>Contact Name</td>
+ <td>Scott Saleska</td>
+ </tr>
+ <tr>
+ <td>Crispr Arrays Assembled</td>
+ <td>173</td>
+ </tr>
+ <tr>
+ <td>Cultured</td>
+ <td>0</td>
+ </tr>
+ <tr>
+ <td>Depth In Meters</td>
+ <td>0.000000</td>
+ </tr>
+ <tr>
+ <td>Elevation In Meters</td>
+ <td>0.000000</td>
+ </tr>
+ <tr>
+ <td>Estimated Average Genome Size Assembled</td>
+ <td>0</td>
+ </tr>
+ <tr>
+ <td>Estimated Number Of Genomes Assembled</td>
+ <td>0</td>
+ </tr>
+ <tr>
+ <td>Funding Program</td>
+ <td>BERSS</td>
+ </tr>
+ <tr>
+ <td>Funding Year</td>
+ <td>2017</td>
+ </tr>
+ <tr>
+ <td>Gold Analysis Project Type</td>
+ <td>Metatranscriptome Analysis</td>
+ </tr>
+ <tr>
+ <td>Has Coverage</td>
+ <td>1</td>
+ </tr>
+ <tr>
+ <td>Id</td>
+ <td>78437</td>
+ </tr>
+ <tr>
+ <td>Img Release Pipeline Version</td>
+ <td>IMG Annotation Pipeline v.5.1.4</td>
+ </tr>
+ <tr>
+ <td>Img Submission Id</td>
+ <td>264255</td>
+ </tr>
+ <tr>
+ <td>In File</td>
+ <td>Yes</td>
+ </tr>
+ <tr>
+ <td>Is Public</td>
+ <td>Yes</td>
+ </tr>
+ <tr>
+ <td>Isolation</td>
+ <td>Permafrost peat</td>
+ </tr>
+ <tr>
+ <td>Metabat Bin Status</td>
+ <td>no binning for Metatranscriptome Analysis</td>
+ </tr>
+ <tr>
+ <td>Pct Assembled Reads Assembled</td>
+ <td>76.26</td>
+ </tr>
+ <tr>
+ <td>Rnd Project</td>
+ <td>1</td>
+ </tr>
+ <tr>
+ <td>Scaffold Count Assembled</td>
+ <td>451901</td>
+ </tr>
+ <tr>
+ <td>Sequencing Center</td>
+ <td>DOE Joint Genome Institute  (JGI)</td>
+ </tr>
+ <tr>
+ <td>Sequencing Method</td>
+ <td>Illumina NovaSeq S4</td>
+ </tr>
+ <tr>
+ <td>Submission Type</td>
+ <td>Primary</td>
+ </tr>
+ <tr>
+ <td>Submitter Name</td>
+ <td>Scott Saleska</td>
+ </tr>
+ <tr>
+ <td>Unnamed 0</td>
+ <td>18628</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>,
+ <h4 class="uvig-section-subtitle">Other Metadata</h4>,
+ <table class="meta-data-table">
+ <tbody>
+ <tr>
+ <td>Alt2 Contact Emails</td>
+ <td><a class="__cf_email__" data-cfemail="b0c3d1dcd5c3dbd1f0d5ddd1d9dc9ed1c2d9cadfded19ed5d4c5" href="/cdn-cgi/l/email-protection">[email protected]</a>; <a class="__cf_email__" data-cfemail="2d5f444e45031f1a1d6d425e5803484958" href="/cdn-cgi/l/email-protection">[email protected]</a></td>
+ </tr>
+ <tr>
+ <td>Alt2 Contact Names</td>
+ <td>Scott Saleska; Virginia Rich</td>
+ </tr>
+ <tr>
+ <td>Assembly Method</td>
+ <td>MEGAHIT v. 1.2.9</td>
+ </tr>
+ <tr>
+ <td>Award Doi</td>
+ <td>10.46936/10.25585/60001148</td>
+ </tr>
+ <tr>
+ <td>Comments</td>
+ <td>released based on JGI ITS</td>
+ </tr>
+ <tr>
+ <td>Contact Email</td>
+ <td><a class="__cf_email__" data-cfemail="7b081a171e08101a3b1e161a1217551a09120114151a551e1f0e" href="/cdn-cgi/l/email-protection">[email protected]</a></td>
+ </tr>
+ <tr>
+ <td>Contact Name</td>
+ <td>Scott Saleska</td>
+ </tr>
+ <tr>
+ <td>Crispr Arrays Assembled</td>
+ <td>173</td>
+ </tr>
+ <tr>
+ <td>Cultured</td>
+ <td>0</td>
+ </tr>
+ <tr>
+ <td>Depth In Meters</td>
+ <td>0.000000</td>
+ </tr>
+ <tr>
+ <td>Elevation In Meters</td>
+ <td>0.000000</td>
+ </tr>
+ <tr>
+ <td>Estimated Average Genome Size Assembled</td>
+ <td>0</td>
+ </tr>
+ <tr>
+ <td>Estimated Number Of Genomes Assembled</td>
+ <td>0</td>
+ </tr>
+ <tr>
+ <td>Funding Program</td>
+ <td>BERSS</td>
+ </tr>
+ <tr>
+ <td>Funding Year</td>
+ <td>2017</td>
+ </tr>
+ <tr>
+ <td>Gold Analysis Project Type</td>
+ <td>Metatranscriptome Analysis</td>
+ </tr>
+ <tr>
+ <td>Has Coverage</td>
+ <td>1</td>
+ </tr>
+ <tr>
+ <td>Id</td>
+ <td>78437</td>
+ </tr>
+ <tr>
+ <td>Img Release Pipeline Version</td>
+ <td>IMG Annotation Pipeline v.5.1.4</td>
+ </tr>
+ <tr>
+ <td>Img Submission Id</td>
+ <td>264255</td>
+ </tr>
+ <tr>
+ <td>In File</td>
+ <td>Yes</td>
+ </tr>
+ <tr>
+ <td>Is Public</td>
+ <td>Yes</td>
+ </tr>
+ <tr>
+ <td>Isolation</td>
+ <td>Permafrost peat</td>
+ </tr>
+ <tr>
+ <td>Metabat Bin Status</td>
+ <td>no binning for Metatranscriptome Analysis</td>
+ </tr>
+ <tr>
+ <td>Pct Assembled Reads Assembled</td>
+ <td>76.26</td>
+ </tr>
+ <tr>
+ <td>Rnd Project</td>
+ <td>1</td>
+ </tr>
+ <tr>
+ <td>Scaffold Count Assembled</td>
+ <td>451901</td>
+ </tr>
+ <tr>
+ <td>Sequencing Center</td>
+ <td>DOE Joint Genome Institute  (JGI)</td>
+ </tr>
+ <tr>
+ <td>Sequencing Method</td>
+ <td>Illumina NovaSeq S4</td>
+ </tr>
+ <tr>
+ <td>Submission Type</td>
+ <td>Primary</td>
+ </tr>
+ <tr>
+ <td>Submitter Name</td>
+ <td>Scott Saleska</td>
+ </tr>
+ <tr>
+ <td>Unnamed 0</td>
+ <td>18628</td>
+ </tr>
+ </tbody>
+ </table>,
+ <tbody>
+ <tr>
+ <td>Alt2 Contact Emails</td>
+ <td><a class="__cf_email__" data-cfemail="b0c3d1dcd5c3dbd1f0d5ddd1d9dc9ed1c2d9cadfded19ed5d4c5" href="/cdn-cgi/l/email-protection">[email protected]</a>; <a class="__cf_email__" data-cfemail="2d5f444e45031f1a1d6d425e5803484958" href="/cdn-cgi/l/email-protection">[email protected]</a></td>
+ </tr>
+ <tr>
+ <td>Alt2 Contact Names</td>
+ <td>Scott Saleska; Virginia Rich</td>
+ </tr>
+ <tr>
+ <td>Assembly Method</td>
+ <td>MEGAHIT v. 1.2.9</td>
+ </tr>
+ <tr>
+ <td>Award Doi</td>
+ <td>10.46936/10.25585/60001148</td>
+ </tr>
+ <tr>
+ <td>Comments</td>
+ <td>released based on JGI ITS</td>
+ </tr>
+ <tr>
+ <td>Contact Email</td>
+ <td><a class="__cf_email__" data-cfemail="7b081a171e08101a3b1e161a1217551a09120114151a551e1f0e" href="/cdn-cgi/l/email-protection">[email protected]</a></td>
+ </tr>
+ <tr>
+ <td>Contact Name</td>
+ <td>Scott Saleska</td>
+ </tr>
+ <tr>
+ <td>Crispr Arrays Assembled</td>
+ <td>173</td>
+ </tr>
+ <tr>
+ <td>Cultured</td>
+ <td>0</td>
+ </tr>
+ <tr>
+ <td>Depth In Meters</td>
+ <td>0.000000</td>
+ </tr>
+ <tr>
+ <td>Elevation In Meters</td>
+ <td>0.000000</td>
+ </tr>
+ <tr>
+ <td>Estimated Average Genome Size Assembled</td>
+ <td>0</td>
+ </tr>
+ <tr>
+ <td>Estimated Number Of Genomes Assembled</td>
+ <td>0</td>
+ </tr>
+ <tr>
+ <td>Funding Program</td>
+ <td>BERSS</td>
+ </tr>
+ <tr>
+ <td>Funding Year</td>
+ <td>2017</td>
+ </tr>
+ <tr>
+ <td>Gold Analysis Project Type</td>
+ <td>Metatranscriptome Analysis</td>
+ </tr>
+ <tr>
+ <td>Has Coverage</td>
+ <td>1</td>
+ </tr>
+ <tr>
+ <td>Id</td>
+ <td>78437</td>
+ </tr>
+ <tr>
+ <td>Img Release Pipeline Version</td>
+ <td>IMG Annotation Pipeline v.5.1.4</td>
+ </tr>
+ <tr>
+ <td>Img Submission Id</td>
+ <td>264255</td>
+ </tr>
+ <tr>
+ <td>In File</td>
+ <td>Yes</td>
+ </tr>
+ <tr>
+ <td>Is Public</td>
+ <td>Yes</td>
+ </tr>
+ <tr>
+ <td>Isolation</td>
+ <td>Permafrost peat</td>
+ </tr>
+ <tr>
+ <td>Metabat Bin Status</td>
+ <td>no binning for Metatranscriptome Analysis</td>
+ </tr>
+ <tr>
+ <td>Pct Assembled Reads Assembled</td>
+ <td>76.26</td>
+ </tr>
+ <tr>
+ <td>Rnd Project</td>
+ <td>1</td>
+ </tr>
+ <tr>
+ <td>Scaffold Count Assembled</td>
+ <td>451901</td>
+ </tr>
+ <tr>
+ <td>Sequencing Center</td>
+ <td>DOE Joint Genome Institute  (JGI)</td>
+ </tr>
+ <tr>
+ <td>Sequencing Method</td>
+ <td>Illumina NovaSeq S4</td>
+ </tr>
+ <tr>
+ <td>Submission Type</td>
+ <td>Primary</td>
+ </tr>
+ <tr>
+ <td>Submitter Name</td>
+ <td>Scott Saleska</td>
+ </tr>
+ <tr>
+ <td>Unnamed 0</td>
+ <td>18628</td>
+ </tr>
+ </tbody>,
+ <tr>
+ <td>Alt2 Contact Emails</td>
+ <td><a class="__cf_email__" data-cfemail="b0c3d1dcd5c3dbd1f0d5ddd1d9dc9ed1c2d9cadfded19ed5d4c5" href="/cdn-cgi/l/email-protection">[email protected]</a>; <a class="__cf_email__" data-cfemail="2d5f444e45031f1a1d6d425e5803484958" href="/cdn-cgi/l/email-protection">[email protected]</a></td>
+ </tr>,
+ <td>Alt2 Contact Emails</td>,
+ <td><a class="__cf_email__" data-cfemail="b0c3d1dcd5c3dbd1f0d5ddd1d9dc9ed1c2d9cadfded19ed5d4c5" href="/cdn-cgi/l/email-protection">[email protected]</a>; <a class="__cf_email__" data-cfemail="2d5f444e45031f1a1d6d425e5803484958" href="/cdn-cgi/l/email-protection">[email protected]</a></td>,
+ <a class="__cf_email__" data-cfemail="b0c3d1dcd5c3dbd1f0d5ddd1d9dc9ed1c2d9cadfded19ed5d4c5" href="/cdn-cgi/l/email-protection">[email protected]</a>,
+ <a class="__cf_email__" data-cfemail="2d5f444e45031f1a1d6d425e5803484958" href="/cdn-cgi/l/email-protection">[email protected]</a>,
+ <tr>
+ <td>Alt2 Contact Names</td>
+ <td>Scott Saleska; Virginia Rich</td>
+ </tr>,
+ <td>Alt2 Contact Names</td>,
+ <td>Scott Saleska; Virginia Rich</td>,
+ <tr>
+ <td>Assembly Method</td>
+ <td>MEGAHIT v. 1.2.9</td>
+ </tr>,
+ <td>Assembly Method</td>,
+ <td>MEGAHIT v. 1.2.9</td>,
+ <tr>
+ <td>Award Doi</td>
+ <td>10.46936/10.25585/60001148</td>
+ </tr>,
+ <td>Award Doi</td>,
+ <td>10.46936/10.25585/60001148</td>,
+ <tr>
+ <td>Comments</td>
+ <td>released based on JGI ITS</td>
+ </tr>,
+ <td>Comments</td>,
+ <td>released based on JGI ITS</td>,
+ <tr>
+ <td>Contact Email</td>
+ <td><a class="__cf_email__" data-cfemail="7b081a171e08101a3b1e161a1217551a09120114151a551e1f0e" href="/cdn-cgi/l/email-protection">[email protected]</a></td>
+ </tr>,
+ <td>Contact Email</td>,
+ <td><a class="__cf_email__" data-cfemail="7b081a171e08101a3b1e161a1217551a09120114151a551e1f0e" href="/cdn-cgi/l/email-protection">[email protected]</a></td>,
+ <a class="__cf_email__" data-cfemail="7b081a171e08101a3b1e161a1217551a09120114151a551e1f0e" href="/cdn-cgi/l/email-protection">[email protected]</a>,
+ <tr>
+ <td>Contact Name</td>
+ <td>Scott Saleska</td>
+ </tr>,
+ <td>Contact Name</td>,
+ <td>Scott Saleska</td>,
+ <tr>
+ <td>Crispr Arrays Assembled</td>
+ <td>173</td>
+ </tr>,
+ <td>Crispr Arrays Assembled</td>,
+ <td>173</td>,
+ <tr>
+ <td>Cultured</td>
+ <td>0</td>
+ </tr>,
+ <td>Cultured</td>,
+ <td>0</td>,
+ <tr>
+ <td>Depth In Meters</td>
+ <td>0.000000</td>
+ </tr>,
+ <td>Depth In Meters</td>,
+ <td>0.000000</td>,
+ <tr>
+ <td>Elevation In Meters</td>
+ <td>0.000000</td>
+ </tr>,
+ <td>Elevation In Meters</td>,
+ <td>0.000000</td>,
+ <tr>
+ <td>Estimated Average Genome Size Assembled</td>
+ <td>0</td>
+ </tr>,
+ <td>Estimated Average Genome Size Assembled</td>,
+ <td>0</td>,
+ <tr>
+ <td>Estimated Number Of Genomes Assembled</td>
+ <td>0</td>
+ </tr>,
+ <td>Estimated Number Of Genomes Assembled</td>,
+ <td>0</td>,
+ <tr>
+ <td>Funding Program</td>
+ <td>BERSS</td>
+ </tr>,
+ <td>Funding Program</td>,
+ <td>BERSS</td>,
+ <tr>
+ <td>Funding Year</td>
+ <td>2017</td>
+ </tr>,
+ <td>Funding Year</td>,
+ <td>2017</td>,
+ <tr>
+ <td>Gold Analysis Project Type</td>
+ <td>Metatranscriptome Analysis</td>
+ </tr>,
+ <td>Gold Analysis Project Type</td>,
+ <td>Metatranscriptome Analysis</td>,
+ <tr>
+ <td>Has Coverage</td>
+ <td>1</td>
+ </tr>,
+ <td>Has Coverage</td>,
+ <td>1</td>,
+ <tr>
+ <td>Id</td>
+ <td>78437</td>
+ </tr>,
+ <td>Id</td>,
+ <td>78437</td>,
+ <tr>
+ <td>Img Release Pipeline Version</td>
+ <td>IMG Annotation Pipeline v.5.1.4</td>
+ </tr>,
+ <td>Img Release Pipeline Version</td>,
+ <td>IMG Annotation Pipeline v.5.1.4</td>,
+ <tr>
+ <td>Img Submission Id</td>
+ <td>264255</td>
+ </tr>,
+ <td>Img Submission Id</td>,
+ <td>264255</td>,
+ <tr>
+ <td>In File</td>
+ <td>Yes</td>
+ </tr>,
+ <td>In File</td>,
+ <td>Yes</td>,
+ <tr>
+ <td>Is Public</td>
+ <td>Yes</td>
+ </tr>,
+ <td>Is Public</td>,
+ <td>Yes</td>,
+ <tr>
+ <td>Isolation</td>
+ <td>Permafrost peat</td>
+ </tr>,
+ <td>Isolation</td>,
+ <td>Permafrost peat</td>,
+ <tr>
+ <td>Metabat Bin Status</td>
+ <td>no binning for Metatranscriptome Analysis</td>
+ </tr>,
+ <td>Metabat Bin Status</td>,
+ <td>no binning for Metatranscriptome Analysis</td>,
+ <tr>
+ <td>Pct Assembled Reads Assembled</td>
+ <td>76.26</td>
+ </tr>,
+ <td>Pct Assembled Reads Assembled</td>,
+ <td>76.26</td>,
+ <tr>
+ <td>Rnd Project</td>
+ <td>1</td>
+ </tr>,
+ <td>Rnd Project</td>,
+ <td>1</td>,
+ <tr>
+ <td>Scaffold Count Assembled</td>
+ <td>451901</td>
+ </tr>,
+ <td>Scaffold Count Assembled</td>,
+ <td>451901</td>,
+ <tr>
+ <td>Sequencing Center</td>
+ <td>DOE Joint Genome Institute  (JGI)</td>
+ </tr>,
+ <td>Sequencing Center</td>,
+ <td>DOE Joint Genome Institute  (JGI)</td>,
+ <tr>
+ <td>Sequencing Method</td>
+ <td>Illumina NovaSeq S4</td>
+ </tr>,
+ <td>Sequencing Method</td>,
+ <td>Illumina NovaSeq S4</td>,
+ <tr>
+ <td>Submission Type</td>
+ <td>Primary</td>
+ </tr>,
+ <td>Submission Type</td>,
+ <td>Primary</td>,
+ <tr>
+ <td>Submitter Name</td>
+ <td>Scott Saleska</td>
+ </tr>,
+ <td>Submitter Name</td>,
+ <td>Scott Saleska</td>,
+ <tr>
+ <td>Unnamed 0</td>
+ <td>18628</td>
+ </tr>,
+ <td>Unnamed 0</td>,
+ <td>18628</td>,
+ <div class="meta-data-table-wrapper" style="margin-bottom: 24px;">
+ <h4 class="uvig-section-subtitle">External Links</h4>
+ <table class="meta-data-table">
+ <thead>
+ <tr>
+ <td style="font-weight:600;color:#4b3b78;">Resource</td>
+ <td style="font-weight:600;color:#4b3b78;">Link</td>
+ </tr>
+ </thead>
+ <tbody>
+ <tr>
+ <td>IMG Taxon Detail</td>
+ <td>
+ <a class="link-element" href="https://img.jgi.doe.gov/cgi-bin/m/main.cgi?section=TaxonDetail&amp;page=taxonDetail&amp;taxon_oid=3300050632" rel="noopener" target="_blank">
+                                         3300050632
+                                     </a>
+ </td>
+ </tr>
+ <tr>
+ <td>GOLD Analysis Project</td>
+ <td>
+ <a class="link-element" href="https://gold.jgi.doe.gov/analysis_projects?id=Ga0509058" rel="noopener" target="_blank">
+                                         Ga0509058
+                                     </a>
+ </td>
+ </tr>
+ <tr>
+ <td>GOLD Study</td>
+ <td>
+ <a class="link-element" href="https://gold.jgi.doe.gov/study?id=Gs0131983" rel="noopener" target="_blank">
+                                         Gs0131983
+                                     </a>
+ </td>
+ </tr>
+ <tr>
+ <td>GOLD Sequencing Project</td>
+ <td>
+ <a class="link-element" href="https://gold.jgi.doe.gov/projects?id=Gp0596342" rel="noopener" target="_blank">
+                                         Gp0596342
+                                     </a>
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </div>,
+ <h4 class="uvig-section-subtitle">External Links</h4>,
+ <table class="meta-data-table">
+ <thead>
+ <tr>
+ <td style="font-weight:600;color:#4b3b78;">Resource</td>
+ <td style="font-weight:600;color:#4b3b78;">Link</td>
+ </tr>
+ </thead>
+ <tbody>
+ <tr>
+ <td>IMG Taxon Detail</td>
+ <td>
+ <a class="link-element" href="https://img.jgi.doe.gov/cgi-bin/m/main.cgi?section=TaxonDetail&amp;page=taxonDetail&amp;taxon_oid=3300050632" rel="noopener" target="_blank">
+                                         3300050632
+                                     </a>
+ </td>
+ </tr>
+ <tr>
+ <td>GOLD Analysis Project</td>
+ <td>
+ <a class="link-element" href="https://gold.jgi.doe.gov/analysis_projects?id=Ga0509058" rel="noopener" target="_blank">
+                                         Ga0509058
+                                     </a>
+ </td>
+ </tr>
+ <tr>
+ <td>GOLD Study</td>
+ <td>
+ <a class="link-element" href="https://gold.jgi.doe.gov/study?id=Gs0131983" rel="noopener" target="_blank">
+                                         Gs0131983
+                                     </a>
+ </td>
+ </tr>
+ <tr>
+ <td>GOLD Sequencing Project</td>
+ <td>
+ <a class="link-element" href="https://gold.jgi.doe.gov/projects?id=Gp0596342" rel="noopener" target="_blank">
+                                         Gp0596342
+                                     </a>
+ </td>
+ </tr>
+ </tbody>
+ </table>,
+ <thead>
+ <tr>
+ <td style="font-weight:600;color:#4b3b78;">Resource</td>
+ <td style="font-weight:600;color:#4b3b78;">Link</td>
+ </tr>
+ </thead>,
+ <tr>
+ <td style="font-weight:600;color:#4b3b78;">Resource</td>
+ <td style="font-weight:600;color:#4b3b78;">Link</td>
+ </tr>,
+ <td style="font-weight:600;color:#4b3b78;">Resource</td>,
+ <td style="font-weight:600;color:#4b3b78;">Link</td>,
+ <tbody>
+ <tr>
+ <td>IMG Taxon Detail</td>
+ <td>
+ <a class="link-element" href="https://img.jgi.doe.gov/cgi-bin/m/main.cgi?section=TaxonDetail&amp;page=taxonDetail&amp;taxon_oid=3300050632" rel="noopener" target="_blank">
+                                         3300050632
+                                     </a>
+ </td>
+ </tr>
+ <tr>
+ <td>GOLD Analysis Project</td>
+ <td>
+ <a class="link-element" href="https://gold.jgi.doe.gov/analysis_projects?id=Ga0509058" rel="noopener" target="_blank">
+                                         Ga0509058
+                                     </a>
+ </td>
+ </tr>
+ <tr>
+ <td>GOLD Study</td>
+ <td>
+ <a class="link-element" href="https://gold.jgi.doe.gov/study?id=Gs0131983" rel="noopener" target="_blank">
+                                         Gs0131983
+                                     </a>
+ </td>
+ </tr>
+ <tr>
+ <td>GOLD Sequencing Project</td>
+ <td>
+ <a class="link-element" href="https://gold.jgi.doe.gov/projects?id=Gp0596342" rel="noopener" target="_blank">
+                                         Gp0596342
+                                     </a>
+ </td>
+ </tr>
+ </tbody>,
+ <tr>
+ <td>IMG Taxon Detail</td>
+ <td>
+ <a class="link-element" href="https://img.jgi.doe.gov/cgi-bin/m/main.cgi?section=TaxonDetail&amp;page=taxonDetail&amp;taxon_oid=3300050632" rel="noopener" target="_blank">
+                                         3300050632
+                                     </a>
+ </td>
+ </tr>,
+ <td>IMG Taxon Detail</td>,
+ <td>
+ <a class="link-element" href="https://img.jgi.doe.gov/cgi-bin/m/main.cgi?section=TaxonDetail&amp;page=taxonDetail&amp;taxon_oid=3300050632" rel="noopener" target="_blank">
+                                         3300050632
+                                     </a>
+ </td>,
+ <a class="link-element" href="https://img.jgi.doe.gov/cgi-bin/m/main.cgi?section=TaxonDetail&amp;page=taxonDetail&amp;taxon_oid=3300050632" rel="noopener" target="_blank">
+                                         3300050632
+                                     </a>,
+ <tr>
+ <td>GOLD Analysis Project</td>
+ <td>
+ <a class="link-element" href="https://gold.jgi.doe.gov/analysis_projects?id=Ga0509058" rel="noopener" target="_blank">
+                                         Ga0509058
+                                     </a>
+ </td>
+ </tr>,
+ <td>GOLD Analysis Project</td>,
+ <td>
+ <a class="link-element" href="https://gold.jgi.doe.gov/analysis_projects?id=Ga0509058" rel="noopener" target="_blank">
+                                         Ga0509058
+                                     </a>
+ </td>,
+ <a class="link-element" href="https://gold.jgi.doe.gov/analysis_projects?id=Ga0509058" rel="noopener" target="_blank">
+                                         Ga0509058
+                                     </a>,
+ <tr>
+ <td>GOLD Study</td>
+ <td>
+ <a class="link-element" href="https://gold.jgi.doe.gov/study?id=Gs0131983" rel="noopener" target="_blank">
+                                         Gs0131983
+                                     </a>
+ </td>
+ </tr>,
+ <td>GOLD Study</td>,
+ <td>
+ <a class="link-element" href="https://gold.jgi.doe.gov/study?id=Gs0131983" rel="noopener" target="_blank">
+                                         Gs0131983
+                                     </a>
+ </td>,
+ <a class="link-element" href="https://gold.jgi.doe.gov/study?id=Gs0131983" rel="noopener" target="_blank">
+                                         Gs0131983
+                                     </a>,
+ <tr>
+ <td>GOLD Sequencing Project</td>
+ <td>
+ <a class="link-element" href="https://gold.jgi.doe.gov/projects?id=Gp0596342" rel="noopener" target="_blank">
+                                         Gp0596342
+                                     </a>
+ </td>
+ </tr>,
+ <td>GOLD Sequencing Project</td>,
+ <td>
+ <a class="link-element" href="https://gold.jgi.doe.gov/projects?id=Gp0596342" rel="noopener" target="_blank">
+                                         Gp0596342
+                                     </a>
+ </td>,
+ <a class="link-element" href="https://gold.jgi.doe.gov/projects?id=Gp0596342" rel="noopener" target="_blank">
+                                         Gp0596342
+                                     </a>,
+ <button id="backToTopBtn" title="Back to Top">↑</button>,
+ <div id="mapArea">
+ <div id="map" style="height: 400px; width: 100%;"></div>
+ <a class="button-1 map-button" href="https://www.google.com/maps?q=68.3532867,19.0474583" target="_blank">
+         View on Google Maps
+     </a>
+ </div>,
+ <div id="map" style="height: 400px; width: 100%;"></div>,
+ <a class="button-1 map-button" href="https://www.google.com/maps?q=68.3532867,19.0474583" target="_blank">
+         View on Google Maps
+     </a>,
+ <footer b-64f2xrsiw0="" class="border-top footer text-muted">
+ <div b-64f2xrsiw0="" class="">
+             © <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(/\d{4}/.exec(Date())[0])</script> - MetaVR 
+             <a class="link-element hidden" href="/Privacy">Privacy</a>
+ </div>
+ </footer>,
+ <div b-64f2xrsiw0="" class="">
+             © <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(/\d{4}/.exec(Date())[0])</script> - MetaVR 
+             <a class="link-element hidden" href="/Privacy">Privacy</a>
+ </div>,
+ <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>,
+ <script>document.write(/\d{4}/.exec(Date())[0])</script>,
+ <a class="link-element hidden" href="/Privacy">Privacy</a>,
+ <script src="/lib/jquery/dist/jquery.min.js"></script>,
+ <script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>,
+ <script src="/DataTables/datatables.js"></script>,
+ <script src="/js/site.js?v=x_-BJwe_Jnr0Nh9h-J_aPkuUkw-Wuw7bnijhHBkBoIU"></script>,
+ <link href="https://unpkg.com/leaflet/dist/leaflet.css" rel="stylesheet"/>,
+ <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>,
+ <script>
+         var lat = parseFloat('68.3532867');
+         var lon = parseFloat('19.0474583');
+ 
+         if (!isNaN(lat) && !isNaN(lon)) {
+             var map = L.map('map').setView([lat, lon], 13);
+ 
+             L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                 maxZoom: 19,
+                 attribution: '© OpenStreetMap contributors'
+             }).addTo(map);
+ 
+             L.marker([lat, lon]).addTo(map)
+                 .bindPopup('Location: ' + lat + ', ' + lon)
+                 .openPopup();
+         } else {
+             document.getElementById('mapArea').style.display = 'none';
+         }
+     </script>,
+ <script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a494fa2708935015',t:'MTc5MTc5NjI4Ng=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script>]
