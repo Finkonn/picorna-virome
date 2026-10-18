@@ -1,0 +1,6 @@
+,Query,Name,Score,From,To,Taxon,Threshold,Positive terms,Score_ratio,Lengh,Frame,Length_contig
+0,vHMM_13409,k141_175,11.829308,219,237,Limnipivirus,10.8,polyprotein,1.095306296296296,301,3,301
+1,vHMM_13409,k141_162,10.903215,219,243,Limnipivirus,10.8,polyprotein,1.0095569444444443,301,3,301
+2,vHMM_13638,k141_286,10.133709,280,259,Salivirus,10.5,polyprotein,0.9651151428571428,301,4,301
+3,vHMM_13438,k141_281,9.060976,73,43,Livupivirus,12.5,polyprotein,0.72487808,301,6,301
+4,vHMM_13438,k141_133,8.238678,73,40,Livupivirus,12.5,polyprotein,0.65909424,301,6,301

@@ -1,0 +1,6 @@
+,Query,Name,Score,From,To,Taxon,Threshold,Positive terms,Score_ratio,Lengh,Frame,Length_contig
+0,vHMM_13208,k141_195,13.899863,72,141,Aquamavirus,11.7,polyprotein,1.1880224786324787,301,1,301
+1,vHMM_13208,k141_99,12.137335,84,150,Aquamavirus,11.7,polyprotein,1.03737905982906,301,1,301
+2,vHMM_3433,k141_74,11.213951,126,180,Lagovirus,10.9,polyprotein;nonstructural,1.0288028440366972,301,2,301
+3,vHMM_13208,k141_95,10.620495,102,135,Aquamavirus,11.7,polyprotein,0.9077346153846154,301,1,301
+4,vHMM_13438,k141_54,7.8121166,216,258,Livupivirus,12.5,polyprotein,0.624969328,301,3,301
