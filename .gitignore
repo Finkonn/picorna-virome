@@ -1,6 +1,8 @@
 /data/hmms/
 /miniproj/metavr/blast_results.tsv
-/miniproj/astroviridae/pairs_nt_gt_0.2_pcr_with_complete.csv
-/miniproj/astroviridae/pairs_nt_pdist_complete_orf1b.csv
-/miniproj/astroviridae/pairs_nt_pdist_gt_0.2_complete_orf1b.csv
-/miniproj/astroviridae/pairs_nt_pdist_gt_0.2_pcr_orf1b.csv
+/miniproj/astroviridae/pairs_complete_orf1b_genbank_headers.csv
+/miniproj/astroviridae/pairs_complete_orf1b_ictv_headers.csv
+/miniproj/astroviridae/pairs_nt_pdist_gt02_pcr_and_complete_genbank_headers.csv
+/miniproj/astroviridae/pairs_nt_pdist_gt02_pcr_and_complete_ictv_headers.csv
+/miniproj/astroviridae/pairs_nt_pdist_gt02_pcr_genbank_headers.csv
+/miniproj/astroviridae/pairs_nt_pdist_gt02_pcr_ictv_headers.csv

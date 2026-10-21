@@ -116,10 +116,10 @@ check_param = function(d, colnum){
 
 # Example alignment
 
-aln = read.dna("Astroviridae_complete_1B_noamb_mammalia_aln_ictv_headers.fna", format="fasta")
+aln = read.dna("Astroviridae_complete_1B_noamb_mammalia_aln_gr_ictv_headers.fna", format="fasta")
 
 # species is not indicated in sequences names, so col_sp=0
-ph_sp  = plot_aa_nt_hists_sp(aln, 1, length(aln[1,]), 6)
+ph_sp  = plot_aa_nt_hists_sp(aln, 1, length(aln[1,]), 5)
 df_dist= ph_sp[[1]]
 
 # Пары с nt p-distance > 0.2
@@ -127,9 +127,8 @@ df_dist= ph_sp[[1]]
 pairs_nt_gt02 <- df_dist[, c("row", "col", "value.x", "value.y")]
 pairs_nt_gt02 <- pairs_nt_gt02[order(-pairs_nt_gt02$value.x), ]
 print(pairs_nt_gt02)
-nrow(pairs_nt_gt02)
 
-write.csv(pairs_nt_gt02, "pairs_nt_pdist_complete_orf1b.csv", row.names = FALSE)
+write.csv(pairs_nt_gt02, "pairs_complete_orf1b_genbank_headers.csv", row.names = FALSE)
 
 # plot with correspondence beetween nt and aa distances
 ph_sp[[2]]
