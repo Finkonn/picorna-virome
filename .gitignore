@@ -1,3 +1,4 @@
 /data/hmms/
 /miniproj/metavr/blast_results.tsv
-/miniproj/astroviridae/pairs_*.csv
+/miniproj/astroviridae/tables/pairs_*.csv
+/miniproj/sra_alimarko_calculations_etc/compare_500_samples_blast_on_refseq_vs_refseq_and_astro_orf_genbank_and_extract_astro_contigs/all_calculated_contigs_from_best_blast_hits_table.fasta
