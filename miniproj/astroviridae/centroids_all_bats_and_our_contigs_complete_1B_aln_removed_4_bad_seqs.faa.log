@@ -1,0 +1,607 @@
+IQ-TREE version 3.0.1 for Windows 64-bit built May  5 2025
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    DESKTOP-VDA4GDN (AVX2, FMA3, 15 GB RAM)
+Command: C:\MALICHAVA\Tools\iqtree-3.0.1\iqtree-3.0.1-Windows\bin\iqtree3.exe -s centroids_all_bats_and_our_contigs_complete_1B_aln_removed_4_bad_seqs.faa -nt 8 -B 1000 --alrt 1000
+Seed:    747392 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Nov 02 14:15:36 2026
+Kernel:  AVX+FMA - 8 threads (8 CPU cores detected)
+
+Reading alignment file centroids_all_bats_and_our_contigs_complete_1B_aln_removed_4_bad_seqs.faa ... Fasta format detected
+Reading fasta file: done in 0.0025288 secs
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.0019249 secs
+WARNING: 123 sites contain only gaps or ambiguous characters.
+Alignment has 211 sequences with 946 columns, 648 distinct patterns
+491 parsimony-informative, 61 singleton sites, 394 constant sites
+                                                                         Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 6.93e-05 secs
+   1  OZ453978|GBR|NA|2022|NA/2                                                 44.82%    passed     88.60%
+   2  KM017741|USA|Felis-catus|2013|NA/4                                        45.88%    passed     81.50%
+   3  MH933754|CMR|Homo-sapiens|2014|NA/1                                       56.24%    passed     54.51%
+   4  NC_013060|USA|Homo-sapiens|2008|Mamastrovirus-virginiaense/10             44.82%    passed     84.45%
+   5  NC_019026|IND|Homo-sapiens|2005|NA/2                                      41.54%    passed     99.69%
+   6  NC_019027|NPL|Homo-sapiens|2008|NA/2                                      44.40%    passed     99.54%
+   7  NC_013443|NER|Homo-sapiens|2007|Mamastrovirus-homustovis/6                44.71%    passed     81.52%
+   8  NC_024472|BFA|Homo-sapiens|2010|NA/3                                      44.82%    passed     96.17%
+   9  MW037839|AUS|Felis-catus|2018|NA/1                                        45.14%    passed     21.78%
+  10  PX941856|CHN|Bos-taurus|2022|NA/1                                         48.73%    passed     58.00%
+  11  MT499772|CHN|water-buffalo|2019|NA/1                                      44.93%    passed     12.99%
+  12  PX095800|CHN|Pseudois-nayaur|2023|NA/1                                    47.15%    passed     99.36%
+  13  OK107514|CHN|goat|2021|NA/2                                               44.93%    passed     98.13%
+  14  LT706531|NA|NA|NA|NA/7                                                    44.93%    passed     99.45%
+  15  Y15937|NA|sheep|NA|Mamastrovirus-ovis/3                                   44.71%    passed     98.47%
+  16  KM035759|LAO|cattle|2012|Mamastrovirus-bovisencephalitidis/18             44.61%    passed     95.31%
+  17  NC_004579|NA|NA|NA|NA/3                                                   45.24%    passed     91.54%
+  18  PV166024|CHN|domestic-pig|2023|NA/56                                      44.61%    passed     97.08%
+  19  KY933399|UGA|pig|2012|NA/2                                                44.82%    passed     99.14%
+  20  OQ693700|NA|donkey|NA|NA/1                                                45.03%    passed     96.00%
+  21  PP711880|UGA|Rousettus-aegyptiacus|2019|NA                                52.64%    passed     95.15%
+  22  SRR28250611/k141_409758/Uganda/2019/Rousettus-aegyptiacus                 52.64%    passed     95.15%
+  23  SRR28250148/k141_756313/Kenya/2015/Rousettus-aegyptiacus                  52.64%    passed     89.39%
+  24  OQ606244|MDG|Rousettus-madagascariensis|2018|NA                           51.48%    passed     97.23%
+  25  PP711872|UGA|Rousettus-aegyptiacus|2018|NA                                58.56%    passed     62.26%
+  26  SRR28250713/k141_297391/Uganda/2018/Rousettus-aegyptiacus                 48.84%    passed     97.09%
+  27  SRR28250263/k141_560514/Kenya/2015/Rousettus-aegyptiacus                  64.38%    passed     35.01%
+  28  MG693176|CMR|Eidolon-helvum|2013|NA                                       58.46%    passed     91.33%
+  29  SRR5040912/k141_9931/Cameroon/2013/Eidolon-helvum                         49.37%    passed     96.54%
+  30  SRR28250143/k141_32097/Kenya/2015/Rousettus-aegyptiacus                   51.59%    passed     42.37%
+  31  OR951082|CHN|Chiroptera-sp.|2020|NA                                       44.82%    passed     98.52%
+  32  OR613303|CHN|Miniopterus-schreibersii|2022|NA                             44.82%    passed     98.80%
+  33  OQ802698|CHN|Miniopterus-schreibersii|2016_2017|NA                        44.82%    passed     98.61%
+  34  PP711881|KEN|Miniopterus-sp.-clade-1-TD-2020|2015|NA                      56.77%    passed     76.81%
+  35  SRR28250680/k141_28050/Kenya/2015/Miniopterus-sp.-clade-1-TD-2020         51.69%    passed     64.90%
+  36  SRR28250692/k141_47964/Kenya/2015/Miniopterus-sp.-clade-1-TD-2020         51.69%    passed     53.69%
+  37  PP711876|KEN|Miniopterus-sp.-B76|2015|NA                                  47.25%    passed     99.67%
+  38  PP711875|KEN|Miniopterus-minor|2015|NA                                    47.25%    passed     99.67%
+  39  PP711874|KEN|Miniopterus-sp.-B76|2015|NA                                  47.25%    passed     99.82%
+  40  SRR28250527/k119_1454/Kenya/2015/Miniopterus-minor                        47.25%    passed     99.67%
+  41  SRR28250683/k141_44967/Kenya/2015/Miniopterus-sp.-B76                     47.25%    passed     99.67%
+  42  SRR28250532/k141_203279/Kenya/2015/Miniopterus-sp.-B76                    47.25%    passed     99.82%
+  43  PP711877|KEN|Miniopterus-sp.-clade-10-TD-2020|2015|NA                     50.74%    passed     90.01%
+  44  SRR28250118/k141_6893/Kenya/2015/Miniopterus-sp.-clade-10-TD-2020         50.74%    passed     90.01%
+  45  PP711879|KEN|Miniopterus-sp.-clade-10-TD-2020|2015|NA                     58.77%    passed     99.67%
+  46  SRR28250537/k141_20886/Kenya/2015/Miniopterus-sp.-clade-10-TD-2020        48.41%    passed     99.96%
+  47  SRR28250944/k141_23310/Kenya/2015/Miniopterus-sp.-clade-10-TD-2020        48.41%    passed     99.96%
+  48  PP711878|KEN|Miniopterus-sp.-clade-1-TD-2020|2015|NA                      58.77%    passed     99.82%
+  49  SRR28250692/k141_8976/Kenya/2015/Miniopterus-sp.-clade-1-TD-2020          48.41%    passed     99.98%
+  50  SRR28250680/k141_55987/Kenya/2015/Miniopterus-sp.-clade-1-TD-2020         48.41%    passed     99.98%
+  51  OR613304|CHN|Miniopterus-schreibersii|2022|NA                             45.45%    passed     99.97%
+  52  OR951022|CHN|Tylonycteris-pachypus|2019|NA                                45.24%    passed     53.56%
+  53  OR951021|CHN|Tylonycteris-pachypus|2019|NA                                45.24%    passed     56.57%
+  54  OQ802750|CHN|Myotis-laniger|2016_2017|NA                                  45.56%    passed     97.65%
+  55  SRR24113097/k141_3455/China/2016/Myotis_laniger                           48.41%    passed     98.89%
+  56  MN832787|DNK|Myotis-daubentonii|2014|NA                                   45.45%    passed     99.93%
+  57  SRR14195380/k141_11503/Denmark/2014/Myotis-daubentonii                    48.41%    passed     99.95%
+  58  SRR22936796/k141_462853/China/2022/Myotis-pilosus                         47.99%    passed     99.64%
+  59  SRR19115554/k141_58084/Switzerland/2020/Myotis-myotis                     49.79%    passed     99.86%
+  60  OR951027|CHN|Scotophilus-kuhlii|2017|NA                                   45.67%    passed     93.61%
+  61  OR951025|CHN|Scotophilus-kuhlii|2018|NA                                   45.67%    passed     91.05%
+  62  ERR3179734/k141_7416/nan/2019/viral-metagenome                            47.99%    passed     92.99%
+  63  ERR3179739/k141_3493/nan/2019/viral-metagenome                            47.99%    passed     92.99%
+  64  ERR3179760/k141_47081/nan/2019/viral-metagenome                           47.99%    passed     92.99%
+  65  ERR3179770/k141_6175/nan/2019/viral-metagenome                            47.99%    passed     92.99%
+  66  ERR3179775/k141_4358/nan/2019/viral-metagenome                            47.99%    passed     92.99%
+  67  ERR3179724/k141_19177/nan/2019/viral-metagenome                           57.08%    passed     77.41%
+  68  PP711858|KEN|Mops-condylurus|2015|NA                                      58.77%    passed     89.89%
+  69  PP711857|KEN|Mops-condylurus|2015|NA                                      58.77%    passed     84.87%
+  70  SRR28250380/k141_6424/Kenya/2015/Mops-condylurus                          51.80%    passed     91.29%
+  71  SRR28250970/k141_146080/Kenya/2015/Mops-condylurus                        51.80%    passed     93.15%
+  72  SRR28250374/k141_4416/Kenya/2015/Mops-condylurus                          49.68%    passed     98.36%
+  73  OR951074|CHN|Myotis-chinensis|2016|NA                                     43.66%    passed     93.80%
+  74  OR951055|CHN|Myotis-pilosus|2020|NA                                       43.66%    passed     97.88%
+  75  SRR24113205/k141_6451/China/2016/Myotis_chinensis                         56.45%    passed     95.83%
+  76  OQ236134|CHN|Myotis-ricketti|2022|NA                                      53.38%    passed     89.44%
+  77  SRR22936808/k141_349264/China/2022/Myotis-pilosus                         48.52%    passed     94.47%
+  78  SRR22936796/k141_326307/China/2022/Myotis-pilosus                         48.52%    passed     94.47%
+  79  OR951049|CHN|Myotis-pilosus|2017|NA                                       43.76%    passed     96.79%
+  80  OQ802706|CHN|Myotis-chinensis|2016_2017|NA                                43.66%    passed     97.43%
+  81  SRR24113076/k141_5530/China/2016/Myotis_chinensis                         48.10%    passed     96.99%
+  82  SRR24113205/k141_7823/China/2016/Myotis_chinensis                         48.10%    passed     96.99%
+  83  MT734809|USA|bat|2020|NA/1                                                47.89%    passed     99.74%
+  84  OR951026|CHN|Scotophilus-kuhlii|2017|NA                                   45.03%    passed     97.60%
+  85  PQ678018|CHN|Anourosorex-squamipes|2021|NA/1                              58.14%    passed     89.81%
+  86  PP711855|KEN|Coleura-afra|2015|NA                                         58.77%    passed     37.66%
+  87  SRR28250161/k141_18781/Kenya/2015/Coleura-afra                            51.59%    passed     53.24%
+  88  SRR28250888/k141_136706/Kenya/2015/Coleura-afra                           51.59%    passed     63.66%
+  89  SRR28250162/k141_68853/Kenya/2015/Coleura-afra                            63.64%    passed     60.26%
+  90  PP711853|KEN|Coleura-afra|2015|NA                                         58.77%    passed     51.37%
+  91  OQ236136|CHN|Myotis-sp.|2021|NA                                           46.72%    passed     81.97%
+  92  SRR22936710/k141_382090/China/2021/Myotis-sp.                             46.72%    passed     81.97%
+  93  OQ802749|CHN|Pipistrellus-abramus|2016_2017|NA                            39.85%    passed     36.33%
+  94  OQ802747|CHN|Pipistrellus-abramus|2016_2017|NA                            39.85%    passed     45.07%
+  95  PP711856|KEN|Mops-condylurus|2015|NA                                      52.01%    passed     45.13%
+  96  SRR28250376/k141_60500/Kenya/2015/Mops-condylurus                         52.01%    passed     45.13%
+  97  OR951036|CHN|Hipposideros-larvatus|2018|NA                                43.34%    passed     79.35%
+  98  OR951032|CHN|Hipposideros-larvatus|2016|NA                                43.34%    passed     79.08%
+  99  OR613299|CHN|Hipposideros-larvatus|2015|NA                                43.34%    passed     73.51%
+ 100  OP963600|CHN|Hipposideros-larvatus|2015|NA                                43.34%    passed     81.57%
+ 101  SRR23263149/k141_6914/China/2015/Hipposideros-larvatus                    49.79%    passed     99.83%
+ 102  OR613297|CHN|Hipposideros-armiger|2015|NA                                 43.34%    passed     77.10%
+ 103  OQ802712|CHN|Rhinolophus-sinicus|2016_2017|NA                             43.13%    passed     80.66%
+ 104  SRR24113275/k141_365/China/2016/Rhinolophus_sinicus                       52.54%    passed     93.27%
+ 105  SRR22936602/k141_498715/China/2020/Rhinolophus-sinicus                    52.54%    passed     93.80%
+ 106  OR951097|CHN|Rhinolophus-sinicus|2021|NA                                  44.50%    passed     98.41%
+ 107  SRR26082171/k141_21267/China/2015/Rhinolophus-affinis                     64.48%    passed     93.04%
+ 108  SRR26082171/k141_87408/China/2015/Rhinolophus-affinis                     45.98%    passed     98.81%
+ 109  SRR26082171/k141_66560/China/2015/Rhinolophus-affinis                     44.40%    passed     96.54%
+ 110  SRR26082175/k141_19718/China/2015/Rhinolophus-affinis                     48.84%    passed     95.88%
+ 111  SRR26082171/k141_68489/China/2015/Rhinolophus-affinis                     64.27%    passed     60.30%
+ 112  SRR26082175/k141_121070/China/2015/Rhinolophus-affinis                    56.77%    passed     97.73%
+ 113  SRR23263115/k141_1095/China/2018/Rhinolophus-pusillus                     44.40%    passed     94.80%
+ 114  SRR26082171/k141_99000/China/2015/Rhinolophus-affinis                     63.95%    passed     76.33%
+ 115  SRR26082175/k141_167447/China/2015/Rhinolophus-affinis                    58.25%    passed     50.05%
+ 116  SRR23263115/k141_870/China/2018/Rhinolophus-pusillus                      57.61%    passed     86.28%
+ 117  OR951079|CHN|Rhinolophus-ferrumequinum|2020|NA                            44.71%    passed     83.85%
+ 118  SRR26082175/k141_92250/China/2015/Rhinolophus-affinis                     59.83%    passed     92.16%
+ 119  OR951016|CHN|Myotis-chinensis|2020|NA                                     44.82%    passed     91.46%
+ 120  MZ218053|DNK|Myotis-daubentonii|2015|NA                                   44.82%    passed     96.80%
+ 121  SRR14195385/k141_252/Denmark/2015/Myotis-daubentonii                      46.51%    passed     97.86%
+ 122  SRR14195385/k141_6228/Denmark/2015/Myotis-daubentonii                     58.46%    passed     79.77%
+ 123  OR951080|CHN|Rhinolophus-sinicus|2020|NA                                  44.61%    passed     98.38%
+ 124  SRR26082171/k141_26013/China/2015/Rhinolophus-affinis                     46.30%    passed     63.88%
+ 125  SRR26082171/k141_7962/China/2015/Rhinolophus-affinis                      47.04%    passed     40.19%
+ 126  OR552421|RUS|Nyctalus-noctula|2023|NA                                     46.51%    passed     71.30%
+ 127  SRR28250289/k141_596814/Kenya/2015/Cardioderma-cor                        58.35%    passed     76.43%
+ 128  OR951087|CHN|Miniopterus-schreibersii|2020|NA                             44.40%    passed     79.05%
+ 129  PP711873|KEN|Miniopterus-sp.-clade-10-TD-2020|2015|NA                     46.09%    passed     31.80%
+ 130  SRR28250537/k141_9322/Kenya/2015/Miniopterus-sp.-clade-10-TD-2020         46.09%    passed     31.80%
+ 131  OP589979|AUS|Miniopterus-orianae-oceanensis|2013_2021|NA                  44.50%    passed     15.37%
+ 132  OP589977|AUS|Miniopterus-orianae-oceanensis|2013_2021|NA                  44.61%    passed     59.14%
+ 133  MW450837|CHN|Miniopterus-schreibersii|2020|NA                             46.09%    passed     59.58%
+ 134  SRR28250537/k141_24845/Kenya/2015/Miniopterus-sp.-clade-10-TD-2020        60.47%    passed     66.54%
+ 135  OP589978|AUS|Miniopterus-orianae-oceanensis|2013_2021|NA                  44.61%    passed     54.17%
+ 136  SRR28250537/k141_22295/Kenya/2015/Miniopterus-sp.-clade-10-TD-2020        45.35%    passed     65.91%
+ 137  ERR3179764/k141_51656/nan/2019/viral-metagenome                           54.44%    passed     98.33%
+ 138  PQ421850|CHN|Crocidura-dracula|2017|NA/2                                  46.93%    passed     93.67%
+ 139  PQ421849|CHN|Anourosorex-squamipes|2015|NA/1                              47.25%    passed     99.35%
+ 140  SRR24113076/k141_7138/China/2016/Myotis_chinensis                         61.42%    passed     50.59%
+ 141  PX221760|CHN|Apodemus-agrarius|2021|NA/3                                  59.62%    passed     90.13%
+ 142  PQ541155|SLE|Lophuromys-chrysopus|2023|NA/1                               59.41%    passed     24.46%
+ 143  PV605181|CHN|Bandicota-indica|2021|NA/1                                   44.93%    passed      9.93%
+ 144  OR711901|CHN|Rattus-norvegicus|2022|NA/2                                  44.93%    passed     29.24%
+ 145  PV351773|CHN|Suncus-murinus|2024|NA/2                                     58.14%    passed     31.85%
+ 146  MW826416|CHN|rat|2018|NA/1                                                57.72%    passed     52.36%
+ 147  PQ678016|CHN|Eothenomys-miletus|2021|NA/1                                 57.72%    passed     81.53%
+ 148  PQ678015|CHN|Rattus-tanezumi|2021|NA/1                                    52.22%    passed     78.99%
+ 149  MZ779126|USA|Myodes|2021|NA/1                                             43.13%    passed     90.39%
+ 150  MW826530|CHN|rat|2019|NA/1                                                58.14%    passed     91.67%
+ 151  PQ792554|CHN|Neodon-fuscus|2023|NA/3                                      52.11%    passed     76.28%
+ 152  OM480543|CHN|Coypu|2020|NA/2                                              46.83%    passed     99.92%
+ 153  KP663426|HUN|Coracias-garrulus--European-roller-|2011|NA/2                47.78%    passed     81.39%
+ 154  MN503235|USA|Mus-musculus|2018|NA/5                                       45.67%    passed     27.83%
+ 155  KT946734|HKG|Rattus-andamanensis|NA|Mamastrovirus-rodentiamericaense/11   45.67%    passed     60.42%
+ 156  PV605151|CHN|Rattus-norvegicus|2022|NA/6                                  50.85%    passed     60.64%
+ 157  OQ802720|CHN|Rattus-losea|2016_2017|NA/2                                  46.72%    passed     88.48%
+ 158  KT946729|HKG|Rattus-andamanensis|NA|Mamastrovirus-rattorientalis/8        46.51%    passed     76.26%
+ 159  OQ802759|CHN|Niviventer-niviventer|2016_2017|NA/1                         46.93%    passed     50.40%
+ 160  PP871761|VNM|Gallus-gallus|2016|Mamastrovirus-suisvulgaris/86             47.46%    passed     83.35%
+ 161  KY214437|BEL|Sus-scrofa|2015|NA/2                                         61.42%    passed     95.49%
+ 162  PP871721|VNM|Sus-scrofa-domesticus|2014|Mamastrovirus-suisvulgaris/10     46.93%    passed     97.87%
+ 163  PP711883|KEN|Aethomys-hindei|2016|NA/1                                    61.42%    passed     96.36%
+ 164  OQ802738|CHN|Apodemus-agrarius|2016_2017|NA/1                             46.93%    passed     55.29%
+ 165  MT506231|CHN|Rattus-norvegicus|2016|NA/1                                  46.93%    passed     74.44%
+ 166  PQ678013|CHN|Niviventer-huang|2022|NA/1                                   61.42%    passed     88.78%
+ 167  KT946736|CHN|Rattus-norvegicus|NA|NA/6                                    46.72%    passed     53.87%
+ 168  OL345583|CHN|Meriones-unguiculatus|2018|NA/2                              46.93%    passed     36.32%
+ 169  PQ541178|SLE|Mus-setulosus|2023|NA/1                                      49.05%    passed     21.66%
+ 170  JX544743|USA|NA|2011|NA/13                                                47.04%    passed     13.05%
+ 171  PV247174|IND|pig|2023|Mamastrovirus-suisorientalis/13                     45.67%    passed     92.46%
+ 172  PQ435248|LAO|Felis-catus|2023|Mamastrovirus-felis/41                      45.67%    passed     99.99%
+ 173  ON807347|FRA|environment|2014|NA/22                                       61.10%    passed     99.95%
+ 174  MT832894|BRA|Homo-sapiens|2011|Mamastrovirus-hominis/165                  45.14%    passed     97.86%
+ 175  JN420359|USA|Zalophus-californianus--California-sea-lion-|2010|NA/2       45.56%    passed     93.87%
+ 176  OQ198041|CHN|canine|2020_2021|NA/6                                        45.98%    passed     99.14%
+ 177  OQ198033|CHN|canine|2020_2021|NA/5                                        46.19%    passed     98.98%
+ 178  JN420354|USA|Zalophus-californianus--California-sea-lion-|2010|NA/4       43.45%    passed     85.79%
+ 179  JN420353|USA|Zalophus-californianus--California-sea-lion-|2010|NA/3       43.97%    passed     75.96%
+ 180  MT152345|GBR|grey-squirrel|2010|NA/1                                      46.72%    passed     85.03%
+ 181  KY855439|CHN|Marmota-himalayana|2013|NA/4                                 45.77%    passed     29.75%
+ 182  LC900405|JPN|Sus-scrofa|2019|NA/75                                        46.83%    passed     99.69%
+ 183  KY214438|BEL|Sus-scrofa|2015|NA/2                                         60.68%    passed     99.88%
+ 184  MW504552|USA|Sus-scrofa|2018|NA/70                                        46.62%    passed     94.04%
+ 185  PV987765|CHN|sheep|2025|NA/13                                             47.57%    passed     80.95%
+ 186  ON624282|CHN|cow|2021|NA/47                                               46.19%    passed     99.35%
+ 187  MN087316|USA|white-tailed-deer|2018|NA/1                                  46.93%    passed     99.22%
+ 188  LC047789|JPN|Bos-taurus|2009|Mamastrovirus-bovisorientalis/20             46.93%    passed     93.91%
+ 189  HQ916316|HKG|cattle|NA|NA/4                                               46.93%    passed     98.02%
+ 190  MW784098|CHN|NA|NA|NA/5                                                   46.93%    passed     68.04%
+ 191  OR951068|CHN|Rousettus-leschenaultii|2016|NA                              47.15%    passed     60.07%
+ 192  MT499771|CHN|water-buffalo|2019|Mamastrovirus-bubali/4                    46.62%    passed     94.37%
+ 193  ON624260|CHN|cow|2021|Mamastrovirus-bovisamericaense/3                    59.62%    passed     98.50%
+ 194  ON624251|CHN|cow|2021|Mamastrovirus-bovisamericaense/29                   46.62%    passed     92.55%
+ 195  OQ198047|CHN|canine|2020_2021|NA/1                                        45.98%    passed     73.32%
+ 196  NC_025346|USA|Oryctolagus-cuniculus|2010|NA/4                             46.09%    passed     65.07%
+ 197  OM140654|CHN|Marmota-caudata|2016|NA/1                                    42.92%    passed      5.16%
+ 198  NC_033821|CHN|Marmota-himalayana|2013_2014|NA/3                           46.09%    passed     56.86%
+ 199  KY855438|CHN|Marmota-himalayana|2013|NA/1                                 27.38%    passed     19.97%
+ 200  OQ968309|CHN|Homo-sapiens|2020|Mamastrovirus-melbournense/22              45.98%    passed     99.81%
+ 201  NC_016155|USA|Homo-sapiens|2008|NA/8                                      45.98%    passed     99.69%
+ 202  JX857870|IND|Homo-sapiens|2004|NA/7                                       45.98%    passed     90.50%
+ 203  BR001717|NA|Macaca-mulatta|NA|NA/1                                        47.99%    passed     88.20%
+ 204  KY024237|CHN|Marmota-himalayana|2013_2014|NA/3                            45.88%    passed     74.87%
+ 205  MK521912|AUS|Sarcophilus-harrisii|2016|NA/1                               48.10%    passed     44.71%
+ 206  PX236818|LAO|Trichosurus-vulpecula|2021|NA/1                              46.83%    passed     72.22%
+ 207  OP094602|CHN|Rhizomys-pruinosus|2019|NA/1                                 46.30%    failed      4.09%
+ 208  PX113253|CHN|Bactrian-camel|2023|NA/1                                     44.19%    failed      3.88%
+ 209  ON571622|CHN|goat|2020|NA/9                                               46.72%    passed      5.07%
+ 210  LC201615|JPN|Sus-scrofa|2015|NA/27                                        46.83%    passed      5.62%
+ 211  KP747574|CHN|pig|2006|NA/20                                               46.09%    passed     35.25%
+WARNING: 60 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                     49.01%  2 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: SRR28250611/k141_409758/Uganda/2019/Rousettus-aegyptiacus is identical to PP711880|UGA|Rousettus-aegyptiacus|2019|NA but kept for subsequent analysis
+NOTE: PP711875|KEN|Miniopterus-minor|2015|NA is identical to PP711876|KEN|Miniopterus-sp.-B76|2015|NA but kept for subsequent analysis
+NOTE: SRR28250532/k141_203279/Kenya/2015/Miniopterus-sp.-B76 is identical to PP711874|KEN|Miniopterus-sp.-B76|2015|NA but kept for subsequent analysis
+NOTE: SRR28250118/k141_6893/Kenya/2015/Miniopterus-sp.-clade-10-TD-2020 is identical to PP711877|KEN|Miniopterus-sp.-clade-10-TD-2020|2015|NA but kept for subsequent analysis
+NOTE: SRR28250944/k141_23310/Kenya/2015/Miniopterus-sp.-clade-10-TD-2020 is identical to SRR28250537/k141_20886/Kenya/2015/Miniopterus-sp.-clade-10-TD-2020 but kept for subsequent analysis
+NOTE: SRR28250680/k141_55987/Kenya/2015/Miniopterus-sp.-clade-1-TD-2020 is identical to SRR28250692/k141_8976/Kenya/2015/Miniopterus-sp.-clade-1-TD-2020 but kept for subsequent analysis
+NOTE: ERR3179739/k141_3493/nan/2019/viral-metagenome is identical to ERR3179734/k141_7416/nan/2019/viral-metagenome but kept for subsequent analysis
+NOTE: SRR22936796/k141_326307/China/2022/Myotis-pilosus is identical to SRR22936808/k141_349264/China/2022/Myotis-pilosus but kept for subsequent analysis
+NOTE: SRR24113205/k141_7823/China/2016/Myotis_chinensis is identical to SRR24113076/k141_5530/China/2016/Myotis_chinensis but kept for subsequent analysis
+NOTE: SRR22936710/k141_382090/China/2021/Myotis-sp. is identical to OQ236136|CHN|Myotis-sp.|2021|NA but kept for subsequent analysis
+NOTE: SRR28250376/k141_60500/Kenya/2015/Mops-condylurus is identical to PP711856|KEN|Mops-condylurus|2015|NA but kept for subsequent analysis
+NOTE: SRR28250537/k141_9322/Kenya/2015/Miniopterus-sp.-clade-10-TD-2020 is identical to PP711873|KEN|Miniopterus-sp.-clade-10-TD-2020|2015|NA but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.0356087 secs using 833.7% CPU
+Identifying sites to remove: done in 0.0020541 secs
+NOTE: 5 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: SRR28250527/k119_1454/Kenya/2015/Miniopterus-minor (identical to PP711876|KEN|Miniopterus-sp.-B76|2015|NA) is ignored but added at the end
+NOTE: SRR28250683/k141_44967/Kenya/2015/Miniopterus-sp.-B76 (identical to PP711876|KEN|Miniopterus-sp.-B76|2015|NA) is ignored but added at the end
+NOTE: ERR3179760/k141_47081/nan/2019/viral-metagenome (identical to ERR3179734/k141_7416/nan/2019/viral-metagenome) is ignored but added at the end
+NOTE: ERR3179770/k141_6175/nan/2019/viral-metagenome (identical to ERR3179734/k141_7416/nan/2019/viral-metagenome) is ignored but added at the end
+NOTE: ERR3179775/k141_4358/nan/2019/viral-metagenome (identical to ERR3179734/k141_7416/nan/2019/viral-metagenome) is ignored but added at the end
+Alignment was printed to centroids_all_bats_and_our_contigs_complete_1B_aln_removed_4_bad_seqs.faa.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to centroids_all_bats_and_our_contigs_complete_1B_aln_removed_4_bad_seqs.faa.uniqueseq.phy
+
+Creating fast initial parsimony tree by random order stepwise addition...
+0.042 seconds, parsimony score: 12940 (based on 552 sites)
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Optimizing NNI: done in 0.510256 secs using 734.9% CPU
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -65829.333
+2. Current log-likelihood: -65828.321
+Optimal log-likelihood: -65828.240
+Proportion of invariable sites: 0.114
+Gamma shape alpha: 1.000
+Parameters optimization took 2 rounds (0.360 sec)
+Time for fast ML tree search: 1.842 seconds
+
+NOTE: ModelFinder requires 215 MB RAM!
+ModelFinder will test up to 1232 protein models (sample size: 946 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            71660.701    409 144139.403   144765.112   146123.970
+  2  LG+I          69743.490    410 140306.981   140936.925   142296.400
+  3  LG+G4         66008.613    410 132837.225   133467.169   134826.645
+  4  LG+I+G4       65828.229    411 132478.459   133112.661   134472.730
+  5  LG+R2         67180.417    411 135182.833   135817.036   137177.105
+  6  LG+R3         66345.773    413 133517.547   134160.336   135521.523
+  7  LG+R4         65925.154    415 132680.308   133331.780   134693.989
+  8  LG+R5         65744.177    417 132322.354   132982.604   134345.739
+  9  LG+R6         65702.079    419 132242.157   132911.282   134275.247
+ 10  LG+R7         65691.747    421 132225.495   132903.594   134268.289
+ 11  LG+R8         65677.868    423 132201.737   132888.909   134254.235
+ 12  LG+R9         65677.573    425 132205.147   132901.493   134267.350
+ 14  LG+I+R2       66586.732    412 133997.464   134635.948   135996.588
+ 15  LG+I+R3       66002.725    414 132833.451   133480.569   134842.279
+ 16  LG+I+R4       65784.749    416 132401.498   133057.347   134420.031
+ 17  LG+I+R5       65707.044    418 132250.087   132914.763   134278.324
+ 18  LG+I+R6       65685.097    420 132210.193   132883.793   134248.135
+ 19  LG+I+R7       65676.376    422 132196.752   132879.375   134244.398
+ 20  LG+I+R8       65670.175    424 132188.350   132880.096   134245.700
+ 33  LG+F+R8       65642.208    442 132168.416   132946.969   134313.107
+ 40  LG+F+I+R6     65650.063    439 132178.125   132941.603   134308.260
+ 41  LG+F+I+R7     65638.128    441 132158.256   132931.756   134298.095
+ 42  LG+F+I+R8     65636.080    443 132158.161   132941.794   134307.704
+ 55  WAG+R8        66054.087    423 132954.173   133641.346   135006.672
+ 62  WAG+I+R6      66060.266    420 132960.533   133634.133   134998.475
+ 63  WAG+I+R7      66051.732    422 132947.464   133630.088   134995.111
+ 64  WAG+I+R8      66051.080    424 132950.160   133641.906   135007.510
+ 77  WAG+F+R8      66047.154    442 132978.309   133756.861   135123.000
+ 84  WAG+F+I+R6    66051.318    439 132980.636   133744.114   135110.771
+ 85  WAG+F+I+R7    66042.433    441 132966.866   133740.366   135106.705
+ 86  WAG+F+I+R8    66040.760    443 132967.519   133751.153   135117.063
+ 99  JTT+R8        66719.635    423 134285.269   134972.442   136337.768
+106  JTT+I+R6      66733.309    420 134306.617   134980.217   136344.559
+107  JTT+I+R7      66722.287    422 134288.573   134971.197   136336.220
+108  JTT+I+R8      66721.247    424 134290.495   134982.241   136347.846
+121  JTT+F+R8      66657.227    442 134198.454   134977.007   136343.145
+128  JTT+F+I+R6    66668.361    439 134214.721   134978.199   136344.856
+129  JTT+F+I+R7    66655.251    441 134192.503   134966.003   136332.342
+130  JTT+F+I+R8    66654.454    443 134194.908   134978.542   136344.452
+143  Q.PFAM+R8     65750.285    423 132346.569   133033.742   134399.068
+150  Q.PFAM+I+R6   65757.574    420 132355.148   133028.748   134393.090
+151  Q.PFAM+I+R7   65749.706    422 132343.413   133026.036   134391.059
+152  Q.PFAM+I+R8   65743.882    424 132335.763   133027.510   134393.114
+165  Q.PFAM+F+R8   65660.778    442 132205.556   132984.109   134350.247
+172  Q.PFAM+F+I+R6 65665.338    439 132208.677   132972.155   134338.811
+173  Q.PFAM+F+I+R7 65658.059    441 132198.119   132971.619   134337.957
+174  Q.PFAM+F+I+R8 65654.984    443 132195.969   132979.602   134345.512
+187  Q.BIRD+R8     68577.574    423 138001.148   138688.320   140053.646
+194  Q.BIRD+I+R6   68609.662    420 138059.324   138732.924   140097.265
+195  Q.BIRD+I+R7   68585.874    422 138015.749   138698.372   140063.395
+196  Q.BIRD+I+R8   68576.035    424 138000.071   138691.818   140057.422
+209  Q.BIRD+F+R8   68579.360    442 138042.719   138821.272   140187.411
+216  Q.BIRD+F+I+R6 68605.017    439 138088.034   138851.512   140218.168
+217  Q.BIRD+F+I+R7 68589.556    441 138061.113   138834.613   140200.952
+218  Q.BIRD+F+I+R8 68574.211    443 138034.422   138818.055   140183.965
+231  Q.MAMMAL+R8   67774.335    423 136394.670   137081.842   138447.169
+238  Q.MAMMAL+I+R6 67801.277    420 136442.554   137116.154   138480.496
+239  Q.MAMMAL+I+R7 67781.937    422 136407.875   137090.498   138455.521
+240  Q.MAMMAL+I+R8 67773.685    424 136395.371   137087.117   138452.721
+253  Q.MAMMAL+F+R8 67814.907    442 136513.815   137292.368   138658.506
+260  Q.MAMMAL+F+I+R6 67831.563    439 136541.126   137304.604   138671.260
+261  Q.MAMMAL+F+I+R7 67821.563    441 136525.126   137298.626   138664.965
+262  Q.MAMMAL+F+I+R8 67811.543    443 136509.086   137292.719   138658.629
+275  Q.INSECT+R8   65933.074    423 132712.149   133399.321   134764.647
+282  Q.INSECT+I+R6 65948.394    420 132736.789   133410.389   134774.731
+283  Q.INSECT+I+R7 65932.568    422 132709.136   133391.759   134756.782
+284  Q.INSECT+I+R8 65929.083    424 132706.167   133397.913   134763.517
+297  Q.INSECT+F+R8 66027.745    442 132939.491   133718.043   135084.182
+304  Q.INSECT+F+I+R6 66032.514    439 132943.029   133706.507   135073.163
+305  Q.INSECT+F+I+R7 66022.002    441 132926.004   133699.504   135065.843
+306  Q.INSECT+F+I+R8 66017.236    443 132920.472   133704.105   135070.015
+319  Q.PLANT+R8    67097.278    423 135040.556   135727.728   137093.054
+326  Q.PLANT+I+R6  67118.370    420 135076.740   135750.340   137114.682
+327  Q.PLANT+I+R7  67102.229    422 135048.458   135731.082   137096.105
+328  Q.PLANT+I+R8  67093.728    424 135035.457   135727.203   137092.808
+341  Q.PLANT+F+R8  67093.177    442 135070.353   135848.906   137215.045
+348  Q.PLANT+F+I+R6 67111.024    439 135100.047   135863.525   137230.182
+349  Q.PLANT+F+I+R7 67093.595    441 135069.190   135842.690   137209.029
+350  Q.PLANT+F+I+R8 67090.806    443 135067.612   135851.245   137217.155
+363  Q.YEAST+R8    65935.807    423 132717.615   133404.787   134770.113
+370  Q.YEAST+I+R6  65955.248    420 132750.496   133424.096   134788.437
+371  Q.YEAST+I+R7  65937.824    422 132719.647   133402.271   134767.294
+372  Q.YEAST+I+R8  65934.461    424 132716.922   133408.668   134774.273
+385  Q.YEAST+F+R8  65710.505    442 132305.009   133083.562   134449.700
+392  Q.YEAST+F+I+R6 65719.529    439 132317.058   133080.536   134447.193
+393  Q.YEAST+F+I+R7 65709.438    441 132300.877   133074.377   134440.716
+394  Q.YEAST+F+I+R8 65704.172    443 132294.344   133077.977   134443.887
+407  JTTDCMUT+R8   66686.645    423 134219.290   134906.462   136271.788
+414  JTTDCMUT+I+R6 66698.441    420 134236.881   134910.481   136274.823
+415  JTTDCMUT+I+R7 66686.716    422 134217.431   134900.055   136265.078
+416  JTTDCMUT+I+R8 66685.187    424 134218.375   134910.121   136275.725
+429  JTTDCMUT+F+R8 66629.049    442 134142.097   134920.650   136286.789
+436  JTTDCMUT+F+I+R6 66639.658    439 134157.316   134920.795   136287.451
+437  JTTDCMUT+F+I+R7 66626.285    441 134134.570   134908.070   136274.409
+438  JTTDCMUT+F+I+R8 66625.667    443 134137.334   134920.967   136286.877
+451  DCMUT+R8      67175.281    423 135196.563   135883.735   137249.061
+458  DCMUT+I+R6    67181.180    420 135202.360   135875.960   137240.302
+459  DCMUT+I+R7    67169.739    422 135183.478   135866.101   137231.124
+460  DCMUT+I+R8    67167.203    424 135182.407   135874.153   137239.758
+473  DCMUT+F+R8    66982.862    442 134849.723   135628.276   136994.415
+480  DCMUT+F+I+R6  66985.530    439 134849.060   135612.538   136979.194
+481  DCMUT+F+I+R7  66974.788    441 134831.576   135605.076   136971.415
+482  DCMUT+F+I+R8  66972.485    443 134830.969   135614.603   136980.513
+495  VT+R8         66177.473    423 133200.946   133888.118   135253.445
+502  VT+I+R6       66182.782    420 133205.565   133879.165   135243.507
+503  VT+I+R7       66176.796    422 133197.592   133880.215   135245.238
+517  VT+F+R8       66172.411    442 133228.823   134007.375   135373.514
+524  VT+F+I+R6     66175.325    439 133228.650   133992.128   135358.784
+525  VT+F+I+R7     66169.980    441 133221.961   133995.461   135361.800
+539  PMB+R8        66495.622    423 133837.244   134524.416   135889.742
+546  PMB+I+R6      66498.989    420 133837.977   134511.577   135875.919
+547  PMB+I+R7      66495.489    422 133834.978   134517.601   135882.624
+561  PMB+F+R8      66682.986    442 134249.972   135028.525   136394.664
+568  PMB+F+I+R6    66685.553    439 134249.105   135012.584   136379.240
+569  PMB+F+I+R7    66681.430    441 134244.861   135018.361   136384.700
+583  BLOSUM62+R8   66392.491    423 133630.981   134318.154   135683.480
+590  BLOSUM62+I+R6 66396.833    420 133633.665   134307.265   135671.607
+591  BLOSUM62+I+R7 66391.822    422 133627.644   134310.267   135675.290
+605  BLOSUM62+F+R8 66505.096    442 133894.192   134672.745   136038.884
+612  BLOSUM62+F+I+R6 66508.822    439 133895.643   134659.122   136025.778
+613  BLOSUM62+F+I+R7 66503.214    441 133888.429   134661.929   136028.268
+627  DAYHOFF+R8    67173.092    423 135192.184   135879.356   137244.683
+634  DAYHOFF+I+R6  67179.238    420 135198.476   135872.076   137236.417
+635  DAYHOFF+I+R7  67168.117    422 135180.234   135862.857   137227.880
+636  DAYHOFF+I+R8  67165.105    424 135178.209   135869.956   137235.560
+649  DAYHOFF+F+R8  66981.644    442 134847.288   135625.841   136991.980
+656  DAYHOFF+F+I+R6 66984.462    439 134846.923   135610.401   136977.058
+657  DAYHOFF+F+I+R7 66973.871    441 134829.742   135603.242   136969.581
+658  DAYHOFF+F+I+R8 66971.420    443 134828.840   135612.473   136978.383
+671  MTREV+R8      70538.653    423 141923.307   142610.479   143975.805
+678  MTREV+I+R6    70556.337    420 141952.675   142626.275   143990.616
+679  MTREV+I+R7    70543.030    422 141930.060   142612.684   143977.707
+680  MTREV+I+R8    70541.880    424 141931.760   142623.506   143989.111
+693  MTREV+F+R8    67845.629    442 136575.258   137353.811   138719.950
+700  MTREV+F+I+R6  67865.865    439 136609.730   137373.208   138739.864
+701  MTREV+F+I+R7  67853.375    441 136588.750   137362.250   138728.589
+702  MTREV+F+I+R8  67841.934    443 136569.868   137353.501   138719.411
+715  MTART+R8      70891.858    423 142629.716   143316.889   144682.215
+722  MTART+I+R6    70923.171    420 142686.341   143359.941   144724.283
+723  MTART+I+R7    70890.359    422 142624.718   143307.341   144672.364
+724  MTART+I+R8    70868.522    424 142585.043   143276.790   144642.394
+737  MTART+F+R8    68252.819    442 137389.639   138168.191   139534.330
+744  MTART+F+I+R6  68274.548    439 137427.097   138190.575   139557.231
+745  MTART+F+I+R7  68253.480    441 137388.959   138162.459   139528.798
+746  MTART+F+I+R8  68241.934    443 137369.867   138153.500   139519.410
+759  MTZOA+R8      69026.851    423 138899.701   139586.874   140952.200
+766  MTZOA+I+R6    69045.495    420 138930.991   139604.591   140968.933
+767  MTZOA+I+R7    69031.221    422 138906.441   139589.065   140954.088
+768  MTZOA+I+R8    69022.502    424 138893.004   139584.751   140950.355
+781  MTZOA+F+R8    67163.264    442 135210.528   135989.080   137355.219
+788  MTZOA+F+I+R6  67182.127    439 135242.253   136005.731   137372.388
+789  MTZOA+F+I+R7  67160.967    441 135203.934   135977.434   137343.773
+790  MTZOA+F+I+R8  67150.784    443 135187.568   135971.201   137337.111
+803  MTMET+R8      70266.003    423 141378.006   142065.178   143430.504
+810  MTMET+I+R6    70286.780    420 141413.560   142087.160   143451.502
+811  MTMET+I+R7    70277.348    422 141398.696   142081.319   143446.342
+812  MTMET+I+R8    70266.054    424 141380.107   142071.854   143437.458
+825  MTMET+F+R8    67704.797    442 136293.593   137072.146   138438.284
+832  MTMET+F+I+R6  67721.111    439 136320.221   137083.700   138450.356
+833  MTMET+F+I+R7  67700.749    441 136283.498   137056.998   138423.337
+834  MTMET+F+I+R8  67698.016    443 136282.031   137065.665   138431.575
+847  MTVER+R8      71634.271    423 144114.543   144801.715   146167.041
+854  MTVER+I+R6    71670.940    420 144181.880   144855.480   146219.822
+855  MTVER+I+R7    71646.603    422 144137.206   144819.829   146184.852
+856  MTVER+I+R8    71632.374    424 144112.749   144804.495   146170.099
+869  MTVER+F+R8    69239.855    442 139363.710   140142.263   141508.401
+876  MTVER+F+I+R6  69258.748    439 139395.496   140158.975   141525.631
+877  MTVER+F+I+R7  69230.996    441 139343.992   140117.492   141483.831
+878  MTVER+F+I+R8  69227.871    443 139341.743   140125.376   141491.286
+891  MTINV+R8      70143.610    423 141133.220   141820.393   143185.719
+898  MTINV+I+R6    70153.813    420 141147.626   141821.226   143185.568
+899  MTINV+I+R7    70143.913    422 141131.826   141814.449   143179.472
+900  MTINV+I+R8    70139.994    424 141127.987   141819.734   143185.338
+913  MTINV+F+R8    67058.923    442 135001.846   135780.398   137146.537
+920  MTINV+F+I+R6  67068.418    439 135014.837   135778.315   137144.971
+921  MTINV+F+I+R7  67050.958    441 134983.917   135757.417   137123.756
+922  MTINV+F+I+R8  67046.241    443 134978.482   135762.116   137128.026
+935  MTMAM+R8      72619.729    423 146085.458   146772.630   148137.956
+942  MTMAM+I+R6    72652.834    420 146145.669   146819.269   148183.610
+943  MTMAM+I+R7    72617.685    422 146079.371   146761.994   148127.017
+944  MTMAM+I+R8    72603.481    424 146054.961   146746.708   148112.312
+957  MTMAM+F+R8    69963.215    442 140810.430   141588.982   142955.121
+964  MTMAM+F+I+R6  69987.017    439 140852.035   141615.513   142982.169
+965  MTMAM+F+I+R7  69957.794    441 140797.589   141571.089   142937.428
+966  MTMAM+F+I+R8  69945.799    443 140777.599   141561.232   142927.142
+979  FLAVI+R8      70639.940    423 142125.879   142813.052   144178.378
+986  FLAVI+I+R6    70668.336    420 142176.672   142850.272   144214.614
+987  FLAVI+I+R7    70639.325    422 142122.649   142805.273   144170.296
+988  FLAVI+I+R8    70633.121    424 142114.241   142805.988   144171.592
+1001  FLAVI+F+R8    70393.388    442 141670.776   142449.329   143815.468
+1008  FLAVI+F+I+R6  70423.763    439 141725.527   142489.005   143855.661
+1009  FLAVI+F+I+R7  70395.156    441 141672.313   142445.813   143812.152
+1010  FLAVI+F+I+R8  70388.660    443 141663.320   142446.953   143812.863
+1023  HIVB+R8       68816.787    423 138479.575   139166.747   140532.073
+1030  HIVB+I+R6     68845.183    420 138530.366   139203.966   140568.307
+1031  HIVB+I+R7     68825.896    422 138495.791   139178.415   140543.438
+1032  HIVB+I+R8     68821.077    424 138490.154   139181.901   140547.505
+1045  HIVB+F+R8     68732.636    442 138349.272   139127.825   140493.964
+1052  HIVB+F+I+R6   68761.595    439 138401.191   139164.669   140531.325
+1053  HIVB+F+I+R7   68738.271    441 138358.543   139132.043   140498.382
+1054  HIVB+F+I+R8   68732.332    443 138350.664   139134.298   140500.208
+1067  HIVW+R8       72736.230    423 146318.461   147005.633   148370.959
+1074  HIVW+I+R6     72755.022    420 146350.043   147023.643   148387.985
+1075  HIVW+I+R7     72736.334    422 146316.668   146999.292   148364.315
+1076  HIVW+I+R8     72728.448    424 146304.896   146996.643   148362.247
+1089  HIVW+F+R8     71618.475    442 144120.950   144899.503   146265.641
+1096  HIVW+F+I+R6   71646.948    439 144171.896   144935.375   146302.031
+1097  HIVW+F+I+R7   71618.748    441 144119.497   144892.997   146259.336
+1098  HIVW+F+I+R8   71613.282    443 144112.564   144896.197   146262.107
+1111  FLU+R8        68363.454    423 137572.908   138260.081   139625.407
+1118  FLU+I+R6      68397.905    420 137635.809   138309.409   139673.751
+1119  FLU+I+R7      68366.611    422 137577.222   138259.845   139624.868
+1120  FLU+I+R8      68365.931    424 137579.863   138271.610   139637.214
+1133  FLU+F+R8      68159.025    442 137202.050   137980.602   139346.741
+1140  FLU+F+I+R6    68193.428    439 137264.857   138028.335   139394.991
+1141  FLU+F+I+R7    68162.118    441 137206.235   137979.735   139346.074
+1142  FLU+F+I+R8    68158.140    443 137202.280   137985.914   139351.824
+1155  RTREV+R8      66154.516    423 133155.032   133842.204   135207.530
+1162  RTREV+I+R6    66173.944    420 133187.887   133861.487   135225.829
+1163  RTREV+I+R7    66155.363    422 133154.727   133837.350   135202.373
+1164  RTREV+I+R8    66153.750    424 133155.501   133847.248   135212.852
+1177  RTREV+F+R8    65755.665    442 132395.329   133173.882   134540.020
+1184  RTREV+F+I+R6  65776.099    439 132430.198   133193.676   134560.332
+1185  RTREV+F+I+R7  65755.960    441 132393.920   133167.420   134533.759
+1186  RTREV+F+I+R8  65754.600    443 132395.200   133178.833   134544.743
+1199  CPREV+R8      66680.139    423 134206.279   134893.451   136258.777
+1206  CPREV+I+R6    66703.916    420 134247.833   134921.433   136285.775
+1207  CPREV+I+R7    66685.233    422 134214.466   134897.090   136262.113
+1208  CPREV+I+R8    66684.490    424 134216.980   134908.727   136274.331
+1221  CPREV+F+R8    66580.603    442 134045.205   134823.758   136189.896
+1228  CPREV+F+I+R6  66593.946    439 134065.892   134829.370   136196.027
+1229  CPREV+F+I+R7  66584.766    441 134051.533   134825.033   136191.372
+1230  CPREV+F+I+R8  66580.537    443 134047.073   134830.707   136196.617
+Akaike Information Criterion:           LG+F+I+R8
+Corrected Akaike Information Criterion: LG+I+R7
+Bayesian Information Criterion:         LG+I+R7
+Best-fit model: LG+I+R7 chosen according to BIC
+
+All model information printed to centroids_all_bats_and_our_contigs_complete_1B_aln_removed_4_bad_seqs.faa.model.gz
+CPU time for ModelFinder: 13259.250 seconds (3h:40m:59s)
+Wall-clock time for ModelFinder: 1934.637 seconds (0h:32m:14s)
+Generating 1000 samples for ultrafast bootstrap (seed: 747392)...
+
+NOTE: 151 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -65700.800
+2. Current log-likelihood: -65673.964
+3. Current log-likelihood: -65673.423
+Optimal log-likelihood: -65673.415
+Proportion of invariable sites: 0.103
+Site proportion and rates:  (0.112,0.060) (0.133,0.239) (0.156,0.535) (0.121,0.902) (0.213,1.499) (0.102,2.405) (0.060,3.401)
+Parameters optimization took 3 rounds (2.987 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.944485 secs using 785.8% CPU
+Computing ML distances took 0.949454 sec (of wall-clock time) 7.421875 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.0008393 secs
+Constructing RapidNJ tree: done in 0.0017835 secs
+Computing RapidNJ tree took 0.006227 sec (of wall-clock time) 0.000000 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -66278.200
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 2.050 second
+Computing log-likelihood of 98 initial trees ... 8.869 seconds
+Current best score: -65673.415
+
+Do NNI search on 20 best initial trees
+Optimizing NNI: done in 0.44604 secs using 718.1% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -65673.413
+Optimizing NNI: done in 2.68568 secs using 756.3% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -65601.386
+Optimizing NNI: done in 2.37795 secs using 732% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -65592.043
+Optimizing NNI: done in 2.55071 secs using 692.2% CPU
+Optimizing NNI: done in 3.17826 secs using 619.4% CPU
+Optimizing NNI: done in 3.06438 secs using 690.9% CPU
+Optimizing NNI: done in 2.47328 secs using 742.9% CPU
+Optimizing NNI: done in 2.92342 secs using 728.5% CPU
+Optimizing NNI: done in 2.37728 secs using 744% CPU
+Optimizing NNI: done in 2.87176 secs using 740% CPU
+Iteration 10 / LogL: -65617.674 / Time: 0h:33m:3s
+Optimizing NNI: done in 2.71574 secs using 733% CPU
+Optimizing NNI: done in 2.83322 secs using 745.1% CPU
+Optimizing NNI: done in 2.90145 secs using 735.1% CPU
+Optimizing NNI: done in 2.47224 secs using 707.9% CPU
+Optimizing NNI: done in 1.92987 secs using 738.4% CPU
+Optimizing NNI: done in 2.88166 secs using 735.8% CPU
+Optimizing NNI: done in 3.04948 secs using 717.3% CPU
+Optimizing NNI: done in 2.61095 secs using 734.3% CPU
+Optimizing NNI: done in 3.10954 secs using 740.7% CPU
+Optimizing NNI: done in 3.55931 secs using 592.2% CPU
+Iteration 20 / LogL: -65635.376 / Time: 0h:33m:31s
+Finish initializing candidate tree set (20)
+Current best tree score: -65592.043 / CPU time: 72.006
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Optimizing NNI: done in 2.27121 secs using 716.9% CPU
+Optimizing NNI: done in 2.05161 secs using 740.3% CPU
+Optimizing NNI: done in 1.54464 secs using 761.7% CPU
+Optimizing NNI: done in 2.03394 secs using 746.7% CPU
+Optimizing NNI: done in 2.24802 secs using 734% CPU
+Optimizing NNI: done in 2.31774 secs using 741.6% CPU
+Optimizing NNI: done in 2.08269 secs using 742.7% CPU
+Optimizing NNI: done in 2.01551 secs using 742.7% CPU
+Optimizing NNI: done in 2.07375 secs using 742.9% CPU
+Optimizing NNI: done in 2.34846 secs using 740.5% CPU
+Iteration 30 / LogL: -65599.947 / Time: 0h:33m:53s (0h:4m:8s left)
+Optimizing NNI: done in 2.20438 secs using 762% CPU
+Optimizing NNI: done in 1.98064 secs using 743.9% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 32: -65587.773
+Optimizing NNI: done in 2.00115 secs using 742.5% CPU
+Optimizing NNI: done in 1.96921 secs using 749% CPU
+Optimizing NNI: done in 2.17524 secs using 735.6% CPU
+Optimizing NNI: done in 1.75475 secs using 756.9% CPU
+Optimizing NNI: done in 2.4159 secs using 725% CPU
+Optimizing NNI: done in 2.56079 secs using 755.4% CPU
+Optimizing NNI: done in 2.15229 secs using 731.8% CPU
+Optimizing NNI: done in 1.87453 secs using 731.8% CPU
+Iteration 40 / LogL: -65594.905 / Time: 0h:34m:16s (0h:4m:48s left)
+Optimizing NNI: done in 2.00102 secs using 748.1% CPU
+Optimizing NNI: done in 2.16733 secs using 741.1% CPU
+Optimizing NNI: done in 2.28946 secs using 750% CPU
+Optimizing NNI: done in 2.40381 secs using 699.4% CPU
+Optimizing NNI: done in 2.3001 secs using 699.7% CPU
+Optimizing NNI: done in 1.93348 secs using 754.8% CPU
