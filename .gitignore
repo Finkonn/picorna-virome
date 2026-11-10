@@ -3,3 +3,4 @@
 /miniproj/astroviridae/pairwise_distance_analysis/pairs_*.csv
 /miniproj/astroviridae/extract_astro_from_calculated_contigs/all_calculated_contigs_from_best_blast_hits_table.fasta
 /miniproj/astroviridae/extract_astro_from_calculated_contigs/paired_*
+/miniproj/extract_astro_contigs_and_make_aln_with_genbank/all_assembled_contigs.fasta
